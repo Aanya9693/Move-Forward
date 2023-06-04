@@ -1,0 +1,28 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+  }
+
+.logo {
+    font-size: 25px;
+    color: rgb(194, 128, 210);
+}
+  
+.logo strong {
+    font-weight: bold;
+}
+
+.menu {
+  display: flex;
+}
+
+.menuList {
+  color: #6f6f6f;
+  padding: 10px;
+}
+
+.menuList:hover {
+    color: rgb(194, 128, 210); 
+}
