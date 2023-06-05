@@ -1,7 +1,7 @@
 // import React from "react";
 import "./Searchbox.css";
-import { AiOutlineSearch } from "react-icons/ai";
-import { AiOutlineCloseCircle } from "react-icons/ai";
+import { AiOutlineSearch, AiOutlineCloseCircle } from "react-icons/ai";
+
 import Tag from "../Tag/Tag";
 import { useState } from "react";
 
@@ -49,6 +49,7 @@ const Searchbox = () => {
 			setSuperTags([...superTags, tag]);
 		}
 	};
+
 	const [viewMore, setViewMore] = useState(false);
 	return (
 		<div className="searchDiv">
@@ -133,9 +134,10 @@ const Searchbox = () => {
 						></Tag>
 					))}
 				</div>
+
 				<div className="viewMore" onClick={() => setViewMore(!viewMore)}>
 					<p>View {viewMore ? "less" : "more"} 
-						{/* <BsChevronDoubleDown className="aioutine ai viewMoreIcon"></BsChevronDoubleDown> */}
+						{/* <BsChevronDoubleDown className="aioutine ai viewMoreIcon" /> */}
 					</p>
 				</div>
 			</div>

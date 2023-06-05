@@ -44,6 +44,7 @@
 	color: var(--green);
 }
 
+
 .tag.primary.yellow {
 	background-color: var(--yellow-light) !important;
 	color: var(--yellow);

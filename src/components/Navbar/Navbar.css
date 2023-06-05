@@ -4,12 +4,11 @@
 	align-items: center;
 	padding: 3rem;
 	width: calc(100% - 6rem);
-	/* border: 1px solid red; */
 }
 
 .logo {
 	font-size: 25px;
-	color: ;
+	/* color: ; */
 }
 
 .logo strong {
@@ -26,5 +25,6 @@
 }
 
 .menuList:hover {
+
 	color: rgb(194, 128, 210);
 }
