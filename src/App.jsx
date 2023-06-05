@@ -1,19 +1,21 @@
-import React from 'react'
-import Navbar from './components/Navbar/Navbar'
-import Searchbox from './components/Searchbox/Searchbox'
-import Jobs from './components/opportunities/opportunities'
-import Footer from './components/Footer/Footer'
+import React from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Navbar from "./components/Navbar/Navbar";
 
+import Footer from "./components/Footer/Footer";
+import AllRoutes from "./routes";
+import "./App.css";
 
 const App = () => {
-  return (
-    <div className='w-[85%] m-auto bg-white'>
-      <Navbar />
-      <Searchbox />
-      <Jobs />
-      <Footer />
-    </div>
-  )
-}
+	return (
+		<div className="App">
+			<Router>
+				<Navbar />
+				<AllRoutes></AllRoutes>
+				<Footer />
+			</Router>
+		</div>
+	);
+};
 
-export default App
+export default App;

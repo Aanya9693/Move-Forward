@@ -1,28 +1,30 @@
 .navBar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 3rem;
-  }
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 3rem;
+	width: calc(100% - 6rem);
+	/* border: 1px solid red; */
+}
 
 .logo {
-    font-size: 25px;
-    color: rgb(194, 128, 210);
+	font-size: 25px;
+	color: ;
 }
-  
+
 .logo strong {
-    font-weight: bold;
+	font-weight: bold;
 }
 
 .menu {
-  display: flex;
+	display: flex;
 }
 
 .menuList {
-  color: #6f6f6f;
-  padding: 10px;
+	color: #6f6f6f;
+	padding: 10px;
 }
 
 .menuList:hover {
-    color: rgb(194, 128, 210); 
+	color: rgb(194, 128, 210);
 }

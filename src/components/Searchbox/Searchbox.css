@@ -1,81 +1,117 @@
 .searchDiv {
-    background-color: #f1f4f8;
-    border-radius: 10px;
-    padding: 2rem;
-  }
-  
-  .firstDiv {
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 8px;
-    background-color: white;
-    padding: 10px;
-    box-shadow: 0px 7px 14px -5px rgba(0,0,0,0.15);
-  }
+	background-color: #f1f4f8;
+	border-radius: 10px;
+	padding: 2rem;
+}
 
-  /* 'yellow': 'rgb(250, 182, 1)',
+.firstDiv {
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 8px;
+	background-color: white;
+	padding: 10px;
+	box-shadow: 0px 7px 14px -5px rgba(0, 0, 0, 0.15);
+}
+
+/* 'yellow': 'rgb(250, 182, 1)',
         'purple': 'rgb(194, 128, 210)',
         'green': 'rgb(67, 185, 126)',
         'background': 'rgb(31, 32, 40)',
         'pageColor': '#282A34' */
 
-  .searchIcon{
-    display: flex;
-    align-items: center;
-  }
+.searchDiv .firstDiv .searchIcon {
+	display: flex;
+	align-items: center;
+}
 
-  .inputText {
-    margin: 3px;
-    background-color: transparent;
-    color: rgb(194, 128, 210);
-    outline: none;
-    width: 100%;
-  }
-  .inputText::placeholder {
-    color: black;
-  }
-  .inputText:focus::placeholder {
-    color: transparent;
-  }
+.searchDiv .firstDiv .searchIcon .aioutine.search {
+	border: 0px solid red;
+	padding: 10px 20px;
+	font-size: 30px;
+}
 
-  .aioutine{
-    font-size: 25px;
-  }
+.searchDiv .firstDiv .searchIcon .inputText {
+	margin: 3px;
+	background-color: transparent;
+	color: black;
+	outline: none;
+	width: 100%;
+	border: none;
+	outline: none;
+	font-size: 15px;
+}
+.searchDiv .firstDiv .searchIcon .aioutine.cross {
+	padding: 10px 20px;
+	font-size: 30px;
+}
+/* .inputText::placeholder {
+	color: black;
+}
+.inputText:focus::placeholder {
+	color: transparent;
+} */
 
-  .search_Button {
-    background-color: rgb(67, 185, 126);
-    height: 100%;
-    padding: 6px 10px;
-    border-radius: 10px;
-    color: white;
-    cursor: pointer;
-    margin: 10px;
-  }
-  
-  .search_Button:hover {
-    background-color: blue-300;
-  }
+.search_Button {
+	background-color: rgb(67, 185, 126);
+	height: 100%;
+	padding: 6px 10px;
+	border-radius: 10px;
+	color: white;
+	cursor: pointer;
+	margin: 10px;
+}
 
-  .secDiv {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    justify-content: center;
-  }
-  
-  .selectBox {
-    margin: 8px;
-    border-radius: 3px;
-    font-size: 1em;
-    border: 1px solid #ccc;
-    outline: none;
-  }
-  
-  .selectBox option {
-    color: #000;
-  }
+.search_Button:hover {
+	background-color: blue-300;
+}
 
-  span {
-    color: #a1a1a1;
-    cursor: pointer;
-  }
+.secDiv {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+	justify-content: center;
+	margin-top: 20px;
+}
+.secDiv .superTags, .secDiv .tags, .secDiv .selectedTags{
+	display: flex;
+	flex-flow: row wrap;
+	gap: 10px;
+	justify-content: flex-start;
+	align-items: flex-start;
+	width: 100%;
+}
+.secDiv .tags{
+	overflow: hidden;
+	padding: 5px;
+	transition: 0.5s all;
+}
+.secDiv .tags.limit{
+	height: 30px;
+	max-height: 30px;
+}
+.secDiv .viewMore p{
+	font-size: 12px;
+	cursor: pointer;
+}
+.selectBox {
+	margin: 8px;
+	border-radius: 3px;
+	font-size: 1em;
+	border: 1px solid #ccc;
+	outline: none;
+}
+
+.selectBox option {
+	color: #000;
+}
+
+span {
+	color: #a1a1a1;
+	cursor: pointer;
+}
+.divider{
+	background-color: #e2e2e2;
+	width: 80%;
+	height: 1px;
+}
