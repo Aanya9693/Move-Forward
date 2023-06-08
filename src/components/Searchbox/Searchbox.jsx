@@ -6,6 +6,7 @@ import Tag from "../Tag/Tag";
 import { useState } from "react";
 
 const Searchbox = () => {
+
 	const [superTags, setSuperTags] = useState([
 		"Fellowship",
 		"Internship",
@@ -18,8 +19,19 @@ const Searchbox = () => {
 		"Remote",
 		"un-paid",
 		"MNCs",
-		"Backend","Frontend","Full-stack", "Software", "Machine Learning", "Data Science", "Data Analyst", "Marketing", "Consultancy", "Android", "Python"
+		"Backend",
+		"Frontend",
+		"Full-stack", 
+		"Software", 
+		"Machine Learning", 
+		"Data Science", 
+		"Data Analyst", 
+		"Marketing", 
+		"Consultancy", 
+		"Android", 
+		"Python"
 	]);
+
 	const [selectedSuperTags, setSelectedSuperTags] = useState([]);
 	const [selectedTags, setSelectedTags] = useState([]);
 
@@ -36,6 +48,7 @@ const Searchbox = () => {
 			setSuperTags(copySuperTags);
 		}
 	};
+	
 	const handleTagDeselect = (tag, sup) => {
 		if (!sup) {
 			let copySelectedTags = selectedTags;
@@ -51,6 +64,7 @@ const Searchbox = () => {
 	};
 
 	const [viewMore, setViewMore] = useState(false);
+	
 	return (
 		<div className="searchDiv">
 			<div className="firstDiv">
@@ -82,6 +96,7 @@ const Searchbox = () => {
 							select={selectedSuperTags.includes(tag)}
 						></Tag>
 					))}
+
 					{selectedTags.map((tag) => (
 						<Tag
 							innerHtml={tag}
@@ -96,10 +111,11 @@ const Searchbox = () => {
 							select={selectedTags.includes(tag)}
 						></Tag>
 					))}
+
 				</div>
 
 				{(selectedSuperTags.length != 0 || selectedTags.length != 0) && (
-					<div className="divider"></div>
+					<div className="diver"></div>
 				)}
 
 				<div className="superTags">
@@ -114,10 +130,11 @@ const Searchbox = () => {
 									? () => handleTagDeselect(tag, true)
 									: () => handleTagSelect(tag, true)
 							}
-							select={selectedSuperTags.includes(tag)}
+							select={selectedzSuperTags.includes(tag)}
 						></Tag>
 					))}
 				</div>
+				
 				<div className={`tags ${!viewMore && 'limit'}`}>
 					{tags.map((tag) => (
 						<Tag
