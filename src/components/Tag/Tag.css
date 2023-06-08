@@ -60,16 +60,20 @@
 .tag.secondary.green{
 	color: var(--green);
 	outline: 2px solid var(--green);
+	color: black;
+	outline: 1px solid black;
 }
 .tag.selected.secondary.green{
 	outline: 0px;
 	background-color: var(--green-light);
 	/* outline: 2px solid var(--green); */
+	/* color: var(--green); */
 }
 .tag.secondary.green:hover{
 	outline: 0px;
 	background-color: var(--green-light);
 	outline: 2px solid var(--green);
+	/* color: var(--green); */
 }
 .tag.secondary.pink {
 	color: var(--pink);
@@ -88,6 +92,8 @@
 .tag.secondary.yellow {
 	color: var(--yellow);
 	outline: 2px solid var(--yellow);
+	color: black;
+	outline: 1px solid black;
 }
 .tag.selected.secondary.yellow{
 	outline: 0px;

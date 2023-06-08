@@ -1,67 +1,30 @@
+/* eslint-disable react/prop-types */
 // import React from "react";
 import "./Searchbox.css";
-import { AiOutlineSearch } from "react-icons/ai";
-import { AiOutlineCloseCircle } from "react-icons/ai";
+import Button from "../Button/Button";
 import Tag from "../Tag/Tag";
 import { useState } from "react";
 
-const Searchbox = () => {
-	const [superTags, setSuperTags] = useState([
-		"Fellowship",
-		"Internship",
-		"Industrial",
-		"Research",
-	]);
-	const [tags, setTags] = useState([
-		"Female-only",
-		"WFH",
-		"Remote",
-		"un-paid",
-		"MNCs",
-		"Backend","Frontend","Full-stack", "Software", "Machine Learning", "Data Science", "Data Analyst", "Marketing", "Consultancy", "Android", "Python"
-	]);
-	const [selectedSuperTags, setSelectedSuperTags] = useState([]);
-	const [selectedTags, setSelectedTags] = useState([]);
-
-	const handleTagSelect = (tag, sup) => {
-		if (!sup) {
-			let copyTags = tags;
-			copyTags.splice(copyTags.indexOf(tag), 1);
-			setSelectedTags([...selectedTags, tag]);
-			setTags(copyTags);
-		} else {
-			let copySuperTags = superTags;
-			copySuperTags.splice(copySuperTags.indexOf(tag), 1);
-			setSelectedSuperTags([...selectedSuperTags, tag]);
-			setSuperTags(copySuperTags);
-		}
-	};
-	const handleTagDeselect = (tag, sup) => {
-		if (!sup) {
-			let copySelectedTags = selectedTags;
-			copySelectedTags.splice(copySelectedTags.indexOf(tag), 1);
-			setTags([...tags, tag]);
-			setSelectedTags(copySelectedTags);
-		} else {
-			let copySelectedSuperTags = selectedSuperTags;
-			copySelectedSuperTags.splice(copySelectedSuperTags.indexOf(tag), 1);
-			setSelectedSuperTags(copySelectedSuperTags);
-			setSuperTags([...superTags, tag]);
-		}
-	};
+const Searchbox = ({tags, superTags, selectedSuperTags, selectedTags, handleTagDeselect, handleTagSelect}) => {
+	
 	const [viewMore, setViewMore] = useState(false);
 	return (
 		<div className="searchDiv">
 			<div className="firstDiv">
 				<div className="searchIcon">
-					<AiOutlineSearch className="aioutine icon search" />
+					<span className="material-icons">search</span>
 					<input
 						type="text"
 						className="inputText"
 						placeholder="Search here...."
 					/>
-					<AiOutlineCloseCircle className="aioutine icon cross" />
-					<button className="search_Button">Search</button>
+					<span className="material-icons cancel">highlight_off</span>
+					<Button
+						innerText="Search"
+						variant="primary"
+						color="green"
+						// endIcon={<span className="material-icons">share</span>}
+					></Button>
 				</div>
 			</div>
 
@@ -97,11 +60,13 @@ const Searchbox = () => {
 					))}
 				</div>
 
-				{(selectedSuperTags.length != 0 || selectedTags.length != 0) && (
+				{(selectedSuperTags.length != 0 ||
+					selectedTags.length != 0) && (
 					<div className="divider"></div>
 				)}
 
-				<div className="superTags">
+				{/* <div className="superTags"></div> */}
+				<div className={`tags ${!viewMore && "limit"}`}>
 					{superTags.map((tag) => (
 						<Tag
 							innerHtml={tag}
@@ -116,8 +81,6 @@ const Searchbox = () => {
 							select={selectedSuperTags.includes(tag)}
 						></Tag>
 					))}
-				</div>
-				<div className={`tags ${!viewMore && 'limit'}`}>
 					{tags.map((tag) => (
 						<Tag
 							innerHtml={tag}
@@ -133,10 +96,20 @@ const Searchbox = () => {
 						></Tag>
 					))}
 				</div>
-				<div className="viewMore" onClick={() => setViewMore(!viewMore)}>
-					<p>View {viewMore ? "less" : "more"} 
-						{/* <BsChevronDoubleDown className="aioutine ai viewMoreIcon"></BsChevronDoubleDown> */}
-					</p>
+				<div
+					className="viewMore"
+					onClick={() => setViewMore(!viewMore)}
+				>
+					<p>View {viewMore ? "less" : "more"}</p>
+					{viewMore ? (
+						<span className="material-icons">
+							keyboard_double_arrow_up
+						</span>
+					) : (
+						<span className="material-icons">
+							keyboard_double_arrow_down
+						</span>
+					)}
 				</div>
 			</div>
 		</div>
