@@ -1,6 +1,6 @@
+/* eslint-disable react/prop-types */
 // import React from "react";
 import "./Searchbox.css";
-import { AiOutlineSearch, AiOutlineCloseCircle } from "react-icons/ai";
 
 import Tag from "../Tag/Tag";
 import { useState } from "react";
@@ -63,20 +63,31 @@ const Searchbox = () => {
 		}
 	};
 
+import Button from "../Button/Button";
+import Tag from "../Tag/Tag";
+import { useState } from "react";
+
+const Searchbox = ({tags, superTags, selectedSuperTags, selectedTags, handleTagDeselect, handleTagSelect}) => {
+	
 	const [viewMore, setViewMore] = useState(false);
 	
 	return (
 		<div className="searchDiv">
 			<div className="firstDiv">
 				<div className="searchIcon">
-					<AiOutlineSearch className="aioutine icon search" />
+					<span className="material-icons">search</span>
 					<input
 						type="text"
 						className="inputText"
 						placeholder="Search here...."
 					/>
-					<AiOutlineCloseCircle className="aioutine icon cross" />
-					<button className="search_Button">Search</button>
+					<span className="material-icons cancel">highlight_off</span>
+					<Button
+						innerText="Search"
+						variant="primary"
+						color="green"
+						// endIcon={<span className="material-icons">share</span>}
+					></Button>
 				</div>
 			</div>
 
@@ -114,11 +125,18 @@ const Searchbox = () => {
 
 				</div>
 
-				{(selectedSuperTags.length != 0 || selectedTags.length != 0) && (
-					<div className="diver"></div>
+// <<<<<<< main
+// 				{(selectedSuperTags.length != 0 || selectedTags.length != 0) && (
+// 					<div className="diver"></div>
+// =======
+				{(selectedSuperTags.length != 0 ||
+					selectedTags.length != 0) && (
+					<div className="divider"></div>
+// >>>>>>> main
 				)}
 
-				<div className="superTags">
+				{/* <div className="superTags"></div> */}
+				<div className={`tags ${!viewMore && "limit"}`}>
 					{superTags.map((tag) => (
 						<Tag
 							innerHtml={tag}
@@ -152,10 +170,20 @@ const Searchbox = () => {
 					))}
 				</div>
 
-				<div className="viewMore" onClick={() => setViewMore(!viewMore)}>
-					<p>View {viewMore ? "less" : "more"} 
-						{/* <BsChevronDoubleDown className="aioutine ai viewMoreIcon" /> */}
-					</p>
+				<div
+					className="viewMore"
+					onClick={() => setViewMore(!viewMore)}
+				>
+					<p>View {viewMore ? "less" : "more"}</p>
+					{viewMore ? (
+						<span className="material-icons">
+							keyboard_double_arrow_up
+						</span>
+					) : (
+						<span className="material-icons">
+							keyboard_double_arrow_down
+						</span>
+					)}
 				</div>
 			</div>
 		</div>

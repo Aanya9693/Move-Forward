@@ -1,0 +1,30 @@
+[
+	{
+		"name": "Microsoft Engage",
+		"tags": ["Female-only", "Software"],
+		"type": "Internship",
+		"deadline": "12th Dec, 2023",
+		"link": "fuckyou.com",
+		"country": "India",
+		"org": "Microsoft India",
+		"description": "lorem ipsum doler set, lorem ipsum doler set. lorem ipsum doler set. lorem ipsum doler set",
+		"stipend": "$3500 - $5000",
+		"stipendPeriod": "month"
+	},
+	{
+		"name": "Microsoft Engage 2",
+		"tags": ["Female-only", "Software"],
+		"type": "Internship",
+		"deadline": "12th Jan, 2023",
+		"link": "fuckyou.com",
+		"country": "India"
+	},
+	{
+		"name": "Microsoft Engage 2",
+		"tags": ["Female-only", "Software"],
+		"type": "Fellowship",
+		"deadline": "12th June, 2023",
+		"link": "fuckyou.com",
+		"country": "India"
+	}
+]
