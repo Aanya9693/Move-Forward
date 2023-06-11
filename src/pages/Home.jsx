@@ -74,7 +74,7 @@ const Home = () => {
 				handleTagDeselect={handleTagDeselect}
 				selectedTags={selectedTags}
 				selectedSuperTags={selectedSuperTags}
-			></Table>
+			/>
 		</div>
 	);
 };
