@@ -9,9 +9,9 @@ const Tag = (props) => {
 		borderRadius:  '25px',
 		minWidth: 'none',
 	}
-	// console.log(tag, select);
+
 	return (
-		<div
+		<div 
 			className={`tag ${type} ${color} ${select && "selected"}`}
 			style={style}
 			onClick={onClick}

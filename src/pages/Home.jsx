@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import Searchbox from "../components/Searchbox/Searchbox";
-import Jobs from "../components/opportunities/opportunities";
 import Table from "../components/Table/Table";
 
 const Home = () => {
@@ -75,7 +74,7 @@ const Home = () => {
 				handleTagDeselect={handleTagDeselect}
 				selectedTags={selectedTags}
 				selectedSuperTags={selectedSuperTags}
-			></Table>
+			/>
 		</div>
 	);
 };

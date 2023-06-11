@@ -13,6 +13,8 @@
 	--yellow-light: #fbf2d8;
 }
 .searchDiv {
+	width: 80%;
+	margin: 0 auto;
 	background-color: #f1f4f8;
 	border-radius: 10px;
 	padding: 2rem;
@@ -21,9 +23,11 @@
 }
 
 .firstDiv {
+	width: 80%;
+	margin: 0 auto;
 	justify-content: space-between;
 	align-items: center;
-	border-radius: 8px;
+	border-radius: 20px;
 	background-color: white;
 	padding: 10px;
 	box-shadow: 0px 7px 14px -5px rgba(0, 0, 0, 0.15);
@@ -84,6 +88,8 @@
 }
 
 .secDiv {
+	width: 80%;
+	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
