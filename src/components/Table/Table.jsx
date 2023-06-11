@@ -93,7 +93,7 @@ const Table = ({tags, superTags, selectedSuperTags, selectedTags, handleTagDesel
 										share
 									</span>
 								}
-							></Button>
+							/>
 						</div>
 					</div>
 				</div>
