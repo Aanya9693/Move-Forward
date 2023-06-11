@@ -11,6 +11,7 @@
 		"stipend": "$3500 - $5000",
 		"stipendPeriod": "month"
 	},
+
 	{
 		"name": "Microsoft Engage 2",
 		"tags": ["Female-only", "Software"],
@@ -26,5 +27,32 @@
 		"deadline": "12th June, 2023",
 		"link": "fuckyou.com",
 		"country": "India"
-	}
+	},
+	{
+		"name": "Qualcomm Global Scholars Program",
+		"tags": ["Female-only, MNCs"],
+		"type": "Scholarship",
+		"deadline": "2 January",
+		"link": "https://www.iie.org/Programs/WeTech/STEM-Scholarships-for-Women/Qualcomm-Global-Scholars-Program/India",
+		"country": "India",
+		"org": "Qualcomm",
+		"description": "The Qualcomm Global Scholars Program provides scholarships to female students in India who are pursuing undergraduate or postgraduate studies in STEM fields.",
+		"stipend": "Paid",
+		"stipendPeriod": "One-time",
+		"img": ""
+
+	  },
+	  {
+		"name": "Microsoft Engage",
+		"tags": ["Mentorship, Microsoft Engage"],
+		"type": "Mentorship",
+		"deadline": "24 May",
+		"link": "https://microsoft.acehacker.com/engage2021/?mc_cid=a82d11f2ad&mc_eid=3f7ceca487",
+		"country": "",
+		"org": "Microsoft",
+		"description": "The Microsoft Engage program is a mentorship program that connects students with industry professionals to help them develop their technical and professional skills.",
+		"stipend": "",
+		"stipendPeriod": "",
+		"img": ""
+	  }
 ]

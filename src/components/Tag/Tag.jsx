@@ -23,16 +23,3 @@ const Tag = (props) => {
 }
  
 export default Tag;
-
-
-// {
-// 	"name": "",
-// 	"link": "",
-// "deadline": [],
-// 	"tags": [],
-// 	"paid": "",
-// 	"type": ""
-// }
-
-// 	"country": "",
-// 	"org": ""

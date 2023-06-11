@@ -1,68 +1,6 @@
 /* eslint-disable react/prop-types */
 // import React from "react";
 import "./Searchbox.css";
-
-import Tag from "../Tag/Tag";
-import { useState } from "react";
-
-const Searchbox = () => {
-
-	const [superTags, setSuperTags] = useState([
-		"Fellowship",
-		"Internship",
-		"Industrial",
-		"Research",
-	]);
-	const [tags, setTags] = useState([
-		"Female-only",
-		"WFH",
-		"Remote",
-		"un-paid",
-		"MNCs",
-		"Backend",
-		"Frontend",
-		"Full-stack", 
-		"Software", 
-		"Machine Learning", 
-		"Data Science", 
-		"Data Analyst", 
-		"Marketing", 
-		"Consultancy", 
-		"Android", 
-		"Python"
-	]);
-
-	const [selectedSuperTags, setSelectedSuperTags] = useState([]);
-	const [selectedTags, setSelectedTags] = useState([]);
-
-	const handleTagSelect = (tag, sup) => {
-		if (!sup) {
-			let copyTags = tags;
-			copyTags.splice(copyTags.indexOf(tag), 1);
-			setSelectedTags([...selectedTags, tag]);
-			setTags(copyTags);
-		} else {
-			let copySuperTags = superTags;
-			copySuperTags.splice(copySuperTags.indexOf(tag), 1);
-			setSelectedSuperTags([...selectedSuperTags, tag]);
-			setSuperTags(copySuperTags);
-		}
-	};
-	
-	const handleTagDeselect = (tag, sup) => {
-		if (!sup) {
-			let copySelectedTags = selectedTags;
-			copySelectedTags.splice(copySelectedTags.indexOf(tag), 1);
-			setTags([...tags, tag]);
-			setSelectedTags(copySelectedTags);
-		} else {
-			let copySelectedSuperTags = selectedSuperTags;
-			copySelectedSuperTags.splice(copySelectedSuperTags.indexOf(tag), 1);
-			setSelectedSuperTags(copySelectedSuperTags);
-			setSuperTags([...superTags, tag]);
-		}
-	};
-
 import Button from "../Button/Button";
 import Tag from "../Tag/Tag";
 import { useState } from "react";
@@ -70,7 +8,6 @@ import { useState } from "react";
 const Searchbox = ({tags, superTags, selectedSuperTags, selectedTags, handleTagDeselect, handleTagSelect}) => {
 	
 	const [viewMore, setViewMore] = useState(false);
-	
 	return (
 		<div className="searchDiv">
 			<div className="firstDiv">
@@ -107,7 +44,6 @@ const Searchbox = ({tags, superTags, selectedSuperTags, selectedTags, handleTagD
 							select={selectedSuperTags.includes(tag)}
 						></Tag>
 					))}
-
 					{selectedTags.map((tag) => (
 						<Tag
 							innerHtml={tag}
@@ -122,17 +58,11 @@ const Searchbox = ({tags, superTags, selectedSuperTags, selectedTags, handleTagD
 							select={selectedTags.includes(tag)}
 						></Tag>
 					))}
-
 				</div>
 
-// <<<<<<< main
-// 				{(selectedSuperTags.length != 0 || selectedTags.length != 0) && (
-// 					<div className="diver"></div>
-// =======
 				{(selectedSuperTags.length != 0 ||
 					selectedTags.length != 0) && (
 					<div className="divider"></div>
-// >>>>>>> main
 				)}
 
 				{/* <div className="superTags"></div> */}
@@ -148,12 +78,9 @@ const Searchbox = ({tags, superTags, selectedSuperTags, selectedTags, handleTagD
 									? () => handleTagDeselect(tag, true)
 									: () => handleTagSelect(tag, true)
 							}
-							select={selectedzSuperTags.includes(tag)}
+							select={selectedSuperTags.includes(tag)}
 						></Tag>
 					))}
-				</div>
-				
-				<div className={`tags ${!viewMore && 'limit'}`}>
 					{tags.map((tag) => (
 						<Tag
 							innerHtml={tag}
@@ -169,7 +96,6 @@ const Searchbox = ({tags, superTags, selectedSuperTags, selectedTags, handleTagD
 						></Tag>
 					))}
 				</div>
-
 				<div
 					className="viewMore"
 					onClick={() => setViewMore(!viewMore)}
