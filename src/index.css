@@ -17,10 +17,10 @@ body{
 
 li{
   list-style: none;
-  cursor: pointer;
-  position: relative;
+  /* cursor: pointer;
+  position: relative; */
 }
-
+/* 
 li:hover::before{
   position: absolute;
   content: '';
@@ -29,7 +29,7 @@ li:hover::before{
   background: rgb(194, 128, 210);
   right: 0;
   color: rgb(194, 128, 210);
-}
+} */
 
 .icon{
   cursor: pointer;
