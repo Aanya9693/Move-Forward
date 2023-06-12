@@ -10,7 +10,8 @@
 		"description": "The Qualcomm Global Scholars Program provides scholarships to female students in India who are pursuing undergraduate or postgraduate studies in STEM fields.",
 		"stipend": "Paid",
 		"stipendPeriod": "One-time",
-		"img": ""
+		"img": "",
+		"tags": ["Female-only", "MNCs"]
 	},
 	{
 		"name": "Microsoft Engage",
@@ -23,7 +24,8 @@
 		"description": "The Microsoft Engage program is a mentorship program that connects students with industry professionals to help them develop their technical and professional skills.",
 		"stipend": "",
 		"stipendPeriod": "",
-		"img": ""
+		"img": "",
+		"tags": ["Mentorship", "Microsoft Engage"]
 	},
 	{
 		"name": "Google Women Techmakers Scholarship",
@@ -36,7 +38,8 @@
 		"description": "The Google Women Techmakers Scholarship is designed to encourage women in technology and computing by providing scholarships and opportunities to attend conferences and events.",
 		"stipend": "$10,000 (for US-based scholars) or local equivalent (for non-US-based scholars)",
 		"stipendPeriod": "One-time",
-		"img": ""
+		"img": "",
+		"tags": ["Women-only", "Scholarship", "Conference"]
 	},
 	{
 		"name": "Goldman Sachs Engineering Campus Hiring Program",
@@ -49,7 +52,8 @@
 		"description": "The Goldman Sachs Engineering Campus Hiring Program is aimed at identifying top engineering talent across India and engaging with them through internships and full-time roles.",
 		"stipend": "Paid",
 		"stipendPeriod": "One-time",
-		"img": ""
+		"img": "",
+		"tags": ["MNCs", "Backend", "Frontend", "Full-stack", "Software"]
 	},
 	{
 		"name": "Season of KDE",
@@ -62,7 +66,15 @@
 		"description": "The Season of KDE is a mentorship program that encourages students to contribute to the open-source KDE project and gain experience in software development.",
 		"stipend": "Unpaid",
 		"stipendPeriod": "",
-		"img": ""
+		"img": "",
+		"tags": [
+			"Open-source",
+			"Backend",
+			"Frontend",
+			"Full-stack",
+			"Software",
+			"Python"
+		]
 	},
 	{
 		"name": "Microsoft Research Fellows Program",
@@ -75,7 +87,8 @@
 		"description": "The Microsoft Research Fellows Program provides opportunities for recent PhD graduates to conduct research in collaboration with Microsoft Research in India.",
 		"stipend": "Paid",
 		"stipendPeriod": "",
-		"img": ""
+		"img": "",
+		"tags": ["Research", "Data Science", "Machine Learning"]
 	},
 	{
 		"name": "Goldman Sachs Women Possibilities Summit: Finance",
@@ -88,7 +101,8 @@
 		"description": "The Goldman Sachs Women Possibilities Summit: Finance is a scholarship program that provides female students with an opportunity to learn about careers in finance and consulting.",
 		"stipend": "Paid",
 		"stipendPeriod": "",
-		"img": ""
+		"img": "",
+		"tags": ["Female-only", "Finance", "Consultancy"]
 	},
 	{
 		"name": "Internshala Career Scholarship for Girls",
@@ -101,7 +115,18 @@
 		"description": "The Internshala Career Scholarship for Girls is a scholarship program that provides financial assistance to young women pursuing careers in technology and related fields.",
 		"stipend": "Yes",
 		"stipendPeriod": "One-time",
-		"img": ""
+		"img": "",
+		"tags": [
+			"Female-only",
+			"Backend",
+			"Frontend",
+			"Full-stack",
+			"Software",
+			"Data Science",
+			"Data Analyst",
+			"Android",
+			"Python"
+		]
 	},
 	{
 		"name": "ETHWMN Fellowship",
@@ -114,7 +139,20 @@
 		"description": "The ETHWMN Fellowship is a fellowship program designed to empower and support women who are interested in pursuing careers in technology and related fields.",
 		"stipend": "Unpaid",
 		"stipendPeriod": "",
-		"img": ""
+		"img": "",
+		"tags": [
+			"Female-only",
+			"Open-source",
+			"Backend",
+			"Frontend",
+			"Full-stack",
+			"Software",
+			"Machine Learning",
+			"Data Science",
+			"Data Analyst",
+			"Android",
+			"Python"
+		]
 	},
 	{
 		"name": "Goldman Sachs WeTech",
@@ -127,7 +165,8 @@
 		"description": "",
 		"stipend": "Unpaid",
 		"stipendPeriod": "",
-		"img": ""
+		"img": "",
+		"tags": ["Female-only", "MNCs", "Finance", "Consultancy"]
 	},
 	{
 		"name": "Intuit Augment Program",
@@ -140,7 +179,8 @@
 		"description": "",
 		"stipend": "Unpaid",
 		"stipendPeriod": "",
-		"img": ""
+		"img": "",
+		"tags": ["Female-only", "Software", "Data Science"]
 	},
 	{
 		"name": "Data Science for Social Good",
@@ -153,7 +193,13 @@
 		"description": "",
 		"stipend": "Paid",
 		"stipendPeriod": "",
-		"img": ""
+		"img": "",
+		"tags": [
+			"Open-source",
+			"Data Science",
+			"Social Good",
+			"Machine Learning"
+		]
 	},
 	{
 		"name": "URAM Scholarship Program",
@@ -166,7 +212,8 @@
 		"description": "",
 		"stipend": "Unpaid",
 		"stipendPeriod": "",
-		"img": ""
+		"img": "",
+		"tags": ["Female-only", "Engineering", "Medical", "Law", "Business"]
 	},
 	{
 		"name": "Pragati Scholarship",
@@ -179,7 +226,14 @@
 		"description": "",
 		"stipend": "Paid",
 		"stipendPeriod": "",
-		"img": ""
+		"img": "",
+		"tags": [
+			"Female-only",
+			"Engineering",
+			"Technology",
+			"Science",
+			"Management"
+		]
 	},
 	{
 		"name": "HPAIR Harvard Conference",
@@ -192,7 +246,13 @@
 		"description": "",
 		"stipend": "Unpaid",
 		"stipendPeriod": "",
-		"img": ""
+		"img": "",
+		"tags": [
+			"Conference",
+			"Leadership",
+			"Business",
+			"International Relations"
+		]
 	},
 	{
 		"name": "Code for Good by JP Morgan",
@@ -205,7 +265,8 @@
 		"description": "",
 		"stipend": "Unpaid",
 		"stipendPeriod": "",
-		"img": ""
+		"img": "",
+		"tags": ["Hackathon", "Software", "Finance", "Social Good", "India"]
 	},
 	{
 		"name": "Cargill Scholarship",
@@ -218,7 +279,15 @@
 		"description": "",
 		"stipend": "Paid",
 		"stipendPeriod": "",
-		"img": ""
+		"img": "",
+		"tags": [
+			"Agriculture",
+			"Business",
+			"Engineering",
+			"Food",
+			"Women",
+			"Developing Countries"
+		]
 	},
 	{
 		"name": "Uber She++",
@@ -231,7 +300,8 @@
 		"description": "",
 		"stipend": "Unpaid",
 		"stipendPeriod": "",
-		"img": ""
+		"img": "",
+		"tags": ["Female-only", "Technology", "Business", "Leadership"]
 	},
 	{
 		"name": "IRIS-HEP Fellows",
@@ -244,7 +314,14 @@
 		"description": "",
 		"stipend": "Paid",
 		"stipendPeriod": "",
-		"img": ""
+		"img": "",
+		"tags": [
+			"Physics",
+			"Astronomy",
+			"Data Science",
+			"High Energy Physics",
+			"Machine Learning"
+		]
 	},
 	{
 		"name": "ETHWMN Fellowship",
@@ -257,7 +334,20 @@
 		"description": "The ETHWMN Fellowship is a fellowship program designed to empower and support women who are interested in pursuing careers in technology and related fields.",
 		"stipend": "Unpaid",
 		"stipendPeriod": "",
-		"img": ""
+		"img": "",
+		"tags": [
+			"Female-only",
+			"Open-source",
+			"Backend",
+			"Frontend",
+			"Full-stack",
+			"Software",
+			"Machine Learning",
+			"Data Science",
+			"Data Analyst",
+			"Android",
+			"Python"
+		]
 	},
 	{
 		"name": "Harvard US-India Initiative Conference",
@@ -271,7 +361,14 @@
 		"stipend": "",
 		"stipendPeriod": "",
 		"country": "",
-		"img": ""
+		"img": "",
+		"tags": [
+			"Conference",
+			"Leadership",
+			"Business",
+			"International Relations",
+			"India"
+		]
 	},
 	{
 		"name": "Flipkart Girls Wanna Code",
@@ -285,7 +382,8 @@
 		"stipend": "",
 		"stipendPeriod": "",
 		"country": "India",
-		"img": ""
+		"img": "",
+		"tags": ["Female-only", "Software", "Coding", "India"]
 	},
 	{
 		"name": "Microsoft India - Design Challenge 2022",
@@ -299,7 +397,8 @@
 		"stipend": "",
 		"stipendPeriod": "",
 		"country": "India",
-		"img": ""
+		"img": "",
+		"tags": ["Design", "India", "UI/UX", "Product Development"]
 	},
 	{
 		"name": "LFX",
@@ -313,7 +412,13 @@
 		"stipend": "",
 		"stipendPeriod": "",
 		"country": "",
-		"img": ""
+		"img": "",
+		"tags": [
+			"Open Source",
+			"Software Development",
+			"Linux",
+			"Cloud Computing"
+		]
 	},
 	{
 		"name": "Society of Women Engineers Scholarship Application System",
@@ -327,7 +432,8 @@
 		"stipend": "",
 		"stipendPeriod": "",
 		"country": "",
-		"img": ""
+		"img": "",
+		"tags": ["Female-only", "Engineering", "Technology", "STEM"]
 	},
 	{
 		"name": "J.P. Morgan Quant Mentorship Program",
@@ -341,7 +447,8 @@
 		"stipend": "",
 		"stipendPeriod": "",
 		"country": "",
-		"img": ""
+		"img": "",
+		"tags": ["Quantitative Finance", "Women", "Trading"]
 	},
 	{
 		"name": "GirlScript Summer Of Code",
@@ -355,7 +462,13 @@
 		"stipend": "",
 		"stipendPeriod": "",
 		"country": "",
-		"img": ""
+		"img": "",
+		"tags": [
+			"Open Source",
+			"Software Development",
+			"Web Development",
+			"Machine Learning"
+		]
 	},
 	{
 		"name": "American Express Makethon",
@@ -369,7 +482,8 @@
 		"stipend": "",
 		"stipendPeriod": "",
 		"country": "",
-		"img": ""
+		"img": "",
+		"tags": ["Female-only", "Finance", "Payment Systems", "Technology"]
 	},
 	{
 		"name": "Outreachy Summer Cycle",
@@ -383,7 +497,19 @@
 		"stipend": "",
 		"stipendPeriod": "",
 		"country": "",
-		"img": ""
+		"img": "",
+		"tags": [
+			"Female",
+			"LGBTQIA+",
+			"Non-binary",
+			"Open Source",
+			"Software Development",
+			"Documentation",
+			"Design",
+			"Data Science",
+			"Linux Kernel",
+			"Web Development"
+		]
 	},
 	{
 		"name": "Uber HackTag 2.0",
@@ -397,7 +523,8 @@
 		"stipend": "",
 		"stipendPeriod": "",
 		"country": "",
-		"img": ""
+		"img": "",
+		"tags": ["Technology", "Innovation", "Mobility", "Business"]
 	},
 	{
 		"name": "Student of Vision Abie Award",
@@ -411,7 +538,15 @@
 		"stipend": "",
 		"stipendPeriod": "",
 		"country": "",
-		"img": ""
+		"img": "",
+		"tags": [
+			"Women",
+			"Undergraduate",
+			"Graduate",
+			"Computing",
+			"Technology",
+			"STEM"
+		]
 	},
 	{
 		"name": "LinkedIn CoachlN",
@@ -425,7 +560,13 @@
 		"stipend": "",
 		"stipendPeriod": "",
 		"country": "",
-		"img": ""
+		"img": "",
+		"tags": [
+			"Women",
+			"Professional Development",
+			"Career Growth",
+			"Networking"
+		]
 	},
 	{
 		"name": "Github Campus Expert Program",
@@ -439,7 +580,8 @@
 		"stipend": "",
 		"stipendPeriod": "",
 		"country": "",
-		"img": ""
+		"img": "",
+		"tags": ["Technology", "Open Source", "Community Building"]
 	},
 	{
 		"name": "Google Computer Science Summer Institute",
@@ -453,7 +595,14 @@
 		"stipend": "",
 		"stipendPeriod": "",
 		"country": "",
-		"img": ""
+		"img": "",
+		"tags": [
+			"Undergraduate",
+			"Computing",
+			"Technology",
+			"STEM",
+			"Diversity"
+		]
 	},
 	{
 		"name": "Microsoft Reinforcement Learning Open Source Fest",
@@ -467,7 +616,13 @@
 		"country": "",
 		"stipend": "",
 		"stipendPeriod": "",
-		"img": ""
+		"img": "",
+		"tags": [
+			"Reinforcement Learning",
+			"Artificial Intelligence",
+			"Open Source",
+			"Software Development"
+		]
 	},
 	{
 		"name": "Juspay Hiring Challenge 2022",
@@ -481,7 +636,8 @@
 		"country": "",
 		"stipend": "",
 		"stipendPeriod": "",
-		"img": ""
+		"img": "",
+		"tags": ["Technology", "Payments", "FinTech", "Software Development"]
 	},
 	{
 		"name": "Amdocs Hackfest 2022",
@@ -495,7 +651,8 @@
 		"country": "",
 		"stipend": "",
 		"stipendPeriod": "",
-		"img": ""
+		"img": "",
+		"tags": ["Technology", "Software Development"]
 	},
 	{
 		"name": "Crossroads Emerging Leaders Program",
@@ -509,7 +666,8 @@
 		"country": "",
 		"stipend": "",
 		"stipendPeriod": "",
-		"img": ""
+		"img": "",
+		"tags": ["Leadership", "Middle East", "North Africa", "Central Asia"]
 	},
 	{
 		"name": "Google Girl Hackathon",
@@ -523,7 +681,8 @@
 		"country": "",
 		"stipend": "",
 		"stipendPeriod": "",
-		"img": ""
+		"img": "",
+		"tags": ["Women", "Computing", "Technology", "STEM"]
 	},
 	{
 		"name": "Reply Code Challenge",
@@ -537,7 +696,8 @@
 		"country": "",
 		"stipend": "",
 		"stipendPeriod": "",
-		"img": ""
+		"img": "",
+		"tags": ["Technology", "Software Development"]
 	},
 	{
 		"name": "Micron Global Women's Mentorship Program",
@@ -551,7 +711,8 @@
 		"country": "",
 		"stipend": "",
 		"stipendPeriod": "",
-		"img": ""
+		"img": "",
+		"tags": ["Women", "Technology", "Mentorship"]
 	},
 	{
 		"name": "Microsoft Diversity Scholarship (US only)",
@@ -565,7 +726,8 @@
 		"country": "US",
 		"stipend": "",
 		"stipendPeriod": "",
-		"img": ""
+		"img": "",
+		"tags": ["Women", "Computing", "Technology", "STEM", "Diversity"]
 	},
 	{
 		"name": "Summer Of Bitcoin",
@@ -575,9 +737,9 @@
 		"tag": "Bitcoin, Open Source, Software Development",
 		"paid": "Paid",
 		"org": "",
-		"img": ""
+		"img": "",
+		"tags": ["Bitcoin", "Open Source", "Software Development"]
 	},
-
 	{
 		"name": "Caltech Student-Faculty Programs (SURF)",
 		"link": "https://www.surf.caltech.edu/",
@@ -586,7 +748,8 @@
 		"tag": "STEM, Research",
 		"paid": "",
 		"org": "Caltech",
-		"img": ""
+		"img": "",
+		"tags": ["STEM", "Research"]
 	},
 	{
 		"name": "Cisco thingQbator",
@@ -596,7 +759,8 @@
 		"tag": "Technology, Mentorship",
 		"paid": "",
 		"org": "Cisco",
-		"img": ""
+		"img": "",
+		"tags": ["Technology", "Mentorship"]
 	},
 	{
 		"name": "Global Impact Scholarship",
@@ -606,7 +770,8 @@
 		"tag": "Technology, Social Impact, Scholarship",
 		"paid": "Paid",
 		"org": "Palantir",
-		"img": ""
+		"img": "",
+		"tags": ["Technology", "Social Impact", "Scholarship"]
 	},
 	{
 		"name": "WTEF by TalentSprint",
@@ -616,7 +781,8 @@
 		"tag": "Women, Technology, Fellowship",
 		"paid": "Paid",
 		"org": "TalentSprint",
-		"img": ""
+		"img": "",
+		"tags": ["Women", "Technology", "Fellowship"]
 	},
 	{
 		"name": "Virtual Insights Series: An Exploratory Program",
@@ -626,7 +792,8 @@
 		"tag": "Finance, Technology, Exploratory Program",
 		"paid": "Paid",
 		"org": "Goldman Sachs",
-		"img": ""
+		"img": "",
+		"tags": ["Finance", "Technology", "Exploratory Program"]
 	},
 	{
 		"name": "Western Digital Scholarships for STEM",
@@ -636,7 +803,8 @@
 		"tag": "Women, STEM, Scholarship",
 		"paid": "Paid",
 		"org": "Western Digital",
-		"img": ""
+		"img": "",
+		"tags": ["Women", "STEM", "Scholarship"]
 	},
 	{
 		"name": "Delta Analytics Global Teaching Fellow",
@@ -646,7 +814,8 @@
 		"tag": "Data Science, Fellowship",
 		"paid": "Paid",
 		"org": "Delta Analytics",
-		"img": ""
+		"img": "",
+		"tags": ["Data Science", "Fellowship"]
 	},
 	{
 		"name": "Adobe CoDiva",
@@ -656,7 +825,8 @@
 		"tag": "Women, Technology, Hackathon",
 		"paid": "Paid",
 		"org": "Adobe",
-		"img": ""
+		"img": "",
+		"tags": ["Women", "Technology", "Hackathon"]
 	},
 	{
 		"name": "AWS Community Builder Program",
@@ -666,7 +836,8 @@
 		"tag": "Cloud Computing, Community, Ambassador",
 		"paid": "",
 		"org": "Amazon Web Services",
-		"img": ""
+		"img": "",
+		"tags": ["Cloud Computing", "Community", "Ambassador"]
 	},
 	{
 		"name": "Rail Girls Summer of Code",
@@ -676,9 +847,9 @@
 		"tag": "Open Source, Software Development, Internship",
 		"paid": "Paid",
 		"org": "Rails Girls Summer of Code",
-		"img": ""
+		"img": "",
+		"tags": ["Open Source", "Software Development", "Internship"]
 	},
-
 	{
 		"name": "Palantir Global Impact Scholarship",
 		"link": "https://www.palantir.com/students/scholarship/global-impact/",
@@ -687,7 +858,8 @@
 		"tag": "Women, Technology, Social Impact, Scholarship",
 		"paid": "Paid",
 		"org": "Palantir",
-		"img": ""
+		"img": "",
+		"tags": ["Women", "Technology", "Social Impact", "Scholarship"]
 	},
 	{
 		"name": "1000 Dreams Fund (US only)",
@@ -697,7 +869,8 @@
 		"tag": "Women, Scholarship",
 		"paid": "Paid",
 		"org": "1000 Dreams Fund",
-		"img": ""
+		"img": "",
+		"tags": ["Women", "Scholarship"]
 	},
 	{
 		"name": "IDFC FIRST Bank_Women Only Challenge",
@@ -707,7 +880,8 @@
 		"tag": "Women, Technology, Employment",
 		"paid": "Paid",
 		"org": "IDFC FIRST Bank",
-		"img": ""
+		"img": "",
+		"tags": ["Women", "Technology", "Employment"]
 	},
 	{
 		"name": "Mozilla Fellowship",
@@ -717,7 +891,8 @@
 		"tag": "Technology, Open Source, Fellowship",
 		"paid": "Paid",
 		"org": "Mozilla",
-		"img": ""
+		"img": "",
+		"tags": ["Technology", "Open Source", "Fellowship"]
 	},
 	{
 		"name": "Code in Place by Stanford",
@@ -727,7 +902,8 @@
 		"tag": "Computer Science, Online Learning",
 		"paid": "",
 		"org": "Stanford University",
-		"img": ""
+		"img": "",
+		"tags": ["Computer Science", "Online Learning"]
 	},
 	{
 		"name": "GoogleCloudReady Facilitator Program",
@@ -737,7 +913,8 @@
 		"tag": "Cloud Computing, Google Cloud",
 		"paid": "Paid",
 		"org": "Google",
-		"img": ""
+		"img": "",
+		"tags": ["Cloud Computing", "Google Cloud"]
 	},
 	{
 		"name": "AWS DeepRacer Women League - India 2021",
@@ -747,7 +924,8 @@
 		"tag": "Women, Technology, Hackathon",
 		"paid": "",
 		"org": "Amazon Web Services",
-		"img": ""
+		"img": "",
+		"tags": ["Women", "Technology", "Hackathon"]
 	},
 	{
 		"name": "The Processing Foundation",
@@ -757,7 +935,8 @@
 		"tag": "Technology, Open Source, Fellowship",
 		"paid": "Paid",
 		"org": "The Processing Foundation",
-		"img": ""
+		"img": "",
+		"tags": ["Technology", "Open Source", "Fellowship"]
 	},
 	{
 		"name": "GDSC Solution Developer Challenge",
@@ -767,7 +946,8 @@
 		"tag": "Technology, Hackathon",
 		"paid": "",
 		"org": "Google Developer Student Clubs",
-		"img": ""
+		"img": "",
+		"tags": ["Technology", "Hackathon"]
 	},
 	{
 		"name": "Google Summer of Code",
@@ -780,7 +960,8 @@
 		"paid": "Paid",
 		"stipend": "Varies by country",
 		"stipendPeriod": "N/A",
-		"description": "Google Summer of Code is a global program focused on introducing students to open source software development."
+		"description": "Google Summer of Code is a global program focused on introducing students to open source software development.",
+		"tags": ["Open Source", "Software Development", "Internship"]
 	},
 	{
 		"name": "Facebook Fellowship Program",
@@ -793,7 +974,8 @@
 		"paid": "Paid",
 		"stipend": "$42,000 USD for tuition and fees, $5,000 USD for travel and conference expenses, and a $2,000 USD stipend for research expenses.",
 		"stipendPeriod": "One academic year",
-		"description": "The Facebook Fellowship Program is designed to encourage and support promising doctoral students who are engaged in innovative and relevant research in areas related to computer science and engineering."
+		"description": "The Facebook Fellowship Program is designed to encourage and support promising doctoral students who are engaged in innovative and relevant research in areas related to computer science and engineering.",
+		"tags": ["Social Media", "Research", "Fellowship"]
 	},
 	{
 		"name": "Apple Worldwide Developer Conference (WWDC)",
@@ -806,7 +988,8 @@
 		"paid": "N/A",
 		"stipend": "N/A",
 		"stipendPeriod": "N/A",
-		"description": "The Apple Worldwide Developer Conference (WWDC) is a conference for developers focused on providing them with the latest tools and technologies to create innovative apps for Apple's platforms."
+		"description": "The Apple Worldwide Developer Conference (WWDC) is a conference for developers focused on providing them with the latest tools and technologies to create innovative apps for Apple's platforms.",
+		"tags": ["Apple", "Software Development", "Conference"]
 	},
 	{
 		"name": "Grace Hopper Celebration",
@@ -819,7 +1002,8 @@
 		"paid": "N/A",
 		"stipend": "N/A",
 		"stipendPeriod": "N/A",
-		"description": "The Grace Hopper Celebration is the world's largest gathering of women technologists and is designed to bring the community together to discuss and celebrate the contributions of women in technology."
+		"description": "The Grace Hopper Celebration is the world's largest gathering of women technologists and is designed to bring the community together to discuss and celebrate the contributions of women in technology.",
+		"tags": ["Women", "Technology", "Conference"]
 	},
 	{
 		"name": "The RISE Program at NYU",
@@ -832,7 +1016,8 @@
 		"paid": "N/A",
 		"stipend": "N/A",
 		"stipendPeriod": "N/A",
-		"description": "The RISE Program at NYU is a six-week summer program in science and engineering for high school students who have demonstrated an aptitude for and interest in science and technology."
+		"description": "The RISE Program at NYU is a six-week summer program in science and engineering for high school students who have demonstrated an aptitude for and interest in science and technology.",
+		"tags": ["STEM", "High School Students", "Summer Program"]
 	},
 	{
 		"name": "NASA Internships",
@@ -845,7 +1030,8 @@
 		"paid": "Paid",
 		"stipend": "Varies based on education level and experience",
 		"stipendPeriod": "N/A",
-		"description": "NASA Internships provide opportunities for students to gain valuable experience working on projects that contribute to NASA's mission and goals."
+		"description": "NASA Internships provide opportunities for students to gain valuable experience working on projects that contribute to NASA's mission and goals.",
+		"tags": ["NASA", "STEM", "Internship"]
 	},
 	{
 		"name": "Code for Good by JPMorgan Chase",
@@ -858,7 +1044,8 @@
 		"paid": "N/A",
 		"stipend": "N/A",
 		"stipendPeriod": "N/A",
-		"description": "Code for Good by JPMorgan Chase is a hackathon event that challenges participants to develop innovative solutions that address social and community issues using technology and data."
+		"description": "Code for Good by JPMorgan Chase is a hackathon event that challenges participants to develop innovative solutions that address social and community issues using technology and data.",
+		"tags": ["Finance", "Social Impact", "Hackathon"]
 	},
 	{
 		"name": "ERPNext Summer of Code",
@@ -868,7 +1055,8 @@
 		"tag": "Open Source, Software Development, Internship",
 		"paid": "",
 		"org": "ERPNext",
-		"img": ""
+		"img": "",
+		"tags": ["Open Source", "Software Development", "Internship"]
 	},
 	{
 		"name": "Google Summer of Earth Engine (SoEE)",
@@ -878,7 +1066,8 @@
 		"tag": "Remote Sensing, GIS, Internship",
 		"paid": "Paid",
 		"org": "Google",
-		"img": ""
+		"img": "",
+		"tags": ["Remote Sensing", "GIS", "Internship"]
 	},
 	{
 		"name": "GDSC Lead Application India",
@@ -888,7 +1077,8 @@
 		"tag": "Google Developer Student Clubs, Leadership, Application",
 		"paid": "",
 		"org": "Google Developer Student Clubs",
-		"img": ""
+		"img": "",
+		"tags": ["Google Developer Student Clubs", "Leadership", "Application"]
 	},
 	{
 		"name": "Flipkart Runaway",
@@ -898,7 +1088,8 @@
 		"tag": "E-commerce, Fashion, Internship, Women",
 		"paid": "Paid",
 		"org": "Flipkart",
-		"img": ""
+		"img": "",
+		"tags": ["E-commerce", "Fashion", "Internship", "Women"]
 	},
 	{
 		"name": "Google Code Jam to I/O for Women",
@@ -908,7 +1099,8 @@
 		"tag": "Code Jam, Scholarship, Women in Tech",
 		"paid": "",
 		"org": "Google",
-		"img": ""
+		"img": "",
+		"tags": ["Code Jam", "Scholarship", "Women in Tech"]
 	},
 	{
 		"name": "GDSC Application India",
@@ -918,7 +1110,8 @@
 		"tag": "Google Developer Student Clubs, Leadership, Application",
 		"paid": "",
 		"org": "Google Developer Student Clubs",
-		"img": ""
+		"img": "",
+		"tags": ["Google Developer Student Clubs", "Leadership", "Application"]
 	},
 	{
 		"name": "GHC Scholarship",
@@ -928,7 +1121,8 @@
 		"tag": "Grace Hopper Celebration, Scholarship, Women in Tech",
 		"paid": "Paid",
 		"org": "AnitaB.org",
-		"img": ""
+		"img": "",
+		"tags": ["Grace Hopper Celebration", "Scholarship", "Women in Tech"]
 	},
 	{
 		"name": "Digital India Internship Scheme (MeitY)",
@@ -938,7 +1132,8 @@
 		"tag": "Digital India, Internship, MeitY",
 		"paid": "",
 		"org": "Ministry of Electronics and Information Technology, Government of India",
-		"img": ""
+		"img": "",
+		"tags": ["Digital India", "Internship", "MeitY"]
 	},
 	{
 		"name": "Google Women Techmakers Ambassador Application",
@@ -948,7 +1143,8 @@
 		"tag": "Women in Tech, Google, Ambassador Program",
 		"paid": "",
 		"org": "Google Women Techmakers",
-		"img": ""
+		"img": "",
+		"tags": ["Women in Tech", "Google", "Ambassador Program"]
 	},
 	{
 		"name": "LiFT Scholarships",
@@ -958,7 +1154,8 @@
 		"tag": "Open Source, Scholarship, Women in Tech, LiFT",
 		"paid": "",
 		"org": "The Linux Foundation",
-		"img": ""
+		"img": "",
+		"tags": ["Open Source", "Scholarship", "Women in Tech", "LiFT"]
 	},
 	{
 		"name": "Linux Foundation Training Scholarship (LiFT)",
@@ -968,7 +1165,8 @@
 		"tag": "Open Source, Scholarship, LiFT",
 		"paid": "",
 		"org": "The Linux Foundation",
-		"img": ""
+		"img": "",
+		"tags": ["Open Source", "Scholarship", "LiFT"]
 	},
 	{
 		"name": "Western Union Scholarship",
@@ -978,9 +1176,9 @@
 		"tag": "Scholarship, Western Union",
 		"paid": "",
 		"org": "Western Union Foundation",
-		"img": ""
+		"img": "",
+		"tags": ["Scholarship", "Western Union"]
 	},
-
 	{
 		"name": "Call for Code",
 		"link": "https://developer.ibm.com/callforcode/",
@@ -989,7 +1187,8 @@
 		"tag": "Ideathon, Call for Code, IBM, Linux Foundation",
 		"paid": "",
 		"org": "IBM and Linux Foundation",
-		"img": ""
+		"img": "",
+		"tags": ["Ideathon", "Call for Code", "IBM", "Linux Foundation"]
 	},
 	{
 		"name": "Kode with Klossy",
@@ -999,7 +1198,8 @@
 		"tag": "Scholarship, Women in Tech, Kode with Klossy",
 		"paid": "",
 		"org": "Kode with Klossy",
-		"img": ""
+		"img": "",
+		"tags": ["Scholarship", "Women in Tech", "Kode with Klossy"]
 	},
 	{
 		"name": "FOSSASIA Internship Program",
@@ -1009,7 +1209,8 @@
 		"tag": "Internship, FOSSASIA",
 		"paid": "",
 		"org": "FOSSASIA",
-		"img": ""
+		"img": "",
+		"tags": ["Internship", "FOSSASIA"]
 	},
 	{
 		"name": "Hackwithinfy",
@@ -1019,7 +1220,8 @@
 		"tag": "Hackathon, Hackwithinfy, Infosys",
 		"paid": "",
 		"org": "Infosys",
-		"img": ""
+		"img": "",
+		"tags": ["Hackathon", "Hackwithinfy", "Infosys"]
 	},
 	{
 		"name": "FOSSE IIT Bombay",
@@ -1029,7 +1231,8 @@
 		"tag": "Fellowship, FOSSE, IIT Bombay",
 		"paid": "",
 		"org": "Indian Institute of Technology Bombay",
-		"img": ""
+		"img": "",
+		"tags": ["Fellowship", "FOSSE", "IIT Bombay"]
 	},
 	{
 		"name": "Women in Product Conference",
@@ -1039,7 +1242,8 @@
 		"tag": "Women in Product, Scholarship",
 		"paid": "",
 		"org": "Women in Product",
-		"img": ""
+		"img": "",
+		"tags": ["Women in Product", "Scholarship"]
 	},
 	{
 		"name": "LFN Mentorship Program",
@@ -1049,7 +1253,8 @@
 		"tag": "Mentorship, LFN",
 		"paid": "",
 		"org": "Linux Foundation Networking",
-		"img": ""
+		"img": "",
+		"tags": ["Mentorship", "LFN"]
 	},
 	{
 		"name": "Free Software Foundation (FSF) Internship program",
@@ -1059,9 +1264,9 @@
 		"tag": "Internship, Free Software Foundation, FSF",
 		"paid": "",
 		"org": "Free Software Foundation",
-		"img": ""
+		"img": "",
+		"tags": ["Internship", "Free Software Foundation", "FSF"]
 	},
-
 	{
 		"name": "Professor Harry Messel International Science School",
 		"link": "https://www.sydney.edu.au/science/industry-and-community/community-engagement/international-science-school.html",
@@ -1070,7 +1275,8 @@
 		"tag": "Science, Conference, International Science School",
 		"paid": "",
 		"org": "The University of Sydney",
-		"img": ""
+		"img": "",
+		"tags": ["Science", "Conference", "International Science School"]
 	},
 	{
 		"name": "Girl Up Scholarship",
@@ -1080,7 +1286,8 @@
 		"tag": "Scholarship, Women in STEM, Girl Up",
 		"paid": "",
 		"org": "Girl Up",
-		"img": ""
+		"img": "",
+		"tags": ["Scholarship", "Women in STEM", "Girl Up"]
 	},
 	{
 		"name": "Exchange with Google Developers",
@@ -1090,7 +1297,8 @@
 		"tag": "Mentorship, Google Developers",
 		"paid": "",
 		"org": "Google Developers",
-		"img": ""
+		"img": "",
+		"tags": ["Mentorship", "Google Developers"]
 	},
 	{
 		"name": "IBM Quantum Challenge 2021",
@@ -1100,7 +1308,8 @@
 		"tag": "Coding Challenge, IBM Quantum Challenge",
 		"paid": "",
 		"org": "IBM Quantum Challenge",
-		"img": ""
+		"img": "",
+		"tags": ["Coding Challenge", "IBM Quantum Challenge"]
 	},
 	{
 		"name": "McKinsey Achievement Awards",
@@ -1110,7 +1319,8 @@
 		"tag": "Mentorship, Scholarship, McKinsey Achievement Awards",
 		"paid": "",
 		"org": "McKinsey & Company",
-		"img": ""
+		"img": "",
+		"tags": ["Mentorship", "Scholarship", "McKinsey Achievement Awards"]
 	},
 	{
 		"name": "OSOC",
@@ -1120,9 +1330,9 @@
 		"tag": "Open Source, Mentorship, OSOC",
 		"paid": "",
 		"org": "Open Summer of Code",
-		"img": ""
+		"img": "",
+		"tags": ["Open Source", "Mentorship", "OSOC"]
 	},
-
 	{
 		"name": "Microsoft Engage",
 		"link": "https://microsoft.acehacker.com/engage2021/?mc_cid=a82d11f2ad&mc_eid=3f7ceca487",
@@ -1131,7 +1341,8 @@
 		"tag": "Mentorship, Microsoft Engage",
 		"paid": "",
 		"org": "Microsoft",
-		"img": ""
+		"img": "",
+		"tags": ["Mentorship", "Microsoft Engage"]
 	},
 	{
 		"name": "Nutanix",
@@ -1141,7 +1352,8 @@
 		"tag": "Scholarship, Women in STEM, Nutanix",
 		"paid": "",
 		"org": "Nutanix",
-		"img": ""
+		"img": "",
+		"tags": ["Scholarship", "Women in STEM", "Nutanix"]
 	},
 	{
 		"name": "Microsoft Build",
@@ -1151,7 +1363,8 @@
 		"tag": "Conference, Microsoft Build",
 		"paid": "",
 		"org": "Microsoft",
-		"img": ""
+		"img": "",
+		"tags": ["Conference", "Microsoft Build"]
 	},
 	{
 		"name": "Avery Dennison Foundation Scholarship",
@@ -1161,7 +1374,8 @@
 		"tag": "Scholarship, Avery Dennison Foundation Scholarship",
 		"paid": "",
 		"org": "Avery Dennison Foundation",
-		"img": ""
+		"img": "",
+		"tags": ["Scholarship", "Avery Dennison Foundation Scholarship"]
 	},
 	{
 		"name": "Polygon Fellowship: Web3 Beginner Track",
@@ -1171,7 +1385,8 @@
 		"tag": "Fellowship, Polygon Fellowship",
 		"paid": "",
 		"org": "Polygon",
-		"img": ""
+		"img": "",
+		"tags": ["Fellowship", "Polygon Fellowship"]
 	},
 	{
 		"name": "Walmart CodeHers",
@@ -1181,7 +1396,8 @@
 		"tag": "Full Time SDE roles, Walmart CodeHers",
 		"paid": "",
 		"org": "Walmart India Pvt. Ltd.",
-		"img": ""
+		"img": "",
+		"tags": ["Full Time SDE roles", "Walmart CodeHers"]
 	},
 	{
 		"name": "Polygon Fellowship: Web3 Builder Track",
@@ -1191,7 +1407,8 @@
 		"tag": "Fellowship, Polygon Fellowship",
 		"paid": "",
 		"org": "Polygon",
-		"img": ""
+		"img": "",
+		"tags": ["Fellowship", "Polygon Fellowship"]
 	},
 	{
 		"name": "Pclubs Summer of Code",
@@ -1201,7 +1418,8 @@
 		"tag": "Open Source, Mentorship, Pclubs Summer of Code",
 		"paid": "",
 		"org": "Pclubs",
-		"img": ""
+		"img": "",
+		"tags": ["Open Source", "Mentorship", "Pclubs Summer of Code"]
 	},
 	{
 		"name": "Open Source Day by Anita B. org",
@@ -1211,9 +1429,9 @@
 		"tag": "Mentorship, Open Source Day, Anita B. org",
 		"paid": "",
 		"org": "AnitaB.org",
-		"img": ""
+		"img": "",
+		"tags": ["Mentorship", "Open Source Day", "Anita B. org"]
 	},
-
 	{
 		"name": "AWS She Builds Mentoring Program",
 		"link": "https://awsshebuildsmentoringprogram.splashthat.com/",
@@ -1224,7 +1442,6 @@
 		"org": "Amazon Web Services (AWS)",
 		"img": ""
 	},
-
 	{
 		"name": "Ethereum India Fellowship",
 		"link": "https://ethereumindiafellowship.devfolio.co/",
@@ -1265,7 +1482,6 @@
 		"org": "Google",
 		"img": ""
 	},
-
 	{
 		"name": "HackRx by Bajaj Finserv",
 		"link": "https://hackrx.in/",
@@ -1336,7 +1552,6 @@
 		"org": "Amazon",
 		"img": ""
 	},
-
 	{
 		"name": "Walmark SparkTech Showcase",
 		"link": "https://ys-events.yourstory.com/walmart-sparktechshowcase",
@@ -1468,7 +1683,6 @@
 		"org": "Facebook",
 		"img": ""
 	},
-
 	{
 		"name": "Hiring Contest for Software Engineer (GeeksforGeeks)",
 		"link": "https://www.geeksforgeeks.org/",
@@ -1675,7 +1889,6 @@
 		"org": "",
 		"img": ""
 	},
-
 	{
 		"name": "Hack-O-Uplift",
 		"link": "https://uplift.girlscript.tech/hack-o-uplift",
@@ -1684,9 +1897,9 @@
 		"tag": " ",
 		"paid": " ",
 		"org": "",
-		"img": ""
+		"img": "",
+		"tags": [""]
 	},
-
 	{
 		"name": "American Express CodeStreet 21",
 		"link": "https://codestreet-2021.hackerearth.com/",
@@ -1695,7 +1908,8 @@
 		"tag": " ",
 		"paid": " ",
 		"org": "",
-		"img": ""
+		"img": "",
+		"tags": [""]
 	},
 	{
 		"name": "She Codes, Indeed",
@@ -1705,7 +1919,8 @@
 		"tag": " ",
 		"paid": " ",
 		"org": "",
-		"img": ""
+		"img": "",
+		"tags": [""]
 	},
 	{
 		"name": "BorderHacks 2021",
@@ -1715,7 +1930,8 @@
 		"tag": " ",
 		"paid": " ",
 		"org": "",
-		"img": ""
+		"img": "",
+		"tags": [""]
 	},
 	{
 		"name": "D2C Igniters Club",
@@ -1725,7 +1941,8 @@
 		"tag": " ",
 		"paid": " ",
 		"org": "",
-		"img": ""
+		"img": "",
+		"tags": [""]
 	},
 	{
 		"name": "Facebook Fellowship program",
@@ -1735,7 +1952,8 @@
 		"tag": " ",
 		"paid": " ",
 		"org": "",
-		"img": ""
+		"img": "",
+		"tags": [""]
 	},
 	{
 		"name": "Mitacs Globalink Research Internship 2022",
@@ -1745,7 +1963,8 @@
 		"tag": " ",
 		"paid": " ",
 		"org": "",
-		"img": ""
+		"img": "",
+		"tags": [""]
 	},
 	{
 		"name": "30 Days of Google Cloud",
@@ -1755,7 +1974,8 @@
 		"tag": " ",
 		"paid": " ",
 		"org": "",
-		"img": ""
+		"img": "",
+		"tags": [""]
 	},
 	{
 		"name": "DRDO Scholarship Scheme for Girl",
@@ -1765,9 +1985,9 @@
 		"tag": " ",
 		"paid": " ",
 		"org": "",
-		"img": ""
+		"img": "",
+		"tags": [""]
 	},
-
 	{
 		"name": "Santa Fe Undergraduate Complexity Research",
 		"link": "https://www.santafe.edu/engage/learn/programs/undergraduate-complexity-research",
@@ -1776,7 +1996,8 @@
 		"tag": " ",
 		"paid": " ",
 		"org": "",
-		"img": ""
+		"img": "",
+		"tags": [""]
 	},
 	{
 		"name": "FOSS Asia Codeheat",
@@ -1786,7 +2007,8 @@
 		"tag": " ",
 		"paid": " ",
 		"org": "",
-		"img": ""
+		"img": "",
+		"tags": [""]
 	},
 	{
 		"name": "KubeCon CloudNative North America 2021 Virtual",
@@ -1796,7 +2018,8 @@
 		"tag": " ",
 		"paid": " ",
 		"org": "",
-		"img": ""
+		"img": "",
+		"tags": [""]
 	},
 	{
 		"name": "Zonta International Women in Technology Scholarship",
@@ -1806,7 +2029,8 @@
 		"tag": " ",
 		"paid": " ",
 		"org": "",
-		"img": ""
+		"img": "",
+		"tags": [""]
 	},
 	{
 		"name": "Codechef Snackdown",
@@ -1816,7 +2040,8 @@
 		"tag": " ",
 		"paid": " ",
 		"org": "",
-		"img": ""
+		"img": "",
+		"tags": [""]
 	},
 	{
 		"name": "Loreal India For Young Women In Science Scholarships",
@@ -1826,7 +2051,8 @@
 		"tag": " ",
 		"paid": " ",
 		"org": "",
-		"img": ""
+		"img": "",
+		"tags": [""]
 	},
 	{
 		"name": "HacktoberFest",
@@ -1836,7 +2062,8 @@
 		"tag": " ",
 		"paid": " ",
 		"org": "",
-		"img": ""
+		"img": "",
+		"tags": [""]
 	},
 	{
 		"name": "S.N. Bose Scholars Program",
@@ -1846,9 +2073,9 @@
 		"tag": " ",
 		"paid": " ",
 		"org": "",
-		"img": ""
+		"img": "",
+		"tags": [""]
 	},
-
 	{
 		"name": "Pratibha - Scholarships for Women Engineers",
 		"link": "http://www.eaton.in/EatonIN/EatonExcellenceAwards/index.htm",
@@ -1857,7 +2084,8 @@
 		"tag": " ",
 		"paid": " ",
 		"org": "",
-		"img": ""
+		"img": "",
+		"tags": [""]
 	},
 	{
 		"name": "WINTATHON by linkedIn",
@@ -1867,7 +2095,8 @@
 		"tag": " ",
 		"paid": " ",
 		"org": "",
-		"img": ""
+		"img": "",
+		"tags": [""]
 	},
 	{
 		"name": "Machine Learning Department Summer Internships",
@@ -1877,7 +2106,8 @@
 		"tag": " ",
 		"paid": " ",
 		"org": "",
-		"img": ""
+		"img": "",
+		"tags": [""]
 	},
 	{
 		"name": "Education Scholarship Scheme for Army Personnel (ESSA)",
@@ -1887,9 +2117,9 @@
 		"tag": " ",
 		"paid": " ",
 		"org": "",
-		"img": ""
+		"img": "",
+		"tags": [""]
 	},
-
 	{
 		"name": "WooTech Mentorship",
 		"link": "https://medium.com/@wootech7/wootech-opensource-mentorship-program-7f0b5dc2a222",
@@ -1898,7 +2128,8 @@
 		"tag": " ",
 		"paid": " ",
 		"org": "",
-		"img": ""
+		"img": "",
+		"tags": [""]
 	},
 	{
 		"name": "Adobe Research Women in Technology Scholarship",
@@ -1908,7 +2139,8 @@
 		"tag": " ",
 		"paid": " ",
 		"org": "",
-		"img": ""
+		"img": "",
+		"tags": [""]
 	},
 	{
 		"name": "Generation Google Scholarship APAC",
@@ -1918,7 +2150,8 @@
 		"tag": " ",
 		"paid": " ",
 		"org": "",
-		"img": ""
+		"img": "",
+		"tags": [""]
 	},
 	{
 		"name": "Appscale Academy",
@@ -1928,7 +2161,8 @@
 		"tag": " ",
 		"paid": " ",
 		"org": "",
-		"img": ""
+		"img": "",
+		"tags": [""]
 	},
 	{
 		"name": "Script Winter of Code SWOC",
@@ -1938,7 +2172,8 @@
 		"tag": " ",
 		"paid": " ",
 		"org": "",
-		"img": ""
+		"img": "",
+		"tags": [""]
 	},
 	{
 		"name": "PhonePe Tech Scholars Program",
@@ -1948,7 +2183,8 @@
 		"tag": " ",
 		"paid": " ",
 		"org": "",
-		"img": ""
+		"img": "",
+		"tags": [""]
 	},
 	{
 		"name": "Max Planck Institutes in Computer Science",
@@ -1958,9 +2194,9 @@
 		"tag": " ",
 		"paid": " ",
 		"org": "",
-		"img": ""
+		"img": "",
+		"tags": [""]
 	},
-
 	{
 		"name": "MLH Fellowship",
 		"link": "https://fellowship.mlh.io/",
@@ -1969,7 +2205,8 @@
 		"tag": " ",
 		"paid": " ",
 		"org": "",
-		"img": ""
+		"img": "",
+		"tags": [""]
 	},
 	{
 		"name": "DrivenData",
@@ -1979,7 +2216,8 @@
 		"tag": " ",
 		"paid": " ",
 		"org": "",
-		"img": ""
+		"img": "",
+		"tags": [""]
 	},
 	{
 		"name": "Linux Kernel Mentorship Program",
@@ -1989,7 +2227,8 @@
 		"tag": " ",
 		"paid": " ",
 		"org": "",
-		"img": ""
+		"img": "",
+		"tags": [""]
 	},
 	{
 		"name": "Postman Student Programs",
@@ -1999,7 +2238,8 @@
 		"tag": " ",
 		"paid": " ",
 		"org": "",
-		"img": ""
+		"img": "",
+		"tags": [""]
 	},
 	{
 		"name": "UiPath Student Developer Program",
@@ -2009,7 +2249,8 @@
 		"tag": " ",
 		"paid": " ",
 		"org": "",
-		"img": ""
+		"img": "",
+		"tags": [""]
 	},
 	{
 		"name": "Microsoft Learn Student Ambassadors",
@@ -2019,7 +2260,8 @@
 		"tag": " ",
 		"paid": " ",
 		"org": "",
-		"img": ""
+		"img": "",
+		"tags": [""]
 	},
 	{
 		"name": "Dell Campassador 6.0",
@@ -2029,7 +2271,8 @@
 		"tag": " ",
 		"paid": " ",
 		"org": "",
-		"img": ""
+		"img": "",
+		"tags": [""]
 	},
 	{
 		"name": "DeepLearning.AI Event Ambassador",
@@ -2039,7 +2282,8 @@
 		"tag": " ",
 		"paid": " ",
 		"org": "",
-		"img": ""
+		"img": "",
+		"tags": [""]
 	},
 	{
 		"name": "GitKraken Ambassador Program",
@@ -2049,7 +2293,8 @@
 		"tag": " ",
 		"paid": " ",
 		"org": "",
-		"img": ""
+		"img": "",
+		"tags": [""]
 	},
 	{
 		"name": "AWS Educate Student Ambassador Program",
@@ -2059,7 +2304,8 @@
 		"tag": " ",
 		"paid": " ",
 		"org": "",
-		"img": ""
+		"img": "",
+		"tags": [""]
 	},
 	{
 		"name": "AWS Educate Cloud Ambassador Program",
@@ -2069,7 +2315,8 @@
 		"tag": " ",
 		"paid": " ",
 		"org": "",
-		"img": ""
+		"img": "",
+		"tags": [""]
 	},
 	{
 		"name": "AngelHack Ambassador",
@@ -2079,7 +2326,8 @@
 		"tag": " ",
 		"paid": " ",
 		"org": "",
-		"img": ""
+		"img": "",
+		"tags": [""]
 	},
 	{
 		"name": "OnePlus Student Program",
@@ -2089,7 +2337,8 @@
 		"tag": " ",
 		"paid": " ",
 		"org": "",
-		"img": ""
+		"img": "",
+		"tags": [""]
 	},
 	{
 		"name": "Womentors by Superposition Chennai",
@@ -2099,6 +2348,7 @@
 		"tag": " ",
 		"paid": " ",
 		"org": "",
-		"img": ""
+		"img": "",
+		"tags": [""]
 	}
 ]
