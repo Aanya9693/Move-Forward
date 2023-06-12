@@ -10,11 +10,12 @@
 
 
 .logoDiv h1 {
-	color: rgb(67, 185, 126);
+	color: black;
     font-weight: 600;
     font-size: 30px;
-    line-height: 0.65;
-    font-family: 'Pacifico', cursive;
+	 
+    /* line-height: 0.65; */
+    /* font-family: 'Pacifico', cursive; */
 }
 .logoDiv p {
     font-size: 14px;

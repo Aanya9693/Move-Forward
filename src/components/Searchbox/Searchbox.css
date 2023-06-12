@@ -16,15 +16,17 @@
 	width: 80%;
 	margin: 0 auto;
 	background-color: #f1f4f8;
-	border-radius: 10px;
+	border-radius: 10px 10px 0 0px;
 	padding: 2rem;
 	width: 80%;
 	margin: auto;
+	border: 0px solid red;
 }
 
 .firstDiv {
 	width: 80%;
 	margin: 0 auto;
+	margin-top: 4rem;
 	justify-content: space-between;
 	align-items: center;
 	border-radius: 20px;
@@ -155,4 +157,16 @@ span {
 	background-color: #e2e2e2;
 	width: 80%;
 	height: 1px;
+}
+@media only screen and (max-width: 480px){
+	.searchDiv{
+		width: 100%;
+		padding: 40px 0;
+	}
+	.searchDiv .firstDiv{
+		width: 90%;
+	}
+	.searchDiv .secDiv{
+		width: 90%;
+	}
 }

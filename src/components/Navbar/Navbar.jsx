@@ -5,8 +5,7 @@ const Navbar = () => {
 	return (
 		<div className="navBar">
 			<div className="logoDiv">
-				<h1>FutureForward</h1>
-				<p>Opportunity Awaits....</p>
+				<h1>forward</h1>
 			</div>
 
 			<div className="menu">
