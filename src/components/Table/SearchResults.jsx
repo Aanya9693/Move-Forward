@@ -71,7 +71,6 @@ const SearchResults = ({
 							<span className="material-icons">payments</span>
 						</div>
 						{item.stipend}
-						{/* <div className="period">{`per ${item.stipendPeriod}`}</div> */}
 					</div>
 				</div>
 				<div className="col-2">

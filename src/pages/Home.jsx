@@ -27,53 +27,48 @@ const Home = () => {
 		"Android",
 		"Python",
 	]);
+	const [query, setQuery] = useState("");
+	
 	const [selectedSuperTags, setSelectedSuperTags] = useState([]);
 	const [selectedTags, setSelectedTags] = useState([]);
 
-	const handleTagSelect = (tag, sup) => {
-		if (!sup) {
-			let copyTags = tags;
-			copyTags.splice(copyTags.indexOf(tag), 1);
-			setSelectedTags([...selectedTags, tag]);
-			setTags(copyTags);
+	const handleTagSelect = (tag, isSuperTag) => {
+		if (isSuperTag) {
+		  setSelectedSuperTags([...selectedSuperTags, tag]);
 		} else {
-			let copySuperTags = superTags;
-			copySuperTags.splice(copySuperTags.indexOf(tag), 1);
-			setSelectedSuperTags([...selectedSuperTags, tag]);
-			setSuperTags(copySuperTags);
+		  setSelectedTags([...selectedTags, tag]); 
 		}
-	};
-	const handleTagDeselect = (tag, sup) => {
-		if (!sup) {
-			let copySelectedTags = selectedTags;
-			copySelectedTags.splice(copySelectedTags.indexOf(tag), 1);
-			setTags([...tags, tag]);
-			setSelectedTags(copySelectedTags);
+	  };
+	  
+	  const handleTagDeselect = (tag, isSuperTag) => {
+		if (isSuperTag) {
+		  setSelectedSuperTags(selectedSuperTags.filter((t) => t !== tag));
 		} else {
-			let copySelectedSuperTags = selectedSuperTags;
-			copySelectedSuperTags.splice(copySelectedSuperTags.indexOf(tag), 1);
-			setSelectedSuperTags(copySelectedSuperTags);
-			setSuperTags([...superTags, tag]);
+		  setSelectedTags(selectedTags.filter((t) => t !== tag)); 
 		}
+	  
 	};
 	return (
 		<div className="home">
 			<Searchbox
 				tags={tags}
 				superTags={superTags}
-				handleTagSelect={handleTagSelect}
-				handleTagDeselect={handleTagDeselect}
-				selectedTags={selectedTags}
 				selectedSuperTags={selectedSuperTags}
+				selectedTags={selectedTags}
+				handleTagDeselect={handleTagDeselect}
+				handleTagSelect={handleTagSelect}
+				query={query}
+				setQuery={setQuery}
+				setTags={setTags}
+				setSuperTags={setSuperTags}
+				setSelectedTags={setSelectedTags} 
 			/>
-			{/* <Jobs /> */}
 			<Table
-				tags={tags}
-				superTags={superTags}
-				handleTagSelect={handleTagSelect}
-				handleTagDeselect={handleTagDeselect}
-				selectedTags={selectedTags}
 				selectedSuperTags={selectedSuperTags}
+				selectedTags={selectedTags}
+				handleTagDeselect={handleTagDeselect}
+				handleTagSelect={handleTagSelect}
+				query={query} 
 			/>
 		</div>
 	);
