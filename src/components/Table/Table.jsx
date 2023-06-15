@@ -15,6 +15,9 @@ const Table = ({
 	handleTagSelect,
 	query,
 }) => {
+
+	// console.log({query});
+	console.log({selectedSuperTags});
 	const pageLength = 10;
 
 	let results = data;
@@ -40,9 +43,23 @@ const Table = ({
 	const [currentPage, setCurrentPage] = useState(1);
 
 
+
 	const currentTableData = useMemo(() => {
 		const firstPageIndex = (currentPage - 1) * pageLength;
 		const lastPageIndex = firstPageIndex + pageLength;
+
+		const filteredData = data.filter((item) => {
+		  const matchesQuery = item.name.toLowerCase().includes(query.toLowerCase());
+
+		  const matchesTags = selectedTags.length === 0 || 
+			selectedTags.some((tag) => item.tags.includes(tag));
+
+			const matchesSuperTags = selectedSuperTags.length === 0 || item.type.includes(selectedSuperTags);
+			
+		  return matchesQuery && matchesTags && matchesSuperTags;
+		});
+		return filteredData.slice(firstPageIndex, lastPageIndex);
+	  }, [currentPage, pageLength, query, selectedTags, selectedSuperTags, data]);
 
 		const filteredData = data.filter((item) => {
 		  const matchesQuery = item.name.toLowerCase().includes(query.toLowerCase());
