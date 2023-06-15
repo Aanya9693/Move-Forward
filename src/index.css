@@ -11,29 +11,20 @@
   --bg: white;
 }
 
+
 body{
   background: white;
 }
 
+
 li{
   list-style: none;
-  /* cursor: pointer;
-  position: relative; */
+  
 }
 a{
   text-decoration: none;
   color: inherit;
 }
-/* 
-li:hover::before{
-  position: absolute;
-  content: '';
-  height: 4px;
-  width: 100%;
-  background: rgb(194, 128, 210);
-  right: 0;
-  color: rgb(194, 128, 210);
-} */
 
 .icon{
   cursor: pointer;

@@ -1,13 +1,29 @@
 /* eslint-disable react/prop-types */
-// import React from "react";
+import React from "react";
 import "./Searchbox.css";
 import Button from "../Button/Button";
 import Tag from "../Tag/Tag";
 import { useState } from "react";
 
-const Searchbox = ({tags, superTags, selectedSuperTags, selectedTags, handleTagDeselect, handleTagSelect}) => {
+
+const Searchbox = ({
+	tags,
+	superTags,
+	selectedSuperTags,
+	selectedTags,
+	handleTagDeselect,
+	handleTagSelect,
+	setQuery,
+  }) => {
 	
 	const [viewMore, setViewMore] = useState(false);
+
+	const handleInputChange = (e) => {
+		setQuery(e.target.value); 
+	};
+	// console.log({query});
+
+
 	return (
 		<div className="searchDiv">
 			<div className="title">Search for Opportunities</div>
@@ -18,13 +34,13 @@ const Searchbox = ({tags, superTags, selectedSuperTags, selectedTags, handleTagD
 						type="text"
 						className="inputText"
 						placeholder="Search here...."
+						onChange={handleInputChange} 
 					/>
 					<span className="material-icons cancel">highlight_off</span>
 					<Button
 						innerText="Search"
 						variant="primary"
 						color="green"
-						// endIcon={<span className="material-icons">share</span>}
 					></Button>
 				</div>
 			</div>
@@ -66,7 +82,6 @@ const Searchbox = ({tags, superTags, selectedSuperTags, selectedTags, handleTagD
 					<div className="divider"></div>
 				)}
 
-				{/* <div className="superTags"></div> */}
 				<div className={`tags ${!viewMore && "limit"}`}>
 					{superTags.map((tag) => (
 						<Tag

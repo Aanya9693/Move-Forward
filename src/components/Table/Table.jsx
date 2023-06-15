@@ -9,12 +9,11 @@ import SearchResults from "./SearchResults";
 import Pagination from "../Pagination/Pagination";
 
 const Table = ({
-	tags,
-	superTags,
 	selectedSuperTags,
 	selectedTags,
 	handleTagDeselect,
 	handleTagSelect,
+	query,
 }) => {
 	const pageLength = 10;
 
@@ -40,11 +39,23 @@ const Table = ({
 
 	const [currentPage, setCurrentPage] = useState(1);
 
+
 	const currentTableData = useMemo(() => {
 		const firstPageIndex = (currentPage - 1) * pageLength;
 		const lastPageIndex = firstPageIndex + pageLength;
-		return sortedResults.slice(firstPageIndex, lastPageIndex);
-	}, [currentPage, sortedResults]);
+
+		const filteredData = data.filter((item) => {
+		  const matchesQuery = item.name.toLowerCase().includes(query.toLowerCase());
+
+		  const matchesTags = selectedTags.length === 0 || 
+			selectedTags.some((tag) => item.tags.includes(tag));
+
+			const matchesSuperTags = selectedSuperTags.length === 0 || item.type.includes(selectedSuperTags);
+			
+		  return matchesQuery && matchesTags && matchesSuperTags;
+		});
+		return filteredData.slice(firstPageIndex, lastPageIndex);
+	  }, [currentPage, pageLength, query, selectedTags, selectedSuperTags, data]);
 
 	return (
 		<div className="table">
@@ -55,6 +66,7 @@ const Table = ({
 				selectedTags={selectedTags}
 				handleTagDeselect={handleTagDeselect}
 				handleTagSelect={handleTagSelect}
+				query={query}
 			/>
 			<Pagination
 				className="pagination-bar"
