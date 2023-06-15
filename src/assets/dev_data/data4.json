@@ -1,8 +1,7 @@
 [
 	{
 		"name": "Qualcomm Global Scholars Program",
-		"tag": "Female-only, MNCs",
-		"type": "Scholarship",
+		"type": ["Scholarship"],
 		"deadline": "2 January",
 		"link": "https://www.iie.org/Programs/WeTech/STEM-Scholarships-for-Women/Qualcomm-Global-Scholars-Program/India",
 		"country": "India",
@@ -15,7 +14,6 @@
 	},
 	{
 		"name": "Microsoft Engage",
-		"tag": "Mentorship, Microsoft Engage",
 		"type": "Mentorship",
 		"deadline": "24 May",
 		"link": "https://microsoft.acehacker.com/engage2021/?mc_cid=a82d11f2ad&mc_eid=3f7ceca487",
@@ -29,7 +27,6 @@
 	},
 	{
 		"name": "Google Women Techmakers Scholarship",
-		"tag": "Women-only, Scholarship, Conference",
 		"type": "Scholarship",
 		"deadline": "31 December",
 		"link": "https://developers.google.com/community/women-techmakers/scholars",
@@ -57,7 +54,6 @@
 	},
 	{
 		"name": "Season of KDE",
-		"tag": "Open-source, Backend, Frontend, Full-stack, Software, Python",
 		"type": "Mentorship",
 		"deadline": "4 January",
 		"link": "https://season.kde.org/",
@@ -78,7 +74,6 @@
 	},
 	{
 		"name": "Microsoft Research Fellows Program",
-		"tag": "Research, Data Science, Machine Learning",
 		"type": "Fellowship",
 		"deadline": "14 January 2022",
 		"link": "https://www.microsoft.com/en-us/research/academic-program/research-fellows-program-at-microsoft-research-india/",
@@ -92,8 +87,7 @@
 	},
 	{
 		"name": "Goldman Sachs Women Possibilities Summit: Finance",
-		"tag": "Female-only, Finance, Consultancy",
-		"type": "Scholarship",
+		"type": ["Scholarship", "Internship"],
 		"deadline": "15 January",
 		"link": "https://www.goldmansachs.com/careers/students/programs/india/womens-possibilities-summit-finance.html",
 		"country": "",
@@ -106,8 +100,7 @@
 	},
 	{
 		"name": "Internshala Career Scholarship for Girls",
-		"tag": "Female-only, Backend, Frontend, Full-stack, Software, Data Science, Data Analyst, Android, Python",
-		"type": "Scholarship",
+		"type": ["Scholarship", "Internship"],
 		"deadline": "15 January 2022",
 		"link": "https://blog.internshala.com/2021/12/internshala-career-scholarship-for-girls-2022/",
 		"country": "",
@@ -130,8 +123,7 @@
 	},
 	{
 		"name": "ETHWMN Fellowship",
-		"tag": "Female-only, Open-source, Backend, Frontend, Full-stack, Software, Machine Learning, Data Science, Data Analyst, Android, Python",
-		"type": "Fellowship",
+		"type": ["Fellowship"],
 		"deadline": "15 January 2022",
 		"link": "https://ethwmn.devfolio.co/",
 		"country": "",
@@ -156,8 +148,7 @@
 	},
 	{
 		"name": "Goldman Sachs WeTech",
-		"tag": "Female-only, MNCs, Finance, Consultancy",
-		"type": "Mentorship",
+		"type": ["Mentorship"],
 		"deadline": "18 January",
 		"link": "https://www.iie.org/Programs/WeTech/STEM-Scholarships-for-Women/Goldman-Sachs-Scholarship",
 		"country": "",
@@ -170,8 +161,7 @@
 	},
 	{
 		"name": "Intuit Augment Program",
-		"tag": "Female-only, Software, Data Science",
-		"type": "Mentorship",
+		"type": ["Mentorship"],
 		"deadline": "21 January",
 		"link": "https://www.surveymonkey.com/r/INTUIT_2020",
 		"country": "",
@@ -184,8 +174,7 @@
 	},
 	{
 		"name": "Data Science for Social Good",
-		"tag": "Open-source, Data Science, Social Good, Machine Learning",
-		"type": "Fellowship",
+		"type": ["Fellowship"],
 		"deadline": "28 January 2022",
 		"link": "https://www.dssgfellowship.org/apply-to-be-a-2022-dssg-summer-fellow/",
 		"country": "",
@@ -203,7 +192,6 @@
 	},
 	{
 		"name": "URAM Scholarship Program",
-		"tag": "Female-only, Engineering, Medical, Law, Business",
 		"type": "Scholarship",
 		"deadline": "30 January 2022",
 		"link": "https://uramscholarship.in/",
@@ -217,7 +205,6 @@
 	},
 	{
 		"name": "Pragati Scholarship",
-		"tag": "Female-only, Engineering, Technology, Science, Management",
 		"type": "Scholarship",
 		"deadline": "31 January",
 		"link": "https://www.buddy4study.com/article/pragati-scholarship",
@@ -293,7 +280,7 @@
 		"name": "Uber She++",
 		"link": "https://events.beamery.com/uber/uber-she++-2022-t1khjteyw",
 		"deadline": "February 2022",
-		"type": "Mentorship for Women",
+		"type": ["Mentorship"],
 		"tag": "Female-only, Technology, Business, Leadership",
 		"country": "",
 		"org": "Uber",
@@ -325,8 +312,7 @@
 	},
 	{
 		"name": "ETHWMN Fellowship",
-		"tag": "Female-only, Open-source, Backend, Frontend, Full-stack, Software, Machine Learning, Data Science, Data Analyst, Android, Python",
-		"type": "Fellowship",
+		"type": ["Fellowship"],
 		"deadline": "15 January 2022",
 		"link": "https://ethwmn.devfolio.co/",
 		"country": "",
@@ -353,7 +339,7 @@
 		"name": "Harvard US-India Initiative Conference",
 		"link": "https://www.huii.in/apply-now",
 		"deadline": "3 February",
-		"type": "Scholarship",
+		"type": ["Scholarship"],
 		"tag": "Conference, Leadership, Business, International Relations, India",
 		"paid": "Unpaid",
 		"org": "Harvard US-India Initiative",

@@ -31,8 +31,7 @@ const Table = ({
 		  const matchesTags = selectedTags.length === 0 || 
 			selectedTags.some((tag) => item.tags.includes(tag));
 
-		  const matchesSuperTags = selectedSuperTags.length === 0 ||
-			(item.supertags && selectedSuperTags.some((supertag) => item.supertags.includes(supertag)));
+			const matchesSuperTags = selectedSuperTags.length === 0 || item.type.includes(selectedSuperTags);
 			
 		  return matchesQuery && matchesTags && matchesSuperTags;
 		});

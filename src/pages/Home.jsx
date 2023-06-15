@@ -8,6 +8,9 @@ const Home = () => {
 		"Internship",
 		"Industrial",
 		"Research",
+		"Scholarship",
+		"Mentorship",
+
 	]);
 	const [tags, setTags] = useState([
 		"Female-only",
