@@ -1,9 +1,9 @@
 /* eslint-disable react/prop-types */
-import React, {useState, useMemo} from "react";
+import React, { useState, useMemo } from "react";
 import "./Table.css";
 import Tag from "../Tag/Tag";
 // import data from "../../assets/dev_data/testData.json";
-import data from "../../assets/dev_data/data4.json";
+import data from "../../assets/dev_data/data5.json";
 import Button from "../Button/Button";
 import SearchResults from "./SearchResults";
 import Pagination from "../Pagination/Pagination";
@@ -16,16 +16,35 @@ const Table = ({
 	handleTagDeselect,
 	handleTagSelect,
 }) => {
-
 	const pageLength = 10;
+
+	let results = data;
+	// console.log(results.length);
+	if (selectedSuperTags.length !== 0) {
+		results = data.filter((item) => selectedSuperTags.includes(item.type));
+	}
+	if (selectedTags.length !== 0) {
+		console.log(results.length);
+		results.forEach((result) => {
+			result.score = 0;
+			result.tags.forEach((tag) => {
+				if (selectedTags.includes(tag)) result.score++;
+			});
+			console.log(result.score);
+		});
+	}
+
+	let sortedResults = results.sort((r1, r2) =>
+		r1.score < r2.score ? 1 : r1.score > r2.score ? -1 : 0
+	);
 
 	const [currentPage, setCurrentPage] = useState(1);
 
 	const currentTableData = useMemo(() => {
 		const firstPageIndex = (currentPage - 1) * pageLength;
 		const lastPageIndex = firstPageIndex + pageLength;
-		return data.slice(firstPageIndex, lastPageIndex);
-	}, [currentPage]);
+		return sortedResults.slice(firstPageIndex, lastPageIndex);
+	}, [currentPage, sortedResults]);
 
 	return (
 		<div className="table">
@@ -40,7 +59,7 @@ const Table = ({
 			<Pagination
 				className="pagination-bar"
 				currentPage={currentPage}
-				totalCount={data.length}
+				totalCount={results.length}
 				pageSize={pageLength}
 				onPageChange={(page) => setCurrentPage(page)}
 			/>

@@ -11,7 +11,7 @@ const SearchResults = ({
 	handleTagSelect,
 	data,
 }) => {
-	return data.map((item) => (
+	return data.length === 0 ? ("No results Found") :  data.map((item) => (
 		<div className="item" key={item.name}>
 			<div className="row-1">
 				<div className="col-1">
@@ -22,7 +22,7 @@ const SearchResults = ({
 					<div className="org">{item.org}</div>
 				</div>
 				<div className="col-3">
-					<span className="material-icons">notifications_none</span>
+					{/* <span className="material-icons">notifications_none</span> */}
 					<span className="material-icons">bookmark_border</span>
 				</div>
 			</div>
@@ -75,12 +75,12 @@ const SearchResults = ({
 					</div>
 				</div>
 				<div className="col-2">
-					<Button
+					{/* <Button
 						innerText="Share"
 						variant="primary"
 						color="green"
 						endIcon={<span className="material-icons">share</span>}
-					/>
+					/> */}
 				</div>
 			</div>
 		</div>

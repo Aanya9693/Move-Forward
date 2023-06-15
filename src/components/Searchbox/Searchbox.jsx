@@ -10,6 +10,7 @@ const Searchbox = ({tags, superTags, selectedSuperTags, selectedTags, handleTagD
 	const [viewMore, setViewMore] = useState(false);
 	return (
 		<div className="searchDiv">
+			<div className="title">Search for Opportunities</div>
 			<div className="firstDiv">
 				<div className="searchIcon">
 					<span className="material-icons">search</span>

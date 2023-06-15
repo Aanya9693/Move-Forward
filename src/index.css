@@ -20,6 +20,10 @@ li{
   /* cursor: pointer;
   position: relative; */
 }
+a{
+  text-decoration: none;
+  color: inherit;
+}
 /* 
 li:hover::before{
   position: absolute;
