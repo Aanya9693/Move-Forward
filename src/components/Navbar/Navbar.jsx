@@ -70,7 +70,7 @@ const Navbar = () => {
 						</NavLink>
 					</li>
 					<li className="nav-item">
-						<a href="#">
+						<a href="https://github.com/Aanya9693/opportunists">
 							<i className="fa-brands fa-github"></i>
 						</a>
 					</li>

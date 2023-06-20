@@ -16,7 +16,7 @@ const Table = ({
 	query,
 }) => {
 	// console.log({query});
-	console.log({ selectedSuperTags });
+	// console.log({ selectedSuperTags });
 	const pageLength = 10;
 
 	let results = data;

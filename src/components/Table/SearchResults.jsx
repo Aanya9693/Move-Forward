@@ -2,7 +2,7 @@
 import React from "react";
 import "./Table.css";
 import Tag from "../Tag/Tag";
-import Button from "../Button/Button";
+// import Button from "../Button/Button";
 
 const SearchResults = ({
 	selectedSuperTags,
@@ -35,6 +35,7 @@ const SearchResults = ({
 				</div>
 				<div className="row-2 description">{item.description}</div>
 				<div className="row-3 tags">
+					
 					{
 						<Tag
 							innerHtml={item.type}
@@ -66,6 +67,7 @@ const SearchResults = ({
 							}
 							select={selectedTags.includes(tag)}
 						></Tag>
+						
 					))}
 				</div>
 				<div className="divider"></div>

@@ -5,11 +5,11 @@
 	margin: auto;
 	margin-top: 40px;
 	border-radius: 15px;
-	background-color: ;
+	/* background-color: ; */
 	text-align: center;
 	font-size: 20px;
 }
-.footer a{
+.footer a {
 	font-weight: 500;
 	transition: 0.25s all;
 }
