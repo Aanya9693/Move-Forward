@@ -20,7 +20,10 @@ const SearchResults = ({
 						<div className="logo"></div>
 					</div>
 					<div className="col-2">
-						<div className="title">{item.name}</div>
+						<div className="title">
+							<a href={item.link}>{item.name}</a>
+							<span className="material-icons">launch</span>
+						</div>
 						<div className="org">{item.org}</div>
 					</div>
 					<div className="col-3">
@@ -70,7 +73,7 @@ const SearchResults = ({
 				<div className="divider"></div>
 				<div className="row-4 details">
 					<div className="col-1">
-						<div className="date">
+						<div className="date detail">
 							<div className="icon">
 								<span className="material-icons">
 										event
@@ -78,22 +81,27 @@ const SearchResults = ({
 							</div>
 							{item.deadline}
 						</div>
-						<div className="stipend">
-							<div className="icon">
-								<span className="material-icons">
-										payments
-								</span>
+						{item.stipend && (
+							<div className="stipend detail">
+								<div className="icon">
+									<span className="material-icons">
+											payments
+									</span>
+								</div>
+								{item.stipend}
 							</div>
-							{item.stipend}
-						</div>
-						<div className="country">
-							<div className="icon">
-								<span className="material-icons">
-										language
-								</span>
+						)}
+
+						{item.country && (
+							<div className="country detail">
+								<div className="icon">
+									<span className="material-icons">
+											place
+									</span>
+								</div>
+								{item.country}
 							</div>
-							{item.country}
-						</div>
+						)}
 					</div>
 					<div className="col-2">
 						{/* <Button

@@ -83,6 +83,15 @@
 	padding: 0 10px;
 	font-size: 18px;
 	font-weight: 500;
+	transition: 0.5s all;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 10px;
+}
+.table .item .row-1 .col-2 .title:hover{
+	text-decoration: underline;
 }
 .table .item .row-1 .col-2 .org{
 	font-size: 15px;
@@ -153,7 +162,7 @@
 	gap: 30px;
 	border: 0px solid red;
 }
-.table .item .details .col-1 .date{
+.table .item .details .col-1 .detail{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -163,8 +172,9 @@
 }
 .table .item .details .col-1 .icon .material-icons{
 	color: var(--green);
+	font-size: 20px;
 }
-.table .item .details .col-1 .date .icon, .table .item .details .col-1 .stipend .icon{
+.table .item .details .col-1 .detail .icon, .table .item .details .col-1 .stipend .icon{
 	/* border: 1px solid red; */
 	line-height: 0;
 	/* color: var(--green-light); */
