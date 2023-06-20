@@ -6,29 +6,35 @@ const Home = () => {
 	const [superTags, setSuperTags] = useState([
 		"Fellowship",
 		"Internship",
-		"Industrial",
 		"Research",
+		"Program",
 		"Scholarship",
 		"Mentorship",
-
+		"Conference",
 	]);
 	const [tags, setTags] = useState([
-		"Female-only",
-		"WFH",
-		"Remote",
-		"un-paid",
-		"MNCs",
+		"Female",
 		"Backend",
 		"Frontend",
 		"Full-stack",
 		"Software",
 		"Machine Learning",
 		"Data Science",
-		"Data Analyst",
 		"Marketing",
-		"Consultancy",
-		"Android",
 		"Python",
+		"Bitcoin",
+		"Blockchain",
+		"Social-Impact",
+		"Open-Source",
+		"Community",
+		"AWS",
+		"Finance",
+		"Leardership",
+		"Physics",
+		"Underrepresented",
+		"Volunteer",
+		"Google Cloud",
+		"Asia-Pacific"
 	]);
 	const [query, setQuery] = useState("");
 	

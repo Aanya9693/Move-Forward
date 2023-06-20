@@ -5,10 +5,8 @@
     /* height: 100vh; */
 }
   
-  .login-box,
-  .signup-box {
-    width: 400px;
-    height: 500px;
+  .login-box{
+    width: 33%;
     background-color: #fff;
     box-shadow: 5px 2px 5px 2px rgba(0, 0, 0, 0.6);
     border-radius: 5px;
@@ -29,27 +27,30 @@
   } */
   
   .form-container {
-    margin-top: 20px;
+    margin: 20px;
   }
   
   .form-title {
-    margin-bottom: 20px;
-    font-size: 24px;
+    font-size: 36px;
     font-weight: bold;
+    color: rgb(67, 185, 126);
     text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   }
   
   .form-group {
     margin-bottom: 20px;
   }
   
-  .form-group label {
+  /* .form-group label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
-  }
+  } */
   
-  .form-input {
+  /* .form-input {
     width: 100%;
     padding: 10px;
     border-radius: 5px;
@@ -70,14 +71,18 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
-  }
+  } */
   
   .or-text {
     margin: 0 10px;
     font-weight: bold;
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    font-weight: bold;
   }
   
-  .button {
+  /* .button {
     margin: 5px;
     width: 100%;
     padding: 10px 20px;
@@ -90,7 +95,7 @@
     background-color: rgb(67, 185, 126);
     color: #fff;
     border:none;
-  }
+  } */
 
   /* .button-primary:hover {
     background-color: #fff;
@@ -98,7 +103,7 @@
     border: 1px solid #ccc;
   } */
   
-  .button-secondary {
+  /* .button-secondary {
     background-color: #fff;
     color: #333;
     border: 1px solid #ccc;
@@ -108,7 +113,7 @@
     background-color: rgb(67, 185, 126);
     color: #fff;
     border:none;
-  }
+  } */
 
   
   /* design google button */
@@ -127,7 +132,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: bold;
     color: #444;
     margin-bottom: 10px;
@@ -138,6 +143,12 @@
     transform: translateY(-2px);
   }
   
+  .google-btn i{
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
   .google-icon svg {
     height: 24px;
     width: 24px;

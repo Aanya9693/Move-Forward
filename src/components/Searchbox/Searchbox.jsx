@@ -17,12 +17,16 @@ const Searchbox = ({
   }) => {
 	
 	const [viewMore, setViewMore] = useState(false);
-
+	const [value, setValue] = useState('');
 	const handleInputChange = (e) => {
 		setQuery(e.target.value); 
+		setValue(e.target.value);
 	};
-	// console.log({query});
-
+	const handleClear = () => {
+		setValue('');
+		setQuery('');
+	};
+	// console.log({query}); 
 
 	return (
 		<div className="searchDiv">
@@ -34,9 +38,14 @@ const Searchbox = ({
 						type="text"
 						className="inputText"
 						placeholder="Search here...."
+						value={value}
 						onChange={handleInputChange} 
 					/>
-					<span className="material-icons cancel">highlight_off</span>
+					{value.length > 0 && (
+						<span className="material-icons cancel" onClick={handleClear}>
+						highlight_off
+						</span>
+					)}
 					<Button
 						innerText="Search"
 						variant="primary"
