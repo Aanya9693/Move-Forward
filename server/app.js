@@ -13,6 +13,7 @@ const cookieParser = require('cookie-parser');
 // IMPORT ROUTERS
 const authRouter = require('./routes/authRoutes');
 const userRouter = require('./routes/userRoutes');
+const oppurtunityRouter = require('./routes/oppurtunityRoutes');
 const AppError = require('./utils/appError');
 const errorController = require('./controllers/errorController');
 
@@ -63,6 +64,7 @@ app.use(compression());
 // USE ROUTERS
 app.use('/api/v1/auth/', authRouter); // <- Calling the auth router
 app.use('/api/v1/user/', userRouter); // <- Calling the user router
+app.use('/api/v1/oppurtunity/', oppurtunityRouter); // <- Calling the oppurtunity router
 
 app.all('*', (req, res, next) => {	// <- Middleware to handle Non-existing Routes
 	next(new AppError(`Can't find ${req.originalUrl} on the server`, 404));

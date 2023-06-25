@@ -45,6 +45,9 @@ const userSchema = new mongoose.Schema(
             default: 'user',
             enum: ['user', 'admin'],
         },
+        selected: {
+            type: [mongoose.Schema.Types.ObjectId],
+        },
     },
     {
         toJSON: { virtuals: true },
