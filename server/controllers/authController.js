@@ -8,6 +8,7 @@ const moment = require('moment');
 const User = require('./../models/userModel');
 const catchAsync = require('./../utils/catchAsync');
 const AppError = require('./../utils/appError');
+const Email = require('./../utils/email');
 
 const signToken = (id) => {
 	return jwt.sign({ id }, process.env.JWT_SECRET, { expiresIn: process.env.JWT_TIMEOUT });
@@ -46,6 +47,9 @@ exports.signup = catchAsync(async (req, res, next) => {
 		passwordConfirm: req.body.passwordConfirm,
 		role: req.body.role
 	});
+
+	const url = `${req.protocol}://${req.get('host')}/`;
+	await new Email(newUser, url).sendWelcome();
 
 	createSendToken(newUser, 201, res);	
 }); 
@@ -177,7 +181,10 @@ exports.googleAuth = catchAsync(async (req, res, next) => {
             email: userRes.data.email,
             image: userRes.data.picture,
         });
-    }
+	}
+	
+		const url = `${req.protocol}://${req.get('host')}/`;
+        await new Email(newUser, url).sendWelcome();
 
     createSendToken(user, 201, res);
 });

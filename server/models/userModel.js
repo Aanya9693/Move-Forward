@@ -48,6 +48,10 @@ const userSchema = new mongoose.Schema(
         selected: {
             type: [mongoose.Schema.Types.ObjectId],
         },
+        notifications: [{
+            title: String,
+            description: String,
+        }]
     },
     {
         toJSON: { virtuals: true },
