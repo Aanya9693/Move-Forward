@@ -9,10 +9,18 @@ data.forEach((item) => {
 	if (typeof item.tags == "string")
 		item.tags = [...item.tags.split(",").map((t) => t.trim())];
 	if (!item.tags) item.tags = [];
+	if (item.paid && item.paid.trim().length > 0) {
+		if (!item.stipend) {
+			item.stipend = item.paid;
+		}
+		else if (item.stipend && item.stipend.trim().length === 0) {
+			item.stipend = item.paid;
+		}
+	}
 
 	delete item.stipendPeriod;
 });
 
 console.log(data[0]);
 
-fs.writeJSONSync("./data5.json", data);
+fs.writeJSONSync("./data6.json", data);

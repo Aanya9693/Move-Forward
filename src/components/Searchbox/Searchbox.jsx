@@ -46,11 +46,11 @@ const Searchbox = ({
 						highlight_off
 						</span>
 					)}
-					<Button
+					{/* <Button
 						innerText="Search"
 						variant="primary"
 						color="green"
-					></Button>
+					></Button> */}
 				</div>
 			</div>
 

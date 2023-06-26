@@ -20,12 +20,12 @@ const userSchema = new mongoose.Schema(
         },
         password: {
             type: String,
-            required: [true, 'Every user must have a password'],
+            required: [false, 'Every user must have a password'],
             select: false,
         },
         passwordConfirm: {
             type: String,
-            required: [true, 'Please enter passwordConfirm'],
+            required: [false, 'Please enter passwordConfirm'],
             validate: {
                 validator: function (val) {
                     return val === this.password;

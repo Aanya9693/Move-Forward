@@ -4,6 +4,7 @@ const oauth2Client = require('../utils/oauth2client');/* eslint-disable new-cap 
 const { promisify } = require('util');
 const jwt = require('jsonwebtoken');
 const moment = require('moment');
+const axios = require('axios');
 
 const User = require('./../models/userModel');
 const catchAsync = require('./../utils/catchAsync');
@@ -184,7 +185,7 @@ exports.googleAuth = catchAsync(async (req, res, next) => {
 	}
 	
 		const url = `${req.protocol}://${req.get('host')}/`;
-        await new Email(newUser, url).sendWelcome();
+        await new Email(user, url).sendWelcome();
 
     createSendToken(user, 201, res);
 });

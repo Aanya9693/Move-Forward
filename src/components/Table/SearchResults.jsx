@@ -54,7 +54,7 @@ const SearchResults = ({
 							select={selectedSuperTags.includes(item.type)}
 						></Tag>
 					}
-					{item.tags.map((tag) => (
+					{item.tags && item.tags.map((tag) => (
 						<Tag
 							innerHtml={tag}
 							key={tag}
@@ -113,7 +113,7 @@ const SearchResults = ({
 					</div>
 				</div>
 			</div>
-		  ));
+		));
 };
 
 export default SearchResults;
