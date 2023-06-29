@@ -42,6 +42,7 @@ const Home = () => {
 	const [selectedTags, setSelectedTags] = useState([]);
 
 	const handleTagSelect = (tag, isSuperTag) => {
+		// console.log("selecting tag:", tag);
 		if (isSuperTag) {
 			setSelectedSuperTags([...selectedSuperTags, tag]);
 		} else {
@@ -50,6 +51,7 @@ const Home = () => {
 	};
 
 	const handleTagDeselect = (tag, isSuperTag) => {
+		// console.log("de-selecting tag:", tag);
 		if (isSuperTag) {
 			setSelectedSuperTags(selectedSuperTags.filter((t) => t !== tag));
 		} else {

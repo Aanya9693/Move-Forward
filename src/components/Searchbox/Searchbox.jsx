@@ -14,7 +14,7 @@ const Searchbox = ({
 	handleTagDeselect,
 	handleTagSelect,
 	setQuery,
-  }) => {
+}) => {
 	
 	const [viewMore, setViewMore] = useState(false);
 	const [value, setValue] = useState('');
@@ -29,7 +29,7 @@ const Searchbox = ({
 	// console.log({query}); 
 
 	return (
-		<div className="searchDiv">
+		<div className="searchDiv striped-background">
 			<div className="title">Search for Opportunities</div>
 			<div className="firstDiv">
 				<div className="searchIcon">

@@ -4,21 +4,12 @@ import "./Navbar.css";
 import React from "react";
 import { NavLink } from "react-router-dom";
 import {
-	AppBar,
-	Container,
-	Toolbar,
-	Box,
-	Stack,
 	Button,
-	Typography,
 	Avatar,
-	IconButton,
-	Divider,
-	Drawer,
 	Menu,
 	MenuItem,
 } from "@mui/material";
-import { getUserData, logoutAuth } from "../../services/api";
+import { logoutAuth } from "../../services/api";
 
 
 const Navbar = ({user, login, logout}) => {
