@@ -91,6 +91,11 @@ const Navbar = ({user, login, logout}) => {
 			</NavLink>
 			<div className="menu">
 				<ul>
+					<li className="nav-item">
+						<a href="https://github.com/Aanya9693/opportunists">
+							<i className="fa-brands fa-github"></i>
+						</a>
+					</li>
 					<div className="nav-item">
 						{user ? (
 							<>
@@ -107,6 +112,14 @@ const Navbar = ({user, login, logout}) => {
 									}
 								>
 									<Avatar
+										sx={{
+											width: "30px",
+											height: "30px",
+											bgcolor: "rgb(99, 99, 99)",
+											"&:hover": {
+												bgcolor: "#4b84ce",
+											},
+										}}
 										alt={user.name}
 										src={user.image}
 									></Avatar>
@@ -136,11 +149,6 @@ const Navbar = ({user, login, logout}) => {
 							</NavLink>
 						)}
 					</div>
-					<li className="nav-item">
-						<a href="https://github.com/Aanya9693/opportunists">
-							<i className="fa-brands fa-github"></i>
-						</a>
-					</li>
 				</ul>
 			</div>
 		</div>
