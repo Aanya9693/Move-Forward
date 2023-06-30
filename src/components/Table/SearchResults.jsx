@@ -16,9 +16,9 @@ const SearchResults = ({
 		: data.map((item) => (
 			<div className="item" key={item.name}>
 				<div className="row-1">
-					<div className="col-1">
+					{/* <div className="col-1">
 						<div className="logo"></div>
-					</div>
+					</div> */}
 					<div className="col-2">
 						<div className="title">
 							<a href={item.link}>{item.name}</a>
@@ -113,7 +113,8 @@ const SearchResults = ({
 					</div>
 				</div>
 			</div>
-		  ));
+		));
+			
 };
 
 export default SearchResults;

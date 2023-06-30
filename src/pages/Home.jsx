@@ -43,19 +43,20 @@ const Home = () => {
 
 	const handleTagSelect = (tag, isSuperTag) => {
 		if (isSuperTag) {
-		  setSelectedSuperTags([...selectedSuperTags, tag]);
-		} else {
-		  setSelectedTags([...selectedTags, tag]); 
+			setSelectedSuperTags([...selectedSuperTags, tag]);
+		} 
+		else {
+			setSelectedTags([...selectedTags, tag]); 
 		}
-	  };
-	  
-	  const handleTagDeselect = (tag, isSuperTag) => {
+	};
+  
+	const handleTagDeselect = (tag, isSuperTag) => {
 		if (isSuperTag) {
-		  setSelectedSuperTags(selectedSuperTags.filter((t) => t !== tag));
+			setSelectedSuperTags(selectedSuperTags.filter((t) => t !== tag));
 		} else {
-		  setSelectedTags(selectedTags.filter((t) => t !== tag)); 
+			setSelectedTags(selectedTags.filter((t) => t !== tag)); 
 		}
-	  
+	
 	};
 	return (
 		<div className="home">
