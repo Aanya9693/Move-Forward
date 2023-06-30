@@ -11,6 +11,7 @@ Router.route('/upload').post(
 );
 
 Router.route('/fixData').get(oppurtunityController.fixData);
+Router.route('/checkDeadline').get(oppurtunityController.checkDeadline);
 
 Router.route('/:id')
     .get(

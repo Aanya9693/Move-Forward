@@ -2,15 +2,16 @@ const nodemailer = require('nodemailer');
 const pug = require('pug');
 const { htmlToText } = require('html-to-text');
 const path = require('path');
-
+const dayjs = require('dayjs');
 module.exports = class Email {
 	constructor(user, url, oppurtunity) {
 		this.to = user.email;
 		this.firstName = user.name.split(' ')[0];
 		this.url = url;
 		this.from = `Rishab Dugar <${process.env.EMAIL_FROM}>`
-		this.oppurtunityName = oppurtunity ? oppurtunity.title : "";
-		this.daysLeftToDeadline = oppurtunity ? new Date(oppurtunity.deadline - Date.now()) : "";
+		// this.oppurtunityName = oppurtunity ? oppurtunity.name : "";
+		this.daysLeftToDeadline = oppurtunity ? dayjs(oppurtunity.lastDate).diff(dayjs(), 'day') : "";
+		this.oppurtunity = oppurtunity
 	}
 
 	newTransport() {
@@ -37,7 +38,8 @@ module.exports = class Email {
             {
                 firstName: this.firstName,
                 url: this.url,
-                subject,
+				subject,
+				oppurtunity: this.oppurtunity
             }
         );
 		const text = htmlToText(html)
@@ -61,6 +63,6 @@ module.exports = class Email {
 	}
 	
 	async sendReminder() {
-		await this.send('reminder', `Reminder: ${this.oppurtunityName} deadline approaching!!: [${this.daysLeftToDeadline} days left]`);
+		await this.send('reminder', `Reminder: ${this.oppurtunity.name} deadline approaching !! ${this.daysLeftToDeadline} days left`);
 	}
 }

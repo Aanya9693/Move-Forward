@@ -58,31 +58,37 @@ exports.updateOppurtunity = catchAsync(async (req, res, next) => {});
 exports.deleteOppurtunity = catchAsync(async (req, res, next) => {});
 
 exports.checkDeadline = catchAsync(async (req, res, next) => {
-    const users = await User.find({
-        populate: 'selected'
-    });
+    const users = await User.find().populate({path: 'selected'});
 
-    await users.forEach(async user => {
-        await user.selected.forEach(async item => {
-            const now = dayjs();
-            const sevenDaysFromNow = now.add(7, 'day');
+    await users.forEach(async (user) => {
+        await user.selected.forEach(async (item) => {
 
-            if (now.isBefore(sevenDaysFromNow, 'day')) {
+            if (
+                dayjs(item.lastDate).diff(dayjs(), 'day') <= 7 &&
+                dayjs(item.lastDate).diff(dayjs(), 'day') >= 0
+            ) {
+                // console.log(item.name, item.lastDate);
                 try {
                     const url = item.link;
-                    console.log("Sending Reminder email to -> ", user.name, "for ", item.title);
+                    console.log(
+                        'Sending Reminder email to -> ',
+                        user.name,
+                        'for ',
+                        item.name
+                    );
                     await new Email(user, url, item).sendReminder();
-                }
-                catch (err) {
-                    return next(new AppError('There was a error sending reminder email'));
+                } catch (err) {
+                    return next(
+                        new AppError('There was a error sending reminder email')
+                    );
                 }
             }
-        })
+        });
     });
 
     res.status(200).json({
-        message: "success"
-    })
+        message: 'success',
+    });
 });
 
 exports.fixData = catchAsync(async (req, res, next) => {
@@ -101,13 +107,13 @@ exports.fixData = catchAsync(async (req, res, next) => {
     //     // console.log(i);
     //     if (i == 0) cleanData.push(item);
     //     else {
-            
+
     //         if (!item.name) dirtyData.push(item);
     //         else {
     //             if (cleanData[cleanData.length - 1].name === item.name) duplicateData.push(item);
     //             else cleanData.push(item);
     //         }
-            
+
     //     }
     // });
     // var customParseFormat = require('dayjs/plugin/customParseFormat');
@@ -129,9 +135,7 @@ exports.fixData = catchAsync(async (req, res, next) => {
     //     await Oppurtunity.findByIdAndDelete(item.id);
     // }
     res.status(200).json({
-        message: "success",
-        data: {
-            
-        }
-    })
+        message: 'success',
+        data: {},
+    });
 });
