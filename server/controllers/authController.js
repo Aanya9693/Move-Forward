@@ -4,10 +4,12 @@ const oauth2Client = require('../utils/oauth2client');/* eslint-disable new-cap 
 const { promisify } = require('util');
 const jwt = require('jsonwebtoken');
 const moment = require('moment');
+const axios = require('axios');
 
 const User = require('./../models/userModel');
 const catchAsync = require('./../utils/catchAsync');
 const AppError = require('./../utils/appError');
+const Email = require('./../utils/email');
 
 const signToken = (id) => {
 	return jwt.sign({ id }, process.env.JWT_SECRET, { expiresIn: process.env.JWT_TIMEOUT });
@@ -46,6 +48,9 @@ exports.signup = catchAsync(async (req, res, next) => {
 		passwordConfirm: req.body.passwordConfirm,
 		role: req.body.role
 	});
+
+	const url = `${req.protocol}://${req.get('host')}/`;
+	await new Email(newUser, url).sendWelcome();
 
 	createSendToken(newUser, 201, res);	
 }); 
@@ -93,7 +98,7 @@ exports.protect = catchAsync(async (req, res, next) => {
 		return next(new AppError('Recently changed Password! Please login Again', 401));
 	}
 
-	console.log(log.success('!!! GRANTING ACCESS !!!'));
+	console.log('!!! GRANTING ACCESS !!!');
 
 	res.locals.user = currentUser;
 	req.user = currentUser;
@@ -177,7 +182,10 @@ exports.googleAuth = catchAsync(async (req, res, next) => {
             email: userRes.data.email,
             image: userRes.data.picture,
         });
-    }
+	}
+	
+		const url = `${req.protocol}://${req.get('host')}/`;
+        await new Email(user, url).sendWelcome();
 
     createSendToken(user, 201, res);
 });

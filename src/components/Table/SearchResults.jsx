@@ -11,10 +11,12 @@ const SearchResults = ({
 	handleTagSelect,
 	data,
 }) => {
-	return data.length === 0
+	const cleanData = [...new Set(data)];
+	// console.log(cleanData);
+	return cleanData.length === 0
 		? "No results Found"
-		: data.map((item) => (
-			<div className="item" key={item.name}>
+		: cleanData.map((item, i) => (
+			<div className="item" key={item.name.trim().toLowerCase() + i}>
 				<div className="row-1">
 					{/* <div className="col-1">
 						<div className="logo"></div>
@@ -54,7 +56,7 @@ const SearchResults = ({
 							select={selectedSuperTags.includes(item.type)}
 						></Tag>
 					}
-					{item.tags.map((tag) => (
+					{item.tags && item.tags.map((tag) => (
 						<Tag
 							innerHtml={tag}
 							key={tag}
@@ -114,7 +116,6 @@ const SearchResults = ({
 				</div>
 			</div>
 		));
-			
 };
 
 export default SearchResults;

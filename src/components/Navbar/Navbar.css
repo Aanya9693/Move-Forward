@@ -106,6 +106,8 @@
 	flex-direction: row;
 	/* width: 50px;
 	height: 50px; */
+	transition: 0.25s all;
+	cursor: pointer;
 }
 .navBar .menu ul .nav-item a{
 	height: fit-content;
@@ -117,7 +119,7 @@
 	flex-direction: row;
 }
 .navBar .menu ul .nav-item:hover{
-	color: #0c0c0c;
+	color: #4b84ce;
 	
 }
 .navBar .menu ul .nav-item .material-icons{

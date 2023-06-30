@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import Searchbox from "../components/Searchbox/Searchbox";
 import Table from "../components/Table/Table";
 
@@ -34,29 +34,29 @@ const Home = () => {
 		"Underrepresented",
 		"Volunteer",
 		"Google Cloud",
-		"Asia-Pacific"
+		"Asia-Pacific",
 	]);
 	const [query, setQuery] = useState("");
-	
+
 	const [selectedSuperTags, setSelectedSuperTags] = useState([]);
 	const [selectedTags, setSelectedTags] = useState([]);
 
 	const handleTagSelect = (tag, isSuperTag) => {
+		// console.log("selecting tag:", tag);
 		if (isSuperTag) {
 			setSelectedSuperTags([...selectedSuperTags, tag]);
-		} 
-		else {
-			setSelectedTags([...selectedTags, tag]); 
+		} else {
+			setSelectedTags([...selectedTags, tag]);
 		}
 	};
-  
+
 	const handleTagDeselect = (tag, isSuperTag) => {
+		// console.log("de-selecting tag:", tag);
 		if (isSuperTag) {
 			setSelectedSuperTags(selectedSuperTags.filter((t) => t !== tag));
 		} else {
-			setSelectedTags(selectedTags.filter((t) => t !== tag)); 
+			setSelectedTags(selectedTags.filter((t) => t !== tag));
 		}
-	
 	};
 	return (
 		<div className="home">
@@ -71,14 +71,14 @@ const Home = () => {
 				setQuery={setQuery}
 				setTags={setTags}
 				setSuperTags={setSuperTags}
-				setSelectedTags={setSelectedTags} 
+				setSelectedTags={setSelectedTags}
 			/>
 			<Table
 				selectedSuperTags={selectedSuperTags}
 				selectedTags={selectedTags}
 				handleTagDeselect={handleTagDeselect}
 				handleTagSelect={handleTagSelect}
-				query={query} 
+				query={query}
 			/>
 		</div>
 	);

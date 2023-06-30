@@ -7,24 +7,60 @@ import Footer from "./components/Footer/Footer";
 // import AllRoutes from "./routes";
 import { useEffect, useState } from "react";
 import "./App.css";
-import Register from "./pages/Register/Register";
+import Auth from "./pages/Auth/Auth";
 import { GoogleOAuthProvider } from "@react-oauth/google";
 // import GoogleLogin from "./components/GoogleLogin";
 
 const App = () => {
-	const [user, setUser] = useState();
+
+	const [user, setUser] = useState(
+		JSON.parse(localStorage.getItem("user")) || null
+	);
+	const login = (userData) => {
+		setUser(userData);
+		localStorage.setItem("user", JSON.stringify(userData));
+	};
+	const logout = () => {
+		setUser(null);
+		localStorage.setItem("user", JSON.stringify(null));
+	};
 
 	return (
-
-		<GoogleOAuthProvider clientId="257792586258-fkfdrv2va7g1ss5sql89n3mu7g8k243o.apps.googleusercontent.com">
+		<GoogleOAuthProvider clientId="864641738960-hmru6vpqugdtpct6rogp74h2tqvck1ff.apps.googleusercontent.com">
 			<div className="App">
 				<Router>
-					<Navbar />
+					<Navbar user={user} login={login} logout={logout} />
 					<Routes>
-						<Route path="/" element={<Home />} />
-						<Route path="/about" element={<About />} />
-						<Route path="/register" element={<Register />} />
-						
+						<Route
+							path="/"
+							element={
+								<Home
+									user={user}
+									login={login}
+									logout={logout}
+								/>
+							}
+						/>
+						<Route
+							path="/about"
+							element={
+								<About
+									user={user}
+									login={login}
+									logout={logout}
+								/>
+							}
+						/>
+						<Route
+							path="/auth"
+							element={
+								<Auth
+									user={user}
+									login={login}
+									logout={logout}
+								/>
+							}
+						/>
 					</Routes>
 					<Footer />
 				</Router>
