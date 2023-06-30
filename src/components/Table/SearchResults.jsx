@@ -58,7 +58,7 @@ const SearchResults = ({
 					<div className="col-3">
 						{/* <span className="material-icons">notifications_none</span> */}
 						<span className="material-icons" onClick={() => handleBookmarkClick(item.id)}>
-							{ user.selected.includes(item.id) ? 'bookmark' : 'bookmark_border'}
+							{ (user && user.selected.includes(item.id)) ? 'bookmark' : 'bookmark_border'}
 						</span>
 					</div>
 				</div>
