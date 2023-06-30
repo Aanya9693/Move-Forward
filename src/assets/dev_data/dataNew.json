@@ -837,6 +837,187 @@
 		"location": "India",
 		"link": "https://web.iitd.ac.in/~subrat/SummerInternshipRules.htm"
 	},
+<<<<<<< HEAD
+=======
+	
+  {
+    "title": "Summer Research Fellowship Programme 2021",
+    "link": "https://web-japps.ias.ac.in:8443/fellowship2021/application_instructions.jsp",
+    "country": "India",
+    "tags": ["research", "fellowship", "India", "all fields"],
+    "description": "This fellowship is for a research position at the Indian Institute of Science (IISc), the Indian Institute of Advanced Study (IAS), and the Indian Naval Service (INS). The fellow will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
+    "deadline": "February 1, 2023"
+  },
+  {
+    "title": "Quantitative Research Summer Internship",
+    "link": "https://websim.worldquantchallenge.com/en/cms/wqc/summerprograms/india/",
+    "country": "India",
+    "tags": ["research", "internship", "India", "quant finance"],
+    "description": "This internship is for a research position at WorldQuant India. The intern will be responsible for working on a research project related to quantitative finance. The ideal candidate will have a strong background in mathematics, statistics, and computer science.",
+    "deadline": "March 1, 2023"
+  },
+  {
+    "title": "Internship At CMI",
+    "link": "https://www.cmi.ac.in/admissions/internships.php",
+    "country": "India",
+    "tags": ["research", "internship", "India", "mathematics"],
+    "description": "This internship is for a research position at the Chennai Mathematical Institute. The intern will be responsible for working on a research project related to mathematics. The ideal candidate will have a strong background in mathematics and a passion for research.",
+    "deadline": "April 1, 2023"
+  },
+  {
+    "title": "Shastri Student Internship Project",
+    "link": "https://www.shastriinstitute.org/Shastri_Student_Internship_Project",
+    "country": "India",
+    "tags": ["research", "internship", "India", "all fields"],
+    "description": "This internship is for a research position at a university that is a member of the Shastri Institute. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
+    "deadline": "May 1, 2023"
+  },
+  {
+    "title": "Cisco Summer internship",
+    "link": "https://jobs.cisco.com/jobs/ProjectDetail/Software-Engineer-Bachelor-s-Intern-United-States/1295250?source=Pitt+CSC&tags=CDC+SnNG+students-and-new-graduate-programs",
+    "country": "United States",
+    "tags": ["research", "internship", "United States", "software engineering"],
+    "description": "This internship is for a software engineering position at Cisco. The intern will be responsible for working on a software engineering project. The ideal candidate will have a strong background in computer science and a passion for software engineering.",
+    "deadline": "June 1, 2023"
+  },
+  {
+    "title": "Hackerrank SDE intern",
+    "link": "https://breakinghierarchy.com/hackerrank-sde-intern/",
+    "country": "India",
+    "tags": ["research", "internship", "India", "software engineering"],
+    "description": "This internship is for a software engineering position at Hackerrank. The intern will be responsible for working on a software engineering project. The ideal candidate will have a strong background in computer science and a passion for software engineering.",
+    "deadline": "July 1, 2023"
+  },
+  
+  {
+    "title": "SSERD Research Intern",
+    "link": "https://www.sserd.org/internship/",
+    "country": "India",
+    "tags": ["research", "internship", "India", "space"],
+    "description": "This internship is for a research position at the Society for Space Education and Research Development (SSERD). The intern will be responsible for working on a research project related to space, such as space settlement, astrophysics, or space mission design. The ideal candidate will have a strong background in any field related to space, as well as excellent research skills.",
+
+    "deadline": "August 1, 2023"
+  },
+  {
+    "title": "IISER Kolkata Summer Student Research Programme",
+    "link": "https://www.iiserkol.ac.in/~summer.research/",
+    "country": "India",
+    "tags": ["research", "internship", "India", "science"],
+    "description": "This internship is for a research position at the Indian Institute of Science Education and Research (IISER) Kolkata. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
+
+    "deadline": "September 1, 2023"
+  },
+  {
+    "title": "IITM Summer Fellowship Programme",
+    "link": "https://sfp.iitm.ac.in/",
+    "country": "India",
+    "tags": ["research", "fellowship", "India", "science"],
+    "description": "This fellowship is for a research position at the Indian Institute of Technology Madras (IITM). The fellow will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
+
+    "deadline": "October 1, 2023"
+  },
+  {
+    "title": "IITD GIPEDI",
+    "link": "https://web.iitd.ac.in/~subrat/SummerInternshipRules.htm",
+    "country": "India",
+    "tags": ["research", "internship", "India", "engineering"],
+    "description": "This internship is for a research position at the Indian Institute of Technology Delhi (IITD). The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in engineering and a passion for research.",
+
+    "deadline": "November 1, 2023"
+  },
+  {
+    "title": "Microsoft Research India Summer Internship",
+    "link": "https://careers.microsoft.com/india/en-us/students/programs/microsoft-research-india-summer-internship/",
+    "country": "India",
+    "tags": ["research", "internship", "India", "computer science"],
+    "description": "This internship is for a research position at Microsoft Research India. The intern will be responsible for working on a research project related to computer science. The ideal candidate will have a strong background in computer science and a passion for research.",
+
+    "deadline": "December 1, 2023"
+  },
+  {
+    "title": "Google Summer of Code",
+    "link": "https://summerofcode.withgoogle.com/",
+    "country": "Global",
+    "tags": ["research", "internship", "global", "computer science"],
+    "description": "Google Summer of Code is a global program that offers students the opportunity to work on real-world software engineering projects with some of the top technology companies and organizations in the world. Students work on projects for a period of 12 weeks during the summer months.",
+
+    "deadline": "January 1, 2024"
+  },
+  {
+    "title": "IITB Research Internship Award",
+    "link": "http://www.iitb.ac.in/en/education/research-internship",
+    "country": "India",
+    "tags": ["research", "internship", "India", "engineering"],
+    "description": "This internship is for a research position at the Indian Institute of Technology Bombay (IITB). The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in engineering and a passion for research.",
+
+    "deadline": "February 1, 2023"
+  },
+  {
+    "title": "IITK SURGE Program",
+    "link": "http://surge.iitk.ac.in/about.html",
+    "country": "India",
+    "tags": ["research", "internship", "India", "engineering"],
+    "description": "This internship is for a research position at the Indian Institute of Technology Kanpur (IITK). The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in engineering and a passion for research.",
+
+    "deadline": "March 1, 2023"
+  },
+  {
+    "title": "SPARK",
+    "link": "http://spark.iitr.ac.in/",
+    "country": "India",
+    "tags": ["research", "internship", "India", "engineering"],
+    "description": "This internship is for a research position at the Indian Institute of Technology Roorkee (IITR). The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in engineering and a passion for research.",
+
+    "deadline": "April 1, 2023"
+  },
+  {
+    "title": "SRIP",
+    "link": "https://srip.iitgn.ac.in/info/",
+    "country": "India",
+    "tags": ["research", "internship", "India", "engineering"],
+    "description": "This internship is for a research position at the Indian Institute of Technology Gandhinagar (IITGN). The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in engineering and a passion for research.",
+
+    "deadline": "May 1, 2023"
+  },
+  {
+    "title": "IIT Ropar Summer Internship",
+    "link": "https://onlineportal.iitrpr.ac.in/sia-21",
+
+    "country": "India",
+    "tags": ["research", "internship", "India", "engineering"],
+    "description": "This internship is for a research position at the Indian Institute of Technology Ropar (IIT Ropar). The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in engineering and a passion for research.",
+    "deadline": "June 1, 2023"
+  },
+  {
+    "title": "Bhaba Atomic Research Centre",
+    "link": "http://www.barc.gov.in/student/",
+    "country": "India",
+    "tags": ["research", "internship", "India", "science"],
+    "description": "This internship is for a research position at the Bhabha Atomic Research Centre (BARC). The intern will be responsible for working on a research project related to nuclear science and technology. The ideal candidate will have a strong background in science and a passion for research.",
+
+    "deadline": "July 1, 2023"
+  },
+
+  {
+    "title": "ISI Kolkata Summer Internship",
+    "link": "https://www.isical.ac.in/~rcbose/internship/index.html",
+    "country": "India",
+    "tags": ["research", "internship", "India", "mathematics"],
+    "description": "This internship is for a research position at the Indian Statistical Institute (ISI) Kolkata. The intern will be responsible for working on a research project related to mathematics. The ideal candidate will have a strong background in mathematics and a passion for research.",
+    "deadline": "August 1, 2023"
+  },
+  {
+    "title": "Tata Institute of Fundamental Research (TIFR) Summer Internship",
+    "link": "https://www.tifr.res.in/about/tifr/careers/internships/",
+    "country": "India",
+    "tags": ["research", "internship", "India", "science"],
+    "description": "This internship is for a research position at the Tata Institute of Fundamental Research (TIFR). The intern will be responsible for working on a research project related to science. The ideal candidate will have a strong background in science and a passion for research.",
+    "deadline": "September 1, 2023"
+  }
+
+
+
+>>>>>>> 2da0013c2d5bf8d176a70bbad20a4c6d0758e3de
 
 	{
 		"title": "Microsoft Research India Summer Internship",

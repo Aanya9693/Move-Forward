@@ -10,6 +10,9 @@ Router.route('/upload').post(
     oppurtunityController.createMultipleOppurtunity
 );
 
+Router.route('/fixData').get(oppurtunityController.fixData);
+Router.route('/checkDeadline').get(oppurtunityController.checkDeadline);
+
 Router.route('/:id')
     .get(
         oppurtunityController.getOppurtunity

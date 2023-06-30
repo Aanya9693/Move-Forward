@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import Searchbox from "../components/Searchbox/Searchbox";
 import Table from "../components/Table/Table";
+import './Home.css';
 
-const Home = () => {
+const Home = ({user, login, logout}) => {
 	const [superTags, setSuperTags] = useState([
 		"Fellowship",
 		"Internship",
@@ -60,26 +61,55 @@ const Home = () => {
 	};
 	return (
 		<div className="home">
-			<Searchbox
-				tags={tags}
-				superTags={superTags}
-				selectedSuperTags={selectedSuperTags}
-				selectedTags={selectedTags}
-				handleTagDeselect={handleTagDeselect}
-				handleTagSelect={handleTagSelect}
-				query={query}
-				setQuery={setQuery}
-				setTags={setTags}
-				setSuperTags={setSuperTags}
-				setSelectedTags={setSelectedTags}
-			/>
-			<Table
-				selectedSuperTags={selectedSuperTags}
-				selectedTags={selectedTags}
-				handleTagDeselect={handleTagDeselect}
-				handleTagSelect={handleTagSelect}
-				query={query}
-			/>
+			<div className="sec-0"></div>
+			<div className="sec-1">
+				<Searchbox
+					tags={tags}
+					superTags={superTags}
+					selectedSuperTags={selectedSuperTags}
+					selectedTags={selectedTags}
+					handleTagDeselect={handleTagDeselect}
+					handleTagSelect={handleTagSelect}
+					query={query}
+					setQuery={setQuery}
+					setTags={setTags}
+					setSuperTags={setSuperTags}
+					setSelectedTags={setSelectedTags}
+					user={user}
+					login={login}
+				/>
+				<Table
+					selectedSuperTags={selectedSuperTags}
+					selectedTags={selectedTags}
+					handleTagDeselect={handleTagDeselect}
+					handleTagSelect={handleTagSelect}
+					query={query}
+					user={user}
+					login={login}
+				/>
+			</div>
+			<div className="sec-2">
+				<div className="message">
+					<div className="title">
+						<span className="material-icons">tips_and_updates</span>
+						Tip
+					</div>
+					<div className="text">
+						Bookamrk oppurtunities to get Reminder about the
+						deadline on you email
+					</div>
+				</div>
+				<div className="message">
+					<div className="title">
+						<span className="material-icons">tips_and_updates</span>
+						Tip
+					</div>
+					<div className="text">
+						We will send you email regdarding new oppurtunities. If
+						you are not getting them, check you spam folder.
+					</div>
+				</div>
+			</div>
 		</div>
 	);
 };

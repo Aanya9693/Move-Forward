@@ -4,6 +4,7 @@ import "./Table.css";
 import SearchResults from "./SearchResults";
 import Pagination from "../Pagination/Pagination";
 import { getData } from "../../services/api";
+import { alert } from "../../components/CustomAlert/alert"
 
 const Table = ({
 	selectedSuperTags,
@@ -11,6 +12,8 @@ const Table = ({
 	handleTagDeselect,
 	handleTagSelect,
 	query,
+	user,
+	login
 }) => {
 	// console.log({query});
 	// console.log({ selectedSuperTags });
@@ -30,14 +33,12 @@ const Table = ({
 				}
 			} catch (err) {
 				console.log(err.message);
-				alert(err.message);
+				alert({message: err.message, type: "error"});
 			}
 		};
 
 		refreshData();
 	}, []);
-
-	
 
 	const results = useMemo(() => {
 		let resultsCopy = data;
@@ -124,6 +125,8 @@ const Table = ({
 				handleTagDeselect={handleTagDeselect}
 				handleTagSelect={handleTagSelect}
 				query={query}
+				user={user}
+				login={login}
 			/>
 			<Pagination
 				className="pagination-bar"

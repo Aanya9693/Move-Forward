@@ -2,7 +2,8 @@ import axios from 'axios';
 axios.defaults.withCredentials = true;
 
 const api = axios.create({
-	baseURL: "http://localhost:8000/api/v1",
+	// baseURL: "http://localhost:8000/api/v1",
+	baseURL: 'https://move-forward.onrender.com/api/v1',
 	withCredentials: true,
 });
 
@@ -14,3 +15,4 @@ export const logoutAuth = () => api.get("./auth/logout");
 export const getUserData = () => api.get("/user");
 
 export const getData = () => api.get('/oppurtunity/');
+export const updateUser = (data) => api.patch('/user', data)

@@ -23,6 +23,9 @@
 	gap: 40px;
 	padding: 2rem;
 	/* margin-top: 40px; */
+	/* border: 1px solid red; */
+	/* box-shadow: inset 0px -10px 14px -5px rgba(0, 0, 0, 0.15); */
+	
 }
 .striped-background {
   background-color: #f1f4f8; /* Set the background color of the stripes */
@@ -92,14 +95,18 @@
 	font-size: 18px;
 	font-weight: 500;
 	transition: 0.5s all;
-	display: flex;
+	/* display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
 	align-items: center;
+	flex-flow: row wrap; */
 	gap: 10px;
 }
 .table .item .row-1 .col-2 .title:hover{
 	text-decoration: underline;
+}
+.table .item .row-1 .col-2 .title .material-icons{
+	margin: 5px;
 }
 .table .item .row-1 .col-2 .org{
 	font-size: 15px;
@@ -122,6 +129,7 @@
 	color: var(--green);
 	margin: 0 10px;
 	transition: 0.25s all;
+	font-size: 30px;
 }
 .table .item .row-1 .col-3 .material-icons:hover{
 	background-color: var(--green-light);
