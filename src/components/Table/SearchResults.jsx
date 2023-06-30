@@ -45,9 +45,9 @@ const SearchResults = ({
 		: cleanData.map((item, i) => (
 			<div className="item" key={item.name.trim().toLowerCase() + i}>
 				<div className="row-1">
-					<div className="col-1">
+					{/* <div className="col-1">
 						<div className="logo"></div>
-					</div>
+					</div> */}
 					<div className="col-2">
 						<div className="title">
 							<a href={item.link}>{item.name}</a>

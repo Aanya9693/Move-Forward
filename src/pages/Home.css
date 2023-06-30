@@ -42,3 +42,19 @@
 	font-weight: 500;
 	margin-bottom: 10px;
 }
+@media (max-width: 900px) {
+	.home {
+	  flex-direction: column;
+	  align-items: center;
+	}
+	
+	.home .sec-0,
+	.home .sec-1 {
+	  width: 100%;
+	  margin-bottom: 20px;
+	}
+	
+	.home .sec-2 {
+	  display: none;
+	}
+  }

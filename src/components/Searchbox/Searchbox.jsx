@@ -30,7 +30,7 @@ const Searchbox = ({
 
 	return (
 		<div className="searchDiv striped-background">
-			<div className="title">Search for Opportunities</div>
+			<div className="title">Search for<br/>Opportunities</div>
 			<div className="firstDiv">
 				<div className="searchIcon">
 					<span className="material-icons">search</span>

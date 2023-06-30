@@ -168,7 +168,7 @@ span {
 	width: 80%;
 	height: 1px;
 }
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 790px){
 	.searchDiv{
 		width: 100%;
 		padding: 40px 0;
@@ -179,4 +179,10 @@ span {
 	.searchDiv .secDiv{
 		width: 90%;
 	}
+	.searchDiv .title{
+		font-size: 30px;
+	}
 }
+
+
+

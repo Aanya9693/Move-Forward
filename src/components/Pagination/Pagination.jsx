@@ -36,7 +36,7 @@ const Pagination = (props) => {
 	return (
 		<div className="pagination-container">
 			<div
-				onClick={currentPage !== 1 && onPrevious}
+				onClick={currentPage !== 1 ? onPrevious : undefined}
 				className={`arrow left ${currentPage === 1 && "disabled"}`}
 			>
 				<span className="material-icons">chevron_left</span>
@@ -64,7 +64,7 @@ const Pagination = (props) => {
 				{/*  Right Navigation arrow */}
 			</ul>
 			<div
-				onClick={currentPage !== lastPage && onNext}
+				onClick={currentPage !== lastPage ? onNext : undefined}
 				className={`arrow right  ${
 					currentPage === lastPage && "disabled"
 				}`}
