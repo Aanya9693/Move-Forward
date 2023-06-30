@@ -3,6 +3,7 @@ const AppError = require('./../utils/appError');
 const Oppurtunity = require('./../models/oppurtunityModel');
 const User = require('../models/userModel');
 const Email = require('./../utils/email');
+const dayjs = require('dayjs');
 
 exports.getAllOppurtunity = catchAsync(async (req, res, next) => {
     const oppurtunities = await Oppurtunity.find();
@@ -63,10 +64,10 @@ exports.checkDeadline = catchAsync(async (req, res, next) => {
 
     await users.forEach(async user => {
         await user.selected.forEach(async item => {
-            const now = new Date();
-            now.setDate(now.getDate() + 7);
+            const now = dayjs();
+            const sevenDaysFromNow = now.add(7, 'day');
 
-            if (item.deadline <= now) {
+            if (now.isBefore(sevenDaysFromNow, 'day')) {
                 try {
                     const url = item.link;
                     console.log("Sending Reminder email to -> ", user.name, "for ", item.title);
@@ -81,5 +82,56 @@ exports.checkDeadline = catchAsync(async (req, res, next) => {
 
     res.status(200).json({
         message: "success"
+    })
+});
+
+exports.fixData = catchAsync(async (req, res, next) => {
+    let data = await Oppurtunity.find();
+
+    // removing duplicates
+    // const cleanData = [...new Set(data)];
+    // const cleanData = [];
+    // const duplicateData = [];
+    // const dirtyData = [];
+    // data.sort((a, b) => {
+    //     return a.name.toLowerCase() > b.name.toLowerCase() ? 1 : a.name.toLowerCase() < b.name.toLowerCase() ? -1 : 0
+    // })
+    // data.forEach((item, i) => {
+    //     // console.log(item);
+    //     // console.log(i);
+    //     if (i == 0) cleanData.push(item);
+    //     else {
+            
+    //         if (!item.name) dirtyData.push(item);
+    //         else {
+    //             if (cleanData[cleanData.length - 1].name === item.name) duplicateData.push(item);
+    //             else cleanData.push(item);
+    //         }
+            
+    //     }
+    // });
+    // var customParseFormat = require('dayjs/plugin/customParseFormat');
+    // dayjs.extend(customParseFormat);
+    // // console.log(dayjs('23/06/2023', 'DD/MM/YYYY').toISOString());
+
+    // for (const item of data) {
+    //     // console.log(item.deadline);
+    //     item.lastDate = item.deadline && dayjs(item.deadline, 'DD/MM/YYYY').toISOString();
+    //     // delete item.deadline;
+    //     console.log(item.lastDate);
+
+    //     await Oppurtunity.findByIdAndUpdate(item.id, item, {
+    //         runValidators: true
+    //     });
+    // }
+
+    // for (const item of duplicateData) {
+    //     await Oppurtunity.findByIdAndDelete(item.id);
+    // }
+    res.status(200).json({
+        message: "success",
+        data: {
+            
+        }
     })
 });

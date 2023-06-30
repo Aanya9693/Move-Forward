@@ -9,6 +9,8 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import Auth from "./pages/Auth/Auth";
 import { GoogleOAuthProvider } from "@react-oauth/google";
+import { getUserData } from "./services/api";
+import { alert } from "./components/CustomAlert/alert";
 // import GoogleLogin from "./components/GoogleLogin";
 
 const App = () => {
@@ -25,8 +27,22 @@ const App = () => {
 		localStorage.setItem("user", JSON.stringify(null));
 	};
 
+	useEffect(() => {
+		const refreshUserData = async () => {
+			try {
+				const res = await getUserData();
+
+				login(res.data.data.user);
+			}
+			catch (err) {
+				// alert({ message: err.response.data.message, type: "error" });
+			}
+		};
+		refreshUserData();
+	}, [])
+
 	return (
-		<GoogleOAuthProvider clientId="864641738960-hmru6vpqugdtpct6rogp74h2tqvck1ff.apps.googleusercontent.com">
+		<GoogleOAuthProvider clientId="79486214026-37n8n96tjtv0h9o6a8dnabi857555n02.apps.googleusercontent.com">
 			<div className="App">
 				<Router>
 					<Navbar user={user} login={login} logout={logout} />

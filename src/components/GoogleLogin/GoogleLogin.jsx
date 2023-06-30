@@ -1,7 +1,7 @@
 import React from "react";
 import { useGoogleLogin } from "@react-oauth/google";
 import { googleAuth } from "../../services/api";
-// import { alert } from "../CustomAlert/alert";
+import { alert } from "../CustomAlert/alert";
 import { Button } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import "./style.css"

@@ -14,4 +14,4 @@ export const logoutAuth = () => api.get("./auth/logout");
 export const getUserData = () => api.get("/user");
 
 export const getData = () => api.get('/oppurtunity/');
-
+export const updateUser = (data) => api.patch('/user', data)

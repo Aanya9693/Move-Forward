@@ -2,6 +2,8 @@
 import React from "react";
 import "./Table.css";
 import Tag from "../Tag/Tag";
+import { alert } from "../CustomAlert/alert";
+import { updateUser } from "../../services/api";
 // import Button from "../Button/Button";
 
 const SearchResults = ({
@@ -10,8 +12,33 @@ const SearchResults = ({
 	handleTagDeselect,
 	handleTagSelect,
 	data,
+	user,
+	login
 }) => {
 	const cleanData = [...new Set(data)];
+
+	const handleBookmarkClick = async (id) => {
+		if (!user) {
+			alert({ message: "You are not logged In", type: 'error' });
+			return;
+		}
+		const userCopy = user
+		if (user.selected.includes(id)) {
+			userCopy.selected = userCopy.selected.filter(item => item !== id)
+		}
+		else userCopy.selected.push(id);
+		try {
+			const res = await updateUser(userCopy);
+
+			login(res.data.data.user);
+
+		}
+		catch (err) {
+			alert({message: err.response.data.message, type: "error"})
+		}
+	}
+
+	
 	// console.log(cleanData);
 	return cleanData.length === 0
 		? "No results Found"
@@ -30,8 +57,8 @@ const SearchResults = ({
 					</div>
 					<div className="col-3">
 						{/* <span className="material-icons">notifications_none</span> */}
-						<span className="material-icons">
-								bookmark_border
+						<span className="material-icons" onClick={() => handleBookmarkClick(item.id)}>
+							{ user.selected.includes(item.id) ? 'bookmark' : 'bookmark_border'}
 						</span>
 					</div>
 				</div>

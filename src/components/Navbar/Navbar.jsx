@@ -10,6 +10,7 @@ import {
 	MenuItem,
 } from "@mui/material";
 import { logoutAuth } from "../../services/api";
+import { alert } from "../CustomAlert/alert";
 
 
 const Navbar = ({user, login, logout}) => {

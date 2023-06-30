@@ -12,7 +12,10 @@ const opprtunityModel = new mongoose.Schema(
         },
         deadline: {
             type: String,
-            required: [true, 'A deadline is required'],
+            // required: [true, 'A deadline is required'],
+        },
+        lastDate: {
+            type: Date
         },
         description: {
             type: String,
