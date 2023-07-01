@@ -18,7 +18,7 @@
 	align-items: center;
 	justify-content: space-between;
 	border: 0px solid red;
-	width: 90%;
+	width: auto;
 	margin-top: 50px;
 }
 .pagination-container .list{
@@ -71,4 +71,28 @@
 }
 .pagination-container .arrow:hover{
 	
+}
+@media only screen and (max-width: 667px){
+	.pagination-container{
+		width: auto;
+		margin-bottom: 1rem;
+	}
+	.pagination-container .list .item{
+		width: 22px;
+		height: 40px;
+	}
+}
+@media only screen and (min-width: 900px) and (max-width: 1270px){
+	.pagination-container{
+		/* width: auto; */
+		/* margin-bottom: 1rem; */
+	}
+	.pagination-container .list{
+		gap: 5px;
+	}
+	.pagination-container .list .item{
+		padding: 15px;
+		width: 3px;
+		height: 40px;
+	}
 }
