@@ -231,3 +231,9 @@
 		flex-direction: column;
 	}
 }
+
+@media only screen and (max-width: 790px){
+	.table{
+		width: 100%;
+	}
+}
