@@ -21,7 +21,10 @@ const createSendToken = (user, statusCode, res) => {
 		expires: new Date(Date.now() + +process.env.JWT_COOKIE_EXPIRES_IN),
 		httpOnly: true
 	}
-	if (process.env.NODE_ENV === 'production') cookieOptions.secure = true;
+	if (process.env.NODE_ENV === 'production') {
+		cookieOptions.sameSite = 'none';
+		cookieOptions.secure = true;
+	}
 
 	user.password = undefined;
 
@@ -181,11 +184,11 @@ exports.googleAuth = catchAsync(async (req, res, next) => {
             name: userRes.data.name,
             email: userRes.data.email,
             image: userRes.data.picture,
-        });
-	}
-	
+		});
+		
 		const url = `${req.protocol}://${req.get('host')}/`;
         await new Email(user, url).sendWelcome();
-
+	}
+	
     createSendToken(user, 201, res);
 });
