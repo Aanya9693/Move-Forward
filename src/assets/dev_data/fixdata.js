@@ -1,4 +1,5 @@
 import data from "./data5.json" assert { type: "json" };
+import data2 from "./data5.json" assert { type: "json" };
 import fs from "fs-extra";
 
 data.forEach((item) => {

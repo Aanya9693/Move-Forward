@@ -2,24 +2,13 @@
 	{
 		"name": "Qualcomm Global Scholars Program",
 		"type": "Scholarship",
-		"deadline": "2 January",
-		"link": "https://www.iie.org/programs/wetech/stem-scholarships-for-women/qualcomm-global-scholars-program/",
+		"deadline": "TBA",
+		"link": "https://www.iie.org/Programs/WeTech/STEM-Scholarships-for-Women/Qualcomm-Global-Scholars-Program/India",
 		"location": "India",
 		"org": "Qualcomm",
 		"description": "The Qualcomm Global Scholars Program provides scholarships to female students in India who are pursuing undergraduate or postgraduate studies in STEM fields.",
 		"stipend": "Paid",
 		"tags": ["Female", "STEM"]
-	},
-	{
-		"name": "Google Kick Start",
-		"type": "Coding Challenge",
-		"deadline": "3 January",
-		"link": "https://codingcompetitions.withgoogle.com/kickstart",
-		"location": "Global",
-		"org": "Google",
-		"description": "Google Kick Start is a global online coding competition that offers single rounds throughout the year.",
-		"stipend": "Unpaid",
-		"tags": ["Hackathon"]
 	},
 	{
 		"name": "Microsoft Engage",
@@ -35,8 +24,8 @@
 	{
 		"name": "Google Women Techmakers Scholarship",
 		"type": "Scholarship",
-		"deadline": "December 31",
-		"link": "https://developers.google.com/community/women-techmakers/scholars",
+		"deadline": "TBA",
+		"link": "https://developers.google.cn/womentechmakers",
 		"location": "Global",
 		"org": "Google",
 		"description": "The Google Women Techmakers Scholarship is designed to encourage women in technology and computing by providing scholarships and opportunities to attend conferences and events.",
@@ -46,7 +35,7 @@
 	{
 		"name": "Goldman Sachs Engineering Campus Hiring Program",
 		"type": "Internship",
-		"deadline": "January 31, 2023",
+		"deadline": "TBA",
 		"link": "https://www.goldmansachs.com/careers/students/programs/india/engineers-campus-hiring-program.html",
 		"location": "India",
 		"org": "Goldman Sachs",
@@ -57,7 +46,7 @@
 	{
 		"name": "Season of KDE",
 		"type": "Mentorship",
-		"deadline": "January 15, 2023",
+		"deadline": "TBA",
 		"link": "https://season.kde.org/",
 		"location": "",
 		"org": "KDE",
@@ -75,7 +64,7 @@
 	{
 		"name": "Microsoft Research Fellows Program",
 		"type": "Reasearch",
-		"deadline": "February 2022",
+		"deadline": "TBA",
 		"link": "https://www.microsoft.com/en-us/research/academic-program/research-fellows-program-at-microsoft-research-india/",
 		"location": "India",
 		"org": "Microsoft",
@@ -86,7 +75,7 @@
 	{
 		"name": "HPAIR Harvard Conference",
 		"link": "https://www.hpair.org/harvard-conference-2023",
-		"deadline": "January",
+		"deadline": "TBA",
 		"type": "Scholarship",
 		"location": "Global",
 		"org": "Harvard Project for Asian and International Relations (HPAIR)",
@@ -97,7 +86,7 @@
 	{
 		"name": "JPMorgan Chase Code for Good",
 		"link": "https://careers.jpmorgan.com/us/en/students/programs/code-for-good",
-		"deadline": "TBD",
+		"deadline": "TBA",
 		"type": "Hackathon",
 		"location": "Global",
 		"org": "JPMorgan Chase",
@@ -114,7 +103,7 @@
 	{
 		"name": "Cargill Global Scholars Program",
 		"link": "https://www.cargillglobalscholars.com/scholarship/",
-		"deadline": "TBD",
+		"deadline": "TBA",
 		"type": "Scholarship",
 		"location": "Global",
 		"org": "Cargill",
@@ -125,7 +114,7 @@
 	{
 		"name": "Uber She++",
 		"link": "https://events.beamery.com/uber/uber-she++-2022-t1khjteyw",
-		"deadline": "TBD",
+		"deadline": "TBA",
 		"type": "Mentorship",
 		"location": "Global",
 		"org": "Uber",
@@ -136,7 +125,7 @@
 	{
 		"name": "IRIS-HEP Fellows",
 		"link": "https://iris-hep.org/fellows.html",
-		"deadline": "February",
+		"deadline": "16/04/2023",
 		"type": "Fellowship",
 		"location": "United-Stated",
 		"org": "IRIS-HEP",
@@ -147,7 +136,7 @@
 	{
 		"name": "ETHWMN Fellowship",
 		"type": "Hackathon",
-		"deadline": "TBD",
+		"deadline": "TBA",
 		"link": "https://ethwmn.devfolio.co/",
 		"location": "",
 		"org": "ETHWMN",
@@ -158,7 +147,7 @@
 	{
 		"name": "Teach For America Ignite",
 		"link": "https://tfaignite.org/",
-		"deadline": "7 June 2023",
+		"deadline": "15/12/2023",
 		"type": "Fellowship",
 		"location": "United States",
 		"org": "Teach For America",
@@ -169,7 +158,7 @@
 	{
 		"name": "Flipkart Girls Wanna Code",
 		"link": "https://unstop.com/hackathons/flipkart-girls-wanna-code-40-flipkart-604383",
-		"deadline": "February 26, 2023",
+		"deadline": "TBA",
 		"type": "Hackathon",
 		"paid": "Unpaid",
 		"org": "Flipkart",
@@ -181,7 +170,7 @@
 	{
 		"name": "JPMC Women in Technology Virtual Hackathon",
 		"link": "https://jpmc.recsolu.com/app/collect/event/TDMNonCLZS-KWbHKF9c_DA",
-		"deadline": "February 5, 2023",
+		"deadline": "TBA",
 		"type": "Hackathon",
 		"paid": "Unpaid",
 		"org": "JPMC",
@@ -193,7 +182,7 @@
 	{
 		"name": "GirlScript Summer of Code (GSSOC)",
 		"link": "https://gssoc.girlscript.tech/index.html",
-		"deadline": "March 31, 2023",
+		"deadline": "10/08/2023",
 		"type": "Hackathon",
 		"paid": "Unpaid",
 		"org": "GirlScript Foundation",
@@ -205,7 +194,7 @@
 	{
 		"name": "American Express Makeathon 2023",
 		"link": "https://www.hackerearth.com/challenges/hackathon/american-express-makeathon-2023/",
-		"deadline": "May 14, 2023",
+		"deadline": "11/04/2023",
 		"type": "Hackathon",
 		"paid": "Unpaid",
 		"org": "American Express",
@@ -229,7 +218,7 @@
 	{
 		"name": "Student of Vision ABIE Award",
 		"link": "https://anitab.org/awards-grants/abie-awards/student-of-vision/#:~:text=The%20Student%20of%20Vision%20Abie,binary%20people%20enable%20meaningful%20innovation.",
-		"deadline": "May 25, 2023",
+		"deadline": "25/05/2023",
 		"type": "Award",
 		"paid": "Unpaid",
 		"org": "AnitaB.org",
@@ -241,7 +230,7 @@
 	{
 		"name": "LinkedIn CoachIn",
 		"link": "https://www.linkedin.com/company/coachin_2",
-		"deadline": "March 31, 2023",
+		"deadline": "05/04/2023",
 		"type": "Mentorship",
 		"paid": "Unpaid",
 		"org": "LinkedIn",
@@ -265,7 +254,7 @@
 	{
 		"name": "Computer Science Summer Institute",
 		"link": "https://buildyourfuture.withgoogle.com/programs/computer-science-summer-institute",
-		"deadline": "March 8, 2023",
+		"deadline": "TBA",
 		"type": "Scholarship",
 		"paid": "Paid",
 		"org": "Google",
@@ -277,7 +266,7 @@
 	{
 		"name": "RL Open-Source Fest",
 		"link": "https://www.microsoft.com/en-us/research/academic-program/rl-open-source-fest/",
-		"deadline": "April 24, 2023",
+		"deadline": "31/08/2023",
 		"type": "Program",
 		"paid": "Yes",
 		"org": "Microsoft Research",
@@ -289,7 +278,7 @@
 	{
 		"name": "Juspay Developer Hiring Challenge",
 		"link": "https://assessment.hackerearth.com/challenges/new/hiring/juspay-developer-hiring-challenge-bangalore-march-2023/",
-		"deadline": "March 8, 2023",
+		"deadline": "30/03/2023",
 		"type": "Hackathon",
 		"paid": "No",
 		"org": "Juspay",
@@ -301,7 +290,7 @@
 	{
 		"name": "Amdocs Hackfest",
 		"link": "https://www.hackerearth.com/challenges/new/competitive/amdocs-hackfest-2022/",
-		"deadline": "TBD",
+		"deadline": "27/03/2023",
 		"type": "Hackathon",
 		"paid": "No",
 		"org": "Amdocs",
@@ -313,7 +302,7 @@
 	{
 		"name": "Aspire Leaders Program",
 		"link": "https://www.aspireleaders.org/",
-		"deadline": "March 8, 2023",
+		"deadline": "TBA",
 		"type": "Program",
 		"paid": "Paid",
 		"org": "Aspire Institute",
@@ -325,7 +314,7 @@
 	{
 		"name": "Google Girl Hackathon",
 		"link": "https://buildyourfuture.withgoogle.com/programs/girl-hackathon/",
-		"deadline": "May 28, 2023",
+		"deadline": "09/03/2023",
 		"type": "Hackathon",
 		"paid": "Unpaid",
 		"org": "Google",
@@ -336,8 +325,8 @@
 	},
 	{
 		"name": "Micron Global Women's Mentorship Program",
-		"link": "https://www.micron.com/careers/students/global-womens-mentorship-program",
-		"deadline": "March 8, 2023",
+		"link": "https://nus.edu.sg/cfg/events/details/3102",
+		"deadline": "30/03/2023",
 		"type": "Mentorship",
 		"paid": "Unpaid",
 		"org": "Micron Technology",
@@ -349,7 +338,7 @@
 	{
 		"name": "Women at Microsoft Scholarship",
 		"link": "https://www.microsoft.com/en-us/diversity/programs/women-at-microsoft-scholarship",
-		"deadline": "March 15, 2023",
+		"deadline": "15/03/2023",
 		"type": "Scholarship",
 		"paid": "Paid",
 		"org": "Microsoft",
@@ -361,7 +350,7 @@
 	{
 		"name": "Summer of Bitcoin",
 		"link": "https://www.summerofbitcoin.org/apply",
-		"deadline": "April 1, 2023",
+		"deadline": "01/04/2023",
 		"type": "Internship",
 		"paid": "Paid",
 		"org": "Summer of Bitcoin",
@@ -373,7 +362,7 @@
 	{
 		"name": "Cisco thingQbator",
 		"link": "https://thingqbator.nasscomfoundation.org/",
-		"deadline": "TBA",
+		"deadline": "10/08/2023",
 		"type": "Program",
 		"paid": "Unpaid",
 		"org": "Cisco",
@@ -384,8 +373,8 @@
 	},
 	{
 		"name": "Global Impact Scholarship",
-		"link": "https://www.smu.edu.sg/financial-matters/financial-aid/smu-global-impact-scholarship-award",
-		"deadline": "February 1, 2023",
+		"link": "https://admissions.smu.edu.sg/financial-matters/financial-aid/smu-global-impact-scholarship-award",
+		"deadline": "TBA",
 		"type": "Scholarship",
 		"paid": "Paid",
 		"org": "Singapore Management University",
@@ -395,21 +384,9 @@
 		"tags": ["Social-Impact"]
 	},
 	{
-		"name": "WTEF by TalentSprint",
-		"link": "https://we.talentsprint.com/",
-		"deadline": "TBA",
-		"type": "Program",
-		"paid": "Paid",
-		"org": "TalentSprint",
-		"description": "WTEF stands for Women Techmakers Engineering Fellows Program. It is a two-year professional development program designed for women engineering students in India. The program aims to provide women engineers with the skills and knowledge they need to succeed in the tech industry.",
-		"stipend": "Rs. 200,000",
-		"location": "India",
-		"tags": ["Engineering"]
-	},
-	{
 		"name": "Virtual Insights Series: An Exploratory Program",
 		"link": "https://www.goldmansachs.com/careers/students/programs/americas/undergrad-virtual-insight-series.html",
-		"deadline": "TBA",
+		"deadline": "01/07/2023",
 		"type": "Program",
 		"paid": "Unpaid",
 		"org": "Goldman Sachs",
@@ -421,7 +398,7 @@
 	{
 		"name": "Western Digital Scholarships for STEM",
 		"link": "https://learnmore.scholarsapply.org/westerndigital-stem/",
-		"deadline": "March 1, 2023",
+		"deadline": "TBA",
 		"type": "Scholarship",
 		"paid": "Paid",
 		"org": "Western Digital",
@@ -432,8 +409,8 @@
 	},
 	{
 		"name": "AWS Community Builder Program",
-		"link": "https://aws.amazon.com/community/community-builders/",
-		"deadline": "Open",
+		"link": "https://aws.amazon.com/developer/community/community-builders/",
+		"deadline": "13/07/2023",
 		"type": "Program",
 		"paid": "Unpaid",
 		"org": "AWS",
@@ -445,7 +422,7 @@
 	{
 		"name": "Rails Girls Summer of Code",
 		"link": "https://railsgirlssummerofcode.org/",
-		"deadline": "TBA",
+		"deadline": "30/09/2023",
 		"type": "Fellowship",
 		"paid": "Paid",
 		"org": "Rails Girls",
@@ -457,7 +434,7 @@
 	{
 		"name": "Palantir Future Scholarship (Global)",
 		"link": "https://www.palantir.com/careers/students/scholarship/future-global/",
-		"deadline": "January 15, 2024",
+		"deadline": "15/01/2024",
 		"type": "Scholarship",
 		"paid": "Paid",
 		"org": "Palantir",
@@ -481,7 +458,7 @@
 	{
 		"name": "Mozilla Fellowships",
 		"link": "https://foundation.mozilla.org/en/what-we-fund/fellowships/",
-		"deadline": "TBA",
+		"deadline": "N/A",
 		"type": "Fellowship",
 		"paid": "Unpaid",
 		"org": "Mozilla",
@@ -493,7 +470,7 @@
 	{
 		"name": "Code in Place",
 		"link": "https://codeinplace.stanford.edu/",
-		"deadline": "April 10, 2023",
+		"deadline": "10/04/2023",
 		"type": "Course",
 		"paid": "Unpaid",
 		"org": "Stanford University",
@@ -505,7 +482,7 @@
 	{
 		"name": "Google Cloud Ready Facilitator program",
 		"link": "https://gdsc.community.dev/events/details/developer-student-clubs-college-of-engineering-thalassery-presents-googlecloudready-facilitator-program/",
-		"deadline": "TBA",
+		"deadline": "25/06/2023",
 		"type": "Program",
 		"paid": "Unpaid",
 		"org": "Google Developer Student Clubs College of Engineering Thalassery",
@@ -515,21 +492,9 @@
 		"tags": ["Google-Cloud"]
 	},
 	{
-		"name": "Google Developer Student Clubs (GDSC) Solution Challenge",
-		"link": "https://developers.google.com/community/gdsc-solution-challenge",
-		"deadline": "March 31, 2023",
-		"type": "Hackathon",
-		"paid": "Unpaid",
-		"org": "Google",
-		"description": "The Google Developer Student Clubs (GDSC) Solution Challenge is a global competition for students who are passionate about using technology to solve real-world problems.",
-		"stipend": "",
-		"location": "Global",
-		"tags": ["Technology"]
-	},
-	{
 		"name": "Google Summer of Code",
 		"type": "Internship",
-		"deadline": "13 April",
+		"deadline": "13/04/2023",
 		"link": "https://summerofcode.withgoogle.com/",
 		"location": "Global",
 		"org": "Google",
@@ -541,7 +506,7 @@
 	{
 		"name": "Facebook Fellowship Program",
 		"type": "Fellowship",
-		"deadline": "15 April",
+		"deadline": "TBA",
 		"link": "https://research.fb.com/fellowship/",
 		"location": "N/A",
 		"org": "Facebook",
@@ -553,7 +518,7 @@
 	{
 		"name": "Apple Worldwide Developer Conference (WWDC)",
 		"type": "Conference",
-		"deadline": "18 April",
+		"deadline": "TBA",
 		"link": "https://developer.apple.com/wwdc/",
 		"location": "N/A",
 		"org": "Apple",
@@ -577,7 +542,7 @@
 	{
 		"name": "The RISE Program at NYU",
 		"type": "Program",
-		"deadline": "30 April",
+		"deadline": "TBA",
 		"link": "https://www.nyu.edu/admissions/high-school-programs/rise.html",
 		"location": "USA",
 		"org": "New York University",
@@ -589,7 +554,7 @@
 	{
 		"name": "NASA Internships",
 		"type": "Internship",
-		"deadline": "30 April",
+		"deadline": "N/A",
 		"link": "https://intern.nasa.gov/",
 		"location": "USA",
 		"org": "NASA",
@@ -599,57 +564,9 @@
 		"tags": ["Social-Impact"]
 	},
 	{
-		"name": "Code for Good by JPMorgan Chase",
-		"type": "Hackathon",
-		"deadline": "30 April",
-		"link": "https://careers.jpmorgan.com/us/en/students/programs/code-for-good",
-		"location": "N/A",
-		"org": "JPMorgan Chase",
-		"paid": "N/A",
-		"stipend": "N/A",
-		"description": "Code for Good by JPMorgan Chase is a hackathon event that challenges participants to develop innovative solutions that address social and community issues using technology and data.",
-		"tags": ["Finance", "Social-Impact"]
-	},
-	{
-		"name": "Google Developer Student Clubs (GDSC) Leads",
-		"link": "https://developers.google.com/community/gdsc/leads",
-		"deadline": "TBA",
-		"type": "Opportunity",
-		"paid": "Unpaid",
-		"org": "Google",
-		"description": "Google Developer Student Clubs (GDSC) Leads are students who are passionate about technology and want to help other students learn and grow.",
-		"stipend": "",
-		"location": "Global",
-		"tags": ["Leadership", "Technology"]
-	},
-	{
-		"name": "Flipkart Runway",
-		"link": "https://unstop.com/competitions/flipkart-runway-season-3-flipkart-613406",
-		"deadline": "March 15, 2023",
-		"type": "Opportunity",
-		"paid": "Paid",
-		"org": "Flipkart",
-		"description": "Flipkart Runway is an early career program for women engineers that aims to provide them with an accelerated pathway to a successful career in technology. The program includes a rigorous online assessment, mentorship from Flipkart engineers, networking opportunities with other women in technology, an internship at Flipkart, and a chance to bag a PPI (Pre Placement Interview) for an internship with Flipkart in their pre-final year.",
-		"stipend": "NA",
-		"location": "India",
-		"tags": ["Women"]
-	},
-	{
-		"name": "Google Code Jam to I/O for Women",
-		"link": "https://codingcompetitions.withgoogle.com/codejamio",
-		"deadline": "TBA",
-		"type": "Hackathon",
-		"paid": "Unpaid",
-		"org": "Google",
-		"description": "Google Code Jam to I/O for Women is a coding competition for women students and professionals. It is a single-round, 2.5-hour competition that challenges participants to solve algorithmic problems. The top 150 participants will receive a ticket and a stipend to attend Google I/O, Google's annual developer conference.",
-		"stipend": "",
-		"location": "Global",
-		"tags": ["Women"]
-	},
-	{
 		"name": "Digital India Internship Scheme (MeitY)",
 		"link": "https://www.meity.gov.in/meity-digital-india-internship-scheme-2023",
-		"deadline": "TBA",
+		"deadline": "N/A",
 		"type": "Opportunity",
 		"paid": "Paid",
 		"org": "MeitY",
@@ -662,7 +579,7 @@
 		"name": "LiFT Scholarships",
 		"link": "https://liftscholars.luddy.iupui.edu/",
 		"type": "Scholarship",
-		"deadline": "March 1, 2023",
+		"deadline": "07/03/2023",
 		"paid": "Paid",
 		"org": "National Science Foundation (NSF)",
 		"description": "The LiFT Scholarships are a program that provides financial assistance to students who are pursuing degrees in information technology. The scholarships are funded by the National Science Foundation (NSF) and are designed to help students from underrepresented groups succeed in the tech field. Scholarship recipients receive a renewable scholarship of up to $5,000 per year. They also receive mentorship from industry professionals and access to a variety of networking and professional development opportunities.",
@@ -685,7 +602,7 @@
 		"name": "IBM Call for Code Global Challenge",
 		"link": "https://developer.ibm.com/callforcode/global-challenge/",
 		"type": "Hackathon",
-		"deadline": "November 12 2023",
+		"deadline": "12/02/2023",
 		"paid": "Unpaid",
 		"org": "IBM",
 		"description": "The IBM Call for Code Global Challenge is a global competition that challenges developers to use technology to solve some of the world's most pressing problems. The challenge is open to anyone, regardless of experience or skill level. The deadline for the 2023 challenge is **November 12, 2023**.",
@@ -695,7 +612,7 @@
 	{
 		"name": "Kode with Klossy",
 		"link": "https://www.kodewithklossy.com/",
-		"deadline": "May 15, 2023",
+		"deadline": "15/05/2023",
 		"description": "Kode With Klossy scholars are curious, community-minded, creative individuals who want to explore the possibilities of technology. We welcome all applicants who identify as women, gender nonconforming, or trans, ages 13-18 — regardless of CS experience.",
 		"type": "Scholarship",
 		"paid": "Unpaid",
@@ -706,7 +623,7 @@
 	{
 		"name": "FOSSASIA Internship Program",
 		"link": "https://fossasia.org/internship/",
-		"deadline": "May 31, 2023",
+		"deadline": "14/08/2023",
 		"description": "At the FOSSASIA Summit - bringing together an inspiring community across borders and ages to form a better future with Open Technologies and ICT",
 		"type": "Paid Internship",
 		"paid": "Paid",
@@ -717,7 +634,7 @@
 	{
 		"name": "HackWithinfy Coding Competition",
 		"link": "https://www.infosys.com/careers/hackwithinfy.html",
-		"deadline": "June 21, 2023",
+		"deadline": "TBA",
 		"description": "HackWithInfy is a coding competition for engineering students graduating in the years 2023, 2024, and 2025 across India. The program is specially designed to inculcate a culture of rapid problem-solving and innovative thinking early in academic life.",
 		"type": "Hackathon",
 		"paid": "Unpaid",
@@ -726,20 +643,9 @@
 		"tags": ["Software"]
 	},
 	{
-		"name": "FOSSEE Summer Fellowship 2023",
-		"link": "https://fossee.in/fellowship/2023",
-		"deadline": "June 15, 2023",
-		"description": "FOSSEE invites applications for the FOSSEE Summer Fellowship 2023. The students get an opportunity to work with FOSSEE for approximately 2 months.",
-		"type": "Fellowship",
-		"paid": "Unpaid",
-		"location": "Global",
-		"org": "FOSSEE",
-		"tags": ["Open-Source"]
-	},
-	{
 		"name": "LF Networking Mentorship Program",
 		"link": "https://wiki.lfnetworking.org/display/LN/LFN+Mentorship+Program",
-		"deadline": "April 28, 2023",
+		"deadline": "13/03/2023",
 		"type": "Mentorship",
 		"description": "The LF Networking (LFN) intern/mentorship program is aimed at creating a structured hands-on learning opportunity for new developers.",
 		"paid": "Unpaid",
@@ -750,7 +656,7 @@
 	{
 		"name": "Free Software Foundation Internship Program",
 		"link": "https://www.fsf.org/volunteer/internships",
-		"deadline": "Rolling",
+		"deadline": "28/04/2023",
 		"type": "Internship",
 		"description": "This is an educational opportunity to work with the organization that sponsors the GNU Project, publishes the GNU General Public License (GPL), and fights for software freedom.",
 		"paid": "Unpaid",
@@ -761,7 +667,7 @@
 	{
 		"name": "Professor Harry Messel International Science School",
 		"link": "https://www.sydney.edu.au/science/industry-and-community/community-engagement/international-science-school.html",
-		"deadline": "14 May",
+		"deadline": "15/07/2023",
 		"type": "Conference",
 		"description": "The Professor Harry Messel International Science School is a biennial event held at the University of Sydney. The school is open to high school students from around the world who are interested in science.",
 		"paid": "Unpaid",
@@ -772,7 +678,7 @@
 	{
 		"name": "Girl Up Scholarship Fund",
 		"link": "https://girlup.org/scholarship",
-		"deadline": "April 3, 2023",
+		"deadline": "03/04/2023",
 		"type": "Scholarship",
 		"paid": "Paid",
 		"location": "Global",
@@ -783,7 +689,7 @@
 	{
 		"name": "IBM Quantum Spring Challenge 2023",
 		"link": "https://challenges.quantum-computing.ibm.com/spring-2023",
-		"deadline": "May 24, 2023",
+		"deadline": "25/05/2023",
 		"type": "Hackathon",
 		"paid": "Unpaid",
 		"location": "India",
@@ -792,20 +698,9 @@
 		"description": "The IBM Quantum Spring Challenge 2023 is a global competition for students and researchers to design and implement quantum circuits that solve real-world problems. The challenge is open to anyone with an interest in quantum computing, regardless of experience level. The challenge will be held over a period of two weeks, from May 17 to May 24, 2023. Participants will be able to use IBM Quantum hardware and software to design and implement their circuits."
 	},
 	{
-		"name": "McKinsey Achievement Awards",
-		"link": "https://www.mckinsey.com/careers/mckinsey-achievement-awards/overview",
-		"deadline": "May 21, 2023",
-		"type": "Program",
-		"paid": "Unpaid",
-		"location": "Global",
-		"org": "McKinsey & Company",
-		"tags": ["Entrepreneurship"],
-		"description": "The McKinsey Achievement Awards are a series of awards given to talented individuals from underrepresented groups who are interested in a career at McKinsey. The awards are designed to recognize and support the achievements of these individuals, and to help them build their skills and networks. The McKinsey Achievement Awards are open to individuals from all backgrounds."
-	},
-	{
 		"name": "Open Summer of Code",
 		"link": "https://osoc.be/",
-		"deadline": "April 15, 2023",
+		"deadline": "TBA",
 		"type": "Internship",
 		"paid": "Unpaid",
 		"location": "Global",
@@ -816,7 +711,7 @@
 	{
 		"name": "Nutanix Advancing Women in Technology Scholarship Program",
 		"link": "https://www.nutanix.com/scholarships",
-		"deadline": "May 12, 2023",
+		"deadline": "12/05/2023",
 		"type": "Scholarship",
 		"paid": "Paid",
 		"location": "Global",
@@ -827,7 +722,7 @@
 	{
 		"name": "Microsoft Build",
 		"link": "https://build.microsoft.com/en-US/home",
-		"deadline": "May 26, 2023",
+		"deadline": "TBA",
 		"type": "Conference",
 		"paid": "Paid",
 		"org": "Microsoft",
@@ -838,7 +733,7 @@
 	{
 		"name": "Avery Dennison Invent Challenge",
 		"link": "https://www.applytoaverydennisoninvent.org/",
-		"deadline": "February 1, 2023",
+		"deadline": "N/A",
 		"type": "Hackathon",
 		"paid": "Unpaid",
 		"location": "Global",
@@ -849,7 +744,7 @@
 	{
 		"name": "Polygon Fellowship",
 		"link": "https://polygon.technology/fellowship/",
-		"deadline": "March 15, 2023",
+		"deadline": "01/06/2023",
 		"type": "Fellowship",
 		"paid": "Paid",
 		"location": "Global",
@@ -858,20 +753,9 @@
 		"description": "Polygon Fellowship is a 12-week program that provides aspiring Web3 developers with the skills and knowledge they need to build decentralized applications (dApps). The program is open to students from all over the world who are interested in learning about blockchain technology and dApps."
 	},
 	{
-		"name": "Walmart CodeHers",
-		"link": "https://unstop.com/competitions/walmart-codehers-2022-walmart-global-tech-india-266010",
-		"deadline": "TBA",
-		"type": "Hackathon",
-		"paid": "Unpaid",
-		"location": "India",
-		"org": "Walmart",
-		"tags": ["Women"],
-		"description": "Walmart CodeHers 2022 is a coding competition for women in India. The competition is open to female students who are pursuing a degree in computer science, computer engineering, or a related field."
-	},
-	{
 		"name": "Open Source Day",
 		"link": "https://ghc.anitab.org/programs-and-awards/open-source-day/",
-		"deadline": "TBA",
+		"deadline": "22/09/2023",
 		"type": "Hackathon",
 		"paid": "Unpaid",
 		"location": "Global",
@@ -882,7 +766,7 @@
 	{
 		"name": "AWS She Builds Mentoring Program",
 		"link": "https://awsshebuildsmentoringprogram.splashthat.com/",
-		"deadline": "30 Jun",
+		"deadline": "TBA",
 		"description": "",
 		"location": "Global",
 		"type": "Mentorship",
@@ -891,42 +775,9 @@
 		"org": "Amazon Web Services (AWS)"
 	},
 	{
-		"name": "ETHIndia Fellowship",
-		"link": "https://ethereumindiafellowship.devfolio.co/",
-		"deadline": "TBA",
-		"type": "Fellowship",
-		"paid": "Unpaid",
-		"location": "India",
-		"org": "Devfolio",
-		"tags": ["Fellowship", "Devfolio", "Ethereum"],
-		"description": "The ETHIndia Fellowship is a 8-week mentor-led program that aims to upskill Web2 developers and enable them to make the transition to Web3 using Ethereum. The program is open to all individuals, regardless of their experience level."
-	},
-	{
-		"name": "Get Ahead Google",
-		"link": "https://grow.google/programs/get-ahead/",
-		"deadline": "TBA",
-		"type": "Program",
-		"paid": "Unpaid",
-		"location": "Global",
-		"org": "Google",
-		"tags": ["Technology"],
-		"description": "Get Ahead Google is a self-study program for students interested in developing their technical skills and learning more about future employment opportunities at Google."
-	},
-	{
-		"name": "Google Quantum Summer Symposium 2023",
-		"link": "https://events.withgoogle.com/quantum-summer-symposium/",
-		"deadline": "July 18",
-		"type": "Conference",
-		"location": "Global",
-		"tags": ["Technology"],
-		"paid": "Unpaid",
-		"org": "Google",
-		"description": "The Google Quantum Summer Symposium is a free virtual event for researchers, engineers, and students interested in quantum computing. The symposium will feature talks, workshops, and networking opportunities."
-	},
-	{
 		"name": "Free Software Foundation Internship",
 		"link": "https://www.fsf.org/volunteer/internships",
-		"deadline": "July 18",
+		"deadline": "N/A",
 		"type": "Internship",
 		"tags": ["Open-Source", "Volunteer"],
 		"paid": "Stipend",
@@ -935,40 +786,9 @@
 		"description": "The Free Software Foundation is looking for interns to work on a variety of projects related to free software. Interns will have the opportunity to work with experienced developers and learn about the latest technologies."
 	},
 	{
-		"name": "Software Engineering Internship Cisco",
-		"link": "https://dare2compete.com/internship/software-engineering-internship-cisco-183203?lb=G0Ozofw",
-		"deadline": "July 19",
-		"type": "Internship",
-		"location": "Global",
-		"tags": ["Software Development", "Internship", "Cisco", "Technology"],
-		"paid": "Paid",
-		"org": "Cisco",
-		"description": "Cisco is looking for software engineering interns to work on a variety of projects related to networking, security, and cloud computing. Interns will have the opportunity to work with experienced engineers and learn about the latest technologies."
-	},
-	{
-		"name": "Grace Hopper Scholarship (GWC X Walmart) 2023",
-		"link": "GWC X Walmart",
-		"deadline": "July 22",
-		"type": "Scholarship",
-		"tags": ["Technology", "Women"],
-		"paid": "Unpaid",
-		"org": "Grace Hopper",
-		"description": "The Grace Hopper Scholarship is a scholarship for women who are interested in pursuing a career in technology. The scholarship is awarded to women who have demonstrated academic excellence, leadership, and a commitment to diversity in technology."
-	},
-	{
-		"name": "Google Dialogflow CX Competition (Global)",
-		"link": "https://events.withgoogle.com/dialogflow-cx-competition-global/?utm_source=medium_post&utm_medium=site&utm_campaign=cx_competition",
-		"deadline": "July 24",
-		"type": "Hackathon",
-		"tags": ["Open-Source", "Technology"],
-		"paid": "Unpaid",
-		"org": "Google",
-		"description": "The Google Dialogflow CX Competition is a global competition for developers who want to build the best conversational AI experiences. The competition is open to developers of all skill levels and experience."
-	},
-	{
 		"name": "Amazon ML Challenge",
 		"link": "https://amazonmlchallenge.splashthat.com/",
-		"deadline": "29 July",
+		"deadline": "02/07/2023",
 		"type": "Hackathon",
 		"tags": ["Machine Learning"],
 		"location": "India",
@@ -978,7 +798,7 @@
 	{
 		"name": "Walmark SparkTech Showcase",
 		"link": "https://ys-events.yourstory.com/walmart-sparktechshowcase",
-		"deadline": "30 July",
+		"deadline": "02/08/2023",
 		"type": "Hackathon",
 		"tags": ["Technology"],
 		"paid": "Paid",
@@ -988,7 +808,7 @@
 	{
 		"name": "30 Days of Google Cloud",
 		"link": "https://inthecloud.withgoogle.com/google-cloud-skills/register.html?utm_source=google&utm_medium=blog&utm_campaign=FY21-Q1-global-trainingandenablement-website-other-skills_challenge&utm_content=q1rollup",
-		"deadline": "30 July",
+		"deadline": "TBA",
 		"type": "Hackathon",
 		"tags": ["Google Cloud", "Cloud Computing", "Technology"],
 		"location": "Global",
@@ -998,7 +818,7 @@
 	{
 		"name": "ThinkSwiss Research Scholarships: Asia-Pacific",
 		"link": "https://swissnex.org/india/thinkswiss/",
-		"deadline": "August 2023",
+		"deadline": "06/06/2023",
 		"type": "Research",
 		"tags": ["Asia-Pacific"],
 		"paid": "",
@@ -1006,43 +826,11 @@
 		"org": "ThinkSwiss",
 		"description": "The ThinkSwiss Research Scholarships are open to students from Asia-Pacific."
 	},
-	{
-		"name": "Open Networking and Edge Summit North America",
-		"link": "https://events.linuxfoundation.org/open-networking-edge-summit-north-america/attend/scholarships/",
-		"deadline": "5 August",
-		"type": "Scholarship",
-		"tags": ["Technology"],
-		"paid": "Unpaid",
-		"org": "Linux Foundation",
-		"location": "United States",
-		"description": "The Linux Foundation’s registration scholarship program exists to support individuals who may not otherwise have the opportunity to attend Linux Foundation events."
-	},
-	{
-		"name": "Goldman Sachs Engineering Campus Hiring Program [Off-campus]",
-		"link": "https://www.goldmansachs.com/careers/students/programs/india/engineers-campus-hiring-program.html",
-		"deadline": "TBA",
-		"type": "Internship",
-		"tags": ["Software"],
-		"paid": "Paid",
-		"org": "",
-		"location": "India",
-		"description": "e Engineering Campus Hiring Program is the firm’s initiative to engage and hire top Engineering talent from across engineering schools in the country."
-	},
-	{
-		"name": "DXC Progressing Minds Scholarship",
-		"link": "https://www.buddy4study.com/page/dxc-progressing-minds-scholarship",
-		"deadline": "15 August 2021",
-		"type": "Scholarship",
-		"tags": ["Science"],
-		"paid": "Paid",
-		"org": "DXC Technology",
-		"location": "Global",
-		"description": "DXC Technology is a global Fortune 500 firm that helps its customers manage their IT estate. As a corporate citizen,"
-	},
+
 	{
 		"name": "GirlScript Winter of Contributing",
 		"link": "https://gwoc.girlscript.tech/",
-		"deadline": "15 August",
+		"deadline": "TBA",
 		"type": "Mentorship",
 		"tags": ["Open-Source", "Women"],
 		"paid": "Unpaid",
@@ -1052,7 +840,7 @@
 	{
 		"name": "IET India Scholarship Award 2023",
 		"link": "https://scholarships.theietevents.com/#!",
-		"deadline": "August 15, 2023",
+		"deadline": "04/04/2023",
 		"type": "Scholarship",
 		"location": "India",
 		"org": "IET India",
@@ -1062,8 +850,8 @@
 	},
 	{
 		"name": "Amazon WoW",
-		"link": "https://xathon.mettl.com/event/AmazonWoW",
-		"deadline": "August 16, 2023",
+		"link": "https://amazonwowindia.splashthat.com/",
+		"deadline": "TBA",
 		"type": "Internship",
 		"location": "India",
 		"org": "Amazon",
@@ -1073,41 +861,9 @@
 		"paid": "Paid"
 	},
 	{
-		"name": "Adobe India Women-in-Technology Scholarship",
-		"link": "https://research.adobe.com/adobe-india-women-in-technology-scholarship/",
-		"deadline": "August 22, 2023",
-		"type": "Scholarship",
-		"paid": "Paid",
-		"org": "Adobe",
-		"location": "India",
-		"description": "The Adobe India Women-in-Technology Scholarship is a scholarship for female students in India who are pursuing a degree in computer science, engineering, or a related field. The scholarship provides financial support to help the recipients succeed in their studies and careers.",
-		"tags": ["Women", "Technology"]
-	},
-	{
-		"name": "Facebook Hacker Cup",
-		"link": "https://www.facebook.com/codingcompetitions/hacker-cup/",
-		"deadline": "December 10, 2023",
-		"type": "Hackathon",
-		"paid": "Unpaid",
-		"org": "Facebook",
-		"location": "Global",
-		"description": "The Facebook Hacker Cup is an annual international programming competition hosted and administered by Meta Platforms. The competition began in 2011 as a means to identify top engineering talent for potential employment at Meta Platforms."
-	},
-	{
-		"name": "Twitter DevelopHer",
-		"link": "https://developer.twitter.com/en/developer-community/developher",
-		"deadline": "Continuous",
-		"type": "Program",
-		"org": "Twitter",
-		"paid": "Unpaid",
-		"location": "Global",
-		"description": "Twitter DevelopHer is a global initiative that aims to support and empower women in technology. The program offers a variety of resources and opportunities, including mentorship, networking, training, and scholarships.",
-		"tags": ["Technology", "Women"]
-	},
-	{
 		"name": "GitHub Campus Expert Program",
 		"link": "https://education.github.com/campus_experts",
-		"deadline": "Continuous",
+		"deadline": "Open Year-Round",
 		"type": "Program",
 		"paid": "Unpaid",
 		"org": "Github",
@@ -1116,9 +872,9 @@
 		"tags": ["Technology"]
 	},
 	{
-		"name": "Outreachy Winter Internship",
-		"link": "https://www.outreachy.org/apply/winter/",
-		"deadline": "August 29, 2023",
+		"name": "Outreachy Internship",
+		"link": "https://www.outreachy.org/",
+		"deadline": "07/08/2023",
 		"type": "Internship",
 		"paid": "Paid",
 		"org": "Outreachy",
@@ -1129,7 +885,7 @@
 	{
 		"name": "DESIS Ascend Educare for Women in Tech",
 		"link": "https://www.deshaw.com/forms/OERCQTZFNjEtQUIyQi00ODkwLTlBODktMkU2MDQ1NzQwRUE4",
-		"deadline": "August 29, 2023",
+		"deadline": "TBA",
 		"type": "Fellowship",
 		"paid": "Paid",
 		"org": "DESIS",
@@ -1139,7 +895,7 @@
 	{
 		"name": "DAAD Scholarship",
 		"link": "https://www.daad.de/en/scholarships/scholarship-finder/?q=university%20of%20bonn&country=Germany&scholarship_type=all&degree_level=all&subject_area=all&start_date=2023-09-01&end_date=2023-08-31&page=1&sort=relevance",
-		"deadline": "August 30, 2023",
+		"deadline": "30/08/2023",
 		"type": "Scholarship",
 		"paid": "Paid",
 		"org": "DAAD",
@@ -1149,7 +905,7 @@
 	{
 		"name": "Hack-O-Uplift",
 		"link": "https://uplift.girlscript.tech/hack-o-uplift",
-		"deadline": "August 29, 2023",
+		"deadline": "02/09/2023",
 		"type": "Hackathon",
 		"paid": "Paid",
 		"org": "GirlScript",
@@ -1157,19 +913,9 @@
 		"description": "Hack-O-Uplift is a hackathon for women and girls that aims to empower them to learn about technology and to build their skills. The hackathon will feature workshops, talks, and a hackathon where participants can build their own projects."
 	},
 	{
-		"name": "American Express CodeStreet 2023",
-		"link": "https://codestreet-2023.hackerearth.com/",
-		"deadline": "September 5, 2023",
-		"type": "Internship",
-		"paid": "Paid",
-		"org": "American Express",
-		"tags": ["Internship", "FTE", "American Express"],
-		"description": "American Express CodeStreet is a program that provides students with the opportunity to intern at American Express and to learn about software engineering. The program is open to students from all backgrounds and majors. Interns will work on real-world projects and will have the opportunity to network with other students and engineers at American Express."
-	},
-	{
 		"name": "She Codes, Indeed",
 		"link": "https://www.indeedevents.com/en-in/shecodes-women-at-indeed-11-13092023-cs/",
-		"deadline": "September 10, 2023",
+		"deadline": "TBA",
 		"type": "Program",
 		"paid": "Unpaid",
 		"org": "Indeed",
@@ -1177,20 +923,9 @@
 		"description": "She Codes, Indeed is a virtual event for women in tech that aims to empower them to learn about technology and to build their skills. The event will feature workshops, talks, and a networking reception."
 	},
 	{
-		"name": "BorderHacks 2021",
-		"link": "https://dare2compete.com/o/borderhacks-2021-borderhacks-177290?lb=21070516",
-		"deadline": "10 September 2021",
-		"type": "Hackathon",
-		"paid": "Unpaid",
-		"org": "BorderHacks",
-		"tags": ["Technology"],
-		"description": "BorderHacks is a hackathon for students and professionals from around the world to come together and build solutions to real-world problems related to borders and migration. The hackathon will feature workshops, talks, and a hackathon where participants can build their own projects.",
-		"location": "India"
-	},
-	{
 		"name": "D2C Igniters Club",
 		"link": "https://dare2compete.com/internship/d2c-igniters-club-dare2compete-140176?utm_source=newsletter&utm_medium=Opprtunities&utm_campaign=sendy_newsletter&lb=nciUx5O",
-		"deadline": "15 September 2021",
+		"deadline": "Open Year-Round",
 		"type": "Campus Ambassador",
 		"paid": "Unpaid",
 		"org": "D2C",
@@ -1201,7 +936,7 @@
 	{
 		"name": "Facebook Fellowship program",
 		"link": "https://research.fb.com/blog/2021/08/application-now-open-for-the-2022-facebook-fellowship-program/",
-		"deadline": "20 September",
+		"deadline": "TBA",
 		"type": "Fellowship",
 		"paid": "Paid",
 		"org": "Facebook",
@@ -1212,7 +947,7 @@
 	{
 		"name": "Mitacs Globalink Research Internship 2022",
 		"link": "https://www.mitacs.ca/en/programs/globalink/globalink-research-internship",
-		"deadline": "TBA",
+		"deadline": "15/09/2023",
 		"type": "Research",
 		"paid": "Paid",
 		"org": "Mitacs",
@@ -1221,31 +956,9 @@
 		"location": "Canada"
 	},
 	{
-		"name": "30 Days of Google Cloud",
-		"link": "https://cloud.google.com/blog/topics/training-certifications/google-cloud-free-training-opportunities-q1-2021",
-		"deadline": "30 September",
-		"type": "Cloud challenge",
-		"paid": "Unpaid",
-		"org": "Google Cloud",
-		"tags": ["Google-Cloud"],
-		"location": "Asia Pacific",
-		"description": "The 30 Days of Google Cloud Program"
-	},
-	{
-		"name": "DRDO Scholarship Scheme for Girl",
-		"link": "https://www.drdo.gov.in/sites/default/files/whats_new_document/advt_ardb2020.pdf",
-		"deadline": "TBA",
-		"type": "Scholarship",
-		"paid": "Unpaid",
-		"location": "India",
-		"org": "DRDO",
-		"tags": ["Women"],
-		"description": "The DRDO Scholarship Scheme for Girl is a scholarship program for women students who are pursuing undergraduate or postgraduate studies in engineering, science, or technology. The scholarship is awarded on the basis of merit and financial need."
-	},
-	{
 		"name": "Santa Fe Undergraduate Complexity Research",
 		"link": "https://www.santafe.edu/engage/learn/programs/undergraduate-complexity-research",
-		"deadline": "Early October",
+		"deadline": "15/05/2023",
 		"type": "Mentorship",
 		"paid": "Unpaid",
 		"location": "USA",
@@ -1256,7 +969,7 @@
 	{
 		"name": "FOSS Asia Codeheat",
 		"link": "https://codeheat.org/",
-		"deadline": "1 October",
+		"deadline": "TBA",
 		"type": "Coding Competition",
 		"paid": "Unpaid",
 		"org": "FOSS Asia",
@@ -1266,7 +979,7 @@
 	{
 		"name": "Zonta International Women in STEM Scholarship",
 		"link": "https://www.zonta.org/womeninSTEM",
-		"deadline": "15 September 2023",
+		"deadline": "30/07/2023",
 		"type": "Scholarship for Women",
 		"paid": "Yes",
 		"org": "Zonta International",
@@ -1274,29 +987,9 @@
 		"description": "The Zonta International Women in STEM Scholarship encourages women to pursue education, career opportunities and leadership roles in STEM fields. The scholarship is open to women who are enrolled in a STEM degree program at an accredited university or college. The scholarship award is US\\$5,000."
 	},
 	{
-		"name": "CodeChef Snackdown",
-		"link": "https://snackdown.codechef.com/",
-		"deadline": "TBA",
-		"type": "Programming Competition",
-		"paid": "Unpaid",
-		"org": "CodeChef",
-		"tags": ["Technology"],
-		"description": "CodeChef Snackdown is a global programming competition hosted by CodeChef. It is open to all coders, regardless of their level of experience. SnackDown is a great way to test your coding skills against the best coders in the world."
-	},
-	{
-		"name": "L'Oréal India For Young Women in Science Scholarships",
-		"link": "https://www.loreal.com/en/india/articles/commitments/the-india-for-young-women-in-science-scholarship-programme/",
-		"deadline": "October 16, 2023",
-		"type": "Scholarship",
-		"paid": "Paid",
-		"org": "L'Oréal India",
-		"tags": ["Women"],
-		"description": "The L'Oréal India For Young Women in Science Scholarships is a program that provides financial assistance to young women who are pursuing higher education in science in India."
-	},
-	{
 		"name": "Hacktoberfest",
 		"link": "https://hacktoberfest.io/",
-		"deadline": "31 October 2023",
+		"deadline": "31/10/2023",
 		"type": "Program",
 		"paid": "Unpaid",
 		"org": "DigitalOcean",
@@ -1326,7 +1019,7 @@
 	{
 		"name": "Wintathon",
 		"link": "https://wintathon2023.splashthat.com/",
-		"deadline": "14 January 2023",
+		"deadline": "TBA",
 		"type": "Hackathon",
 		"paid": "Unpaid",
 		"org": "Microsoft",
@@ -1335,39 +1028,9 @@
 		"description": "Wintathon is a hackathon organized by Microsoft India. The hackathon is open to students and professionals from all over India. The deadline for the hackathon is 14 January 2023. The theme for the hackathon is 'Innovating for a Sustainable Tomorrow'."
 	},
 	{
-		"name": "CMU ML Internship",
-		"link": "https://www.ml.cmu.edu/academics/summer-research-opportunities/machine-learning/",
-		"deadline": "February 1, 2023",
-		"type": "Internship",
-		"paid": "Unpaid",
-		"org": "Carnegie Mellon University",
-		"tags": ["Machine Learning"],
-		"description": "The CMU ML Internship is a program that allows undergraduate students to work with CMU faculty and researchers on machine learning projects. The internship is unpaid, but it offers students the opportunity to gain valuable experience in machine learning and to network with top researchers in the field. The deadline for the internship is February 1, 2023."
-	},
-	{
-		"name": "AWES Scholarship",
-		"link": "https://awesindia.com/scholarships/",
-		"deadline": "March 31, 2023",
-		"type": "Scholarship",
-		"paid": "Unpaid",
-		"org": "AWES India",
-		"tags": ["Engineering", "Women"],
-		"description": "The AWES Scholarship is a scholarship program for women engineers in India. The scholarship is open to female students pursuing undergraduate or postgraduate degrees in engineering. The deadline for the scholarship is March 31, 2023. The scholarship provides financial assistance to help women engineers complete their education."
-	},
-	{
-		"name": "WooTech Open Source Mentorship Program",
-		"link": "https://wootechnology.github.io/Website/",
-		"deadline": "TBA",
-		"type": "Mentorship",
-		"paid": "Unpaid",
-		"org": "WooTech",
-		"tags": ["Open-Source", "Technology"],
-		"description": "The WooTech Open Source Mentorship Program is a program that matches mentors with mentees who are interested in contributing to open source projects. The program is open to anyone who is interested in learning more about open source software and how to contribute to it. The deadline for the program is TBA."
-	},
-	{
 		"name": "Generation Google Scholarship APAC",
 		"link": "https://buildyourfuture.withgoogle.com/scholarships/generation-google-scholarship-apac",
-		"deadline": "May 16, 2023",
+		"deadline": "16/05/2023",
 		"type": "Scholarship",
 		"paid": "Unpaid",
 		"location": "Asia Pacific",
@@ -1420,31 +1083,9 @@
 		"description": "The OnePlus Student Ambassador Program is a campus connect program that aims to activate a network of like-minded students across India. The program offers plenty of opportunities to learn, grow and prosper in your respective fields."
 	},
 	{
-		"name": "Google Summer of Code",
-		"link": "https://summerofcode.withgoogle.com/",
-		"deadline": "March 2023",
-		"type": "Program",
-		"paid": "Paid",
-		"location": "Global",
-		"org": "Google",
-		"tags": ["Open-Source", "Coding", "Internship"],
-		"description": "Google Summer of Code (GSoC) is a global program that offers students the opportunity to work on real-world software projects with some of the world's leading technology companies. Students work with mentors from these companies to develop their coding skills and learn about open source software development."
-	},
-	{
-		"name": "Womentors by Superposition Chennai",
-		"link": "https://superpositionchennai.org/womentors/",
-		"deadline": "March 2023",
-		"type": "Program",
-		"location": "India",
-		"paid": "Unpaid",
-		"org": "Superposition Chennai",
-		"tags": ["Women"],
-		"description": "Womentors by Superposition Chennai is a mentorship program for young women and non-binary folk in STEM. The program aims to help mentees with open source, projects, or interviews and networking. The program is 3 months long and is conducted by Superposition Chennai, an international non-profit bridging the gender gap in STEM through events, chapters, and mentorship."
-	},
-	{
 		"title": "MITACS Globalink",
 		"description": "This internship is for a research position at a leading research institute in Canada. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in computer science or engineering, as well as excellent research skills.",
-		"deadline": "March 31, 2023",
+		"deadline": "07/06/2023",
 		"stipend": "unpaid",
 		"org": "",
 		"type": "internship",
@@ -1461,7 +1102,7 @@
 	{
 		"title": "NASA - CalTech Summer Undergraduate Research Fellowship (SURF)",
 		"description": "This internship is for a research position at the Jet Propulsion Laboratory, California Institute of Technology. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in computer science or engineering, as well as excellent research skills.",
-		"deadline": "February 1, 2023",
+		"deadline": "01/07/2023",
 		"stipend": "unpaid",
 		"org": "Jet Propulsion Laboratory",
 		"type": "research",
@@ -1479,7 +1120,7 @@
 	{
 		"title": "Research fellowship at ETH Zurich",
 		"description": "This internship is for a research position at the Swiss Federal Institute of Technology in Zurich. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in computer science or engineering, as well as excellent research skills.",
-		"deadline": "April 1, 2023",
+		"deadline": "Open Year-Round",
 		"stipend": "unpaid",
 		"org": "Swiss Federal Institute of Technology in Zurich",
 		"type": "research",
@@ -1494,26 +1135,9 @@
 		"link": "https://www.inf.ethz.ch/studies/summer-research-fellowship.html"
 	},
 	{
-		"title": "Max Planck Institute for Software Systems",
-		"description": "This internship is for a research position at the Max Planck Institute for Software Systems. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in computer science or engineering, as well as excellent research skills.",
-		"deadline": "May 1, 2023",
-		"stipend": "unpaid",
-		"org": "Max Planck Institute for Software Systems",
-		"type": "research",
-		"tags": [
-			"research",
-			"internship",
-			"Germany",
-			"computer science",
-			"engineering"
-		],
-		"location": "Germany",
-		"link": "https://apply.mpi-sws.org/register/internship/"
-	},
-	{
 		"title": "Summer Undergraduate Research in Engineering/Sciences (SURE)",
 		"description": "This internship is for a research position at the Georgia Institute of Technology. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in computer science or engineering, as well as excellent research skills.",
-		"deadline": "June 1, 2023",
+		"deadline": "TBA",
 		"stipend": "unpaid",
 		"org": "Georgia Institute of Technology",
 		"type": "research",
@@ -1530,7 +1154,7 @@
 	{
 		"title": "IPAM UCLA, RIPS Program",
 		"description": "This internship is for a research position at the Institute for Pure and Applied Mathematics at UCLA. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in mathematics or engineering, as well as excellent research skills.",
-		"deadline": "July 1, 2023",
+		"deadline": "22/07/2023",
 		"stipend": "unpaid",
 		"org": "Institute for Pure and Applied Mathematics at UCLA",
 		"type": "research",
@@ -1547,7 +1171,7 @@
 	{
 		"title": "Summer at EPFL",
 		"description": "This internship is for a research position at the Swiss Federal Institute of Technology in Lausanne. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in computer science or engineering, as well as excellent research skills.",
-		"deadline": "August 1, 2023",
+		"deadline": "01/12/2023",
 		"stipend": "unpaid",
 		"org": "Swiss Federal Institute of Technology in Lausanne",
 		"type": "research",
@@ -1564,7 +1188,7 @@
 	{
 		"title": "Robotics Institute for Summer Scholars",
 		"description": "This internship is for a research position at the Robotics Institute at Carnegie Mellon University. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in computer science or engineering, as well as excellent research skills in robotics.",
-		"deadline": "September 1, 2023",
+		"deadline": "01/11/2023",
 		"stipend": "unpaid",
 		"org": "Robotics Institute at Carnegie Mellon University",
 		"type": "research",
@@ -1580,45 +1204,9 @@
 		"link": "https://riss.ri.cmu.edu/"
 	},
 	{
-		"title": "SPIKE @ UNIST",
-		"description": "This internship is for a research position at the Ulsan National Institute of Science and Technology. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in computer science or engineering, as well as excellent research skills. The intern will also have the opportunity to experience Korean culture and learn about Korean language.",
-		"deadline": "October 1, 2023",
-		"stipend": "unpaid",
-		"org": "Ulsan National Institute of Science and Technology",
-		"type": "research",
-		"tags": [
-			"research",
-			"internship",
-			"South Korea",
-			"computer science",
-			"engineering",
-			"Korean culture"
-		],
-		"location": "South Korea",
-		"link": "http://spike.unist.ac.kr/main/main.php"
-	},
-	{
-		"title": "NTHU Summer Internship Program",
-		"description": "This internship is for a research position at the National Tsing Hua University. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in computer science or engineering, as well as excellent research skills. The intern will also have the opportunity to experience Taiwanese culture and learn about Mandarin Chinese.",
-		"deadline": "November 1, 2023",
-		"stipend": "unpaid",
-		"org": "National Tsing Hua University",
-		"type": "internship",
-		"tags": [
-			"research",
-			"internship",
-			"Taiwan",
-			"computer science",
-			"engineering",
-			"Chinese culture"
-		],
-		"location": "Taiwan",
-		"link": "http://eng-en.web.nthu.edu.tw/files/14-1130-129169,r1447-1.php"
-	},
-	{
 		"title": "Santa Fe Institute Summer Research Experience",
 		"description": "This internship is for a research position at the Santa Fe Institute. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in computer science or engineering, as well as excellent research skills in complexity science.",
-		"deadline": "March 1, 2023",
+		"deadline": "04/05/2023",
 		"stipend": "unpaid",
 		"org": "Santa Fe Institute",
 		"type": "internship",
@@ -1636,7 +1224,7 @@
 	{
 		"title": "UROP International",
 		"description": "This internship is for a research position at the RWTH Aachen University. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in computer science or engineering, as well as excellent research skills.",
-		"deadline": "April 1, 2023",
+		"deadline": "09/01/2023",
 		"stipend": "unpaid",
 		"org": "RWTH Aachen University",
 		"type": "internship",
@@ -1651,43 +1239,9 @@
 		"link": "http://www.rwth-aachen.de/cms/root/Forschung/Angebote-fuer-Forschende/Angebote-fuer-Studierende/UROP/UROP-INternational/~wnr/Informationen-fuer-Studierende/?lidx=1"
 	},
 	{
-		"title": "University of Tokyo",
-		"description": "This internship is for a research position at the University of Tokyo. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in biotechnology or biochemistry, as well as excellent research skills.",
-		"deadline": "May 1, 2023",
-		"stipend": "unpaid",
-		"org": "University of Tokyo",
-		"type": "internship",
-		"tags": [
-			"research",
-			"internship",
-			"Japan",
-			"biotechnology",
-			"biochemistry"
-		],
-		"location": "Japan",
-		"link": "http://www.amgenscholars.jp/program/japan-program/"
-	},
-	{
-		"title": "MTBI Summer Program",
-		"description": "This internship is for a research position at the Mind, Brain, and Technology Institute at Arizona State University. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in computational neuroscience or bioengineering, as well as excellent research skills.",
-		"deadline": "June 1, 2023",
-		"stipend": "unpaid",
-		"org": "Arizona State University",
-		"type": "internship",
-		"tags": [
-			"research",
-			"internship",
-			"United States",
-			"computational neuroscience",
-			"bioengineering"
-		],
-		"location": "United States",
-		"link": "https://mtbi.asu.edu/summerprogram"
-	},
-	{
 		"title": "Summer Undergraduate Research fellowship program",
 		"description": "This internship is for a research position at the Rockefeller University. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
-		"deadline": "July 1, 2023",
+		"deadline": "01/02/2023",
 		"stipend": "unpaid",
 		"org": "Rockefeller University",
 		"type": "internship",
@@ -1696,59 +1250,9 @@
 		"link": "https://www.rockefeller.edu/education-and-training/surf/"
 	},
 	{
-		"title": "CERN OpenLab for Computer Science Undergraduates",
-		"description": "This internship is for a research position at CERN's OpenLab, a program that provides opportunities for undergraduate students to collaborate with CERN scientists on cutting-edge research projects in computer science. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in computer science or engineering, as well as excellent research skills.",
-		"deadline": "September 1, 2023",
-		"stipend": "unpaid",
-		"org": "CERN OpenLab",
-		"type": "internship",
-		"tags": [
-			"research",
-			"internship",
-			"Switzerland",
-			"computer science",
-			"engineering"
-		],
-		"location": "Switzerland",
-		"link": "https://openlab.cern/education"
-	},
-	{
-		"title": "ISternship Summer Student Program",
-		"description": "This internship is for a research position at IST Austria. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
-		"deadline": "October 1, 2023",
-		"stipend": "unpaid",
-		"org": "IST Austria",
-		"type": "internship",
-		"tags": ["research", "internship", "Austria", "all fields"],
-		"location": "Austria",
-		"link": "https://phd.pages.ist.ac.at/isternship/"
-	},
-	{
-		"title": "CalTech SURF Program",
-		"description": "This internship is for a research position at the California Institute of Technology. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
-		"deadline": "November 1, 2023",
-		"stipend": "unpaid",
-		"org": "California Institute of Technology",
-		"type": "internship",
-		"tags": ["research", "internship", "United States", "all fields"],
-		"location": "United States",
-		"link": "https://www.sfp.caltech.edu/programs/surf/application_information"
-	},
-	{
-		"title": "TIGP-IIP",
-		"description": "This internship is for a research position at the Tsing Hua Institute for Mathematical Sciences. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
-		"deadline": "December 1, 2023",
-		"stipend": "unpaid",
-		"org": "Tsing Hua Institute for Mathematical Sciences",
-		"type": "internship",
-		"tags": ["research", "internship", "Taiwan", "all fields"],
-		"location": "Taiwan",
-		"link": "https://www.math.nthu.edu.tw/TIGP-IIP/"
-	},
-	{
 		"title": "Amgen Scholars Program",
 		"description": "This internship is for a research position at Amgen. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in biotechnology or biochemistry, as well as excellent research skills.",
-		"deadline": "March 1, 2023",
+		"deadline": "01/02/2023",
 		"stipend": "unpaid",
 		"org": "Amgen",
 		"type": "internship",
@@ -1765,7 +1269,7 @@
 	{
 		"title": "IVISP, HKUST",
 		"description": "This internship is for a research position at the Institute for Interdisciplinary Visual Science and Technology at Hong Kong University of Science and Technology. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in computational neuroscience or bioengineering, as well as excellent research skills.",
-		"deadline": "April 1, 2023",
+		"deadline": "TBA",
 		"stipend": "unpaid",
 		"org": "Hong Kong University of Science and Technology",
 		"type": "internship",
@@ -1780,91 +1284,9 @@
 		"link": "https://pg.ust.hk/ivisp"
 	},
 	{
-		"title": "Space Astronomy Summer Program, Space Telescope Science Institute (STScI)",
-		"description": "This internship is for a research position at the Space Telescope Science Institute. The intern will be responsible for working on a research project under the guidance of a senior astronomer. The ideal candidate will have a strong background in astronomy or astrophysics, as well as excellent research skills.",
-		"deadline": "May 1, 2023",
-		"stipend": "unpaid",
-		"org": "Space Telescope Science Institute",
-		"type": "internship",
-		"tags": [
-			"research",
-			"internship",
-			"United States",
-			"astronomy",
-			"space"
-		],
-		"location": "United States",
-		"link": "http://www.stsci.edu/opportunities/space-astronomy-summer-program"
-	},
-	{
-		"title": "UNSW Civil and Environmental Engineering Research Internship",
-		"description": "This internship is for a research position at the University of New South Wales. The intern will be responsible for working on a research project under the guidance of a senior engineer. The ideal candidate will have a strong background in civil engineering or environmental engineering, as well as excellent research skills.",
-		"deadline": "June 1, 2023",
-		"stipend": "unpaid",
-		"org": "University of New South Wales",
-		"type": "internship",
-		"location": "Australia",
-		"link": "https://www.engineering.unsw.edu.au/civil-engineering/study-with-us/international-exchange/research-internship-to-unsw-for-international-students"
-	},
-	{
-		"title": "OIST Research Internship Program",
-		"description": "This internship is for a research position at the Okinawa Institute of Science and Technology. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
-		"deadline": "TBA",
-		"link": "https://groups.oist.jp/grad/research-interns",
-		"tags": ["research", "internship", "Japan", "all fields"],
-		"type": "internship",
-		"location": "Japan",
-		"org": "Okinawa Institute of Science and Technology"
-	},
-	{
-		"title": "SURP, CUHK",
-		"description": "This internship is for a research position at the Chinese University of Hong Kong. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
-		"deadline": "August 1, 2023",
-		"link": "http://www.summer.cuhk.edu.hk/surp/",
-		"tags": ["research", "internship", "Hong Kong", "all fields"],
-		"type": "internship",
-		"location": "Hong Kong",
-		"org": "Chinese University of Hong Kong"
-	},
-	{
-		"title": "Visual Geometry Group",
-		"description": "This internship is for a research position at the Visual Geometry Group at the University of Oxford. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in computer vision, as well as excellent research skills.",
-		"deadline": "September 1, 2023",
-		"link": "https://www.robots.ox.ac.uk/~vgg/",
-		"tags": ["research", "internship", "United Kingdom", "computer vision"],
-		"type": "internship",
-		"location": "United Kingdom",
-		"org": "Visual Geometry Group"
-	},
-	{
-		"title": "The Smithsonian Institution Fellowship Program (SIFP)",
-		"description": "This internship is for a research position at the Smithsonian Institution. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
-		"deadline": "October 1, 2023",
-		"link": "https://www.smithsonianofi.fellowship-opportunities/smithsonian-institution-fellowship-program/",
-		"tags": ["research", "internship", "United States", "all fields"],
-		"type": "fellowship",
-		"location": "United States",
-		"org": "Smithsonian Institution"
-	},
-	{
-		"title": "Data Visualization Programming Summer Student Internship in New York City",
-		"description": "This internship is for a research position at the Simons Foundation. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in data visualization, as well as excellent research skills.",
-		"deadline": "November 1, 2023",
-		"link": "https://simonsfoundation.wd1.myworkdayjobs.com/en-US/simonsfoundationcareers/job/162-Fifth-Avenue/Data-Visualization-Intern--SCC_R0000579",
-		"tags": [
-			"research",
-			"internship",
-			"United States",
-			"data visualization"
-		],
-		"type": "internship",
-		"location": "United States",
-		"org": "Simons Foundation"
-	},
-	{
 		"title": "Summer Intern at the Kupcinet Getz International Summer Science School of the Weizmann Institute of Science",
 		"description": "This internship is for a research position at the Kupcinet Getz International Summer Science School of the Weizmann Institute of Science. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
-		"deadline": "December 1, 2023",
+		"deadline": "14/01/2023",
 		"link": "https://www.weizmann.ac.il/feinberg/admissions/kupcinet-getz-international-summer-school/about-program-0",
 		"tags": ["research", "internship", "Israel", "all fields"],
 		"type": "internship",
@@ -1872,45 +1294,9 @@
 		"org": "Weizmann Institute of Science"
 	},
 	{
-		"title": "Aalto Science Institute (AScI) Summer Trainees 2021",
-		"description": "This internship is for a research position at the Aalto Science Institute. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
-		"deadline": "January 1, 2023",
-		"link": "https://www.aalto.fi/en/open-positions/aalto-science-institute-asci-summer-trainees-2021",
-		"tags": ["research", "internship", "Finland", "all fields"],
-		"type": "internship",
-		"location": "Finland",
-		"org": "Aalto Science Institute"
-	},
-	{
-		"title": "Summer Research Program, Princeton University",
-		"description": "This internship is for a research position at Princeton University. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
-		"deadline": "February 1, 2023",
-		"link": "https://undergraduateresearch.princeton.edu/programs/summer-programs?field_princeton_status_eligibili_value=Non-Princeton+undergrads&field_class_year_eligibili_value=Juniors&field_division_value=Engineering",
-		"tags": ["research", "internship", "United States", "all fields"],
-		"type": "internship",
-		"location": "United States",
-		"org": "Princeton University"
-	},
-	{
-		"title": "Summer Internship at the National Center for Supercomputing Applications (NCSA)",
-		"description": "This internship is for a research position at the National Center for Supercomputing Applications (NCSA). The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in computer science or engineering, as well as excellent research skills.",
-		"deadline": "March 1, 2023",
-		"link": "https://www.ncsa.illinois.edu/Research/Education/Undergraduate/Internships",
-		"tags": [
-			"research",
-			"internship",
-			"United States",
-			"computer science",
-			"engineering"
-		],
-		"type": "internship",
-		"location": "United States",
-		"org": "National Center"
-	},
-	{
 		"title": "Allen Institute for AI, Research and Engineering Internships",
 		"description": "This internship is for a research or engineering position at the Allen Institute for AI. The intern will be responsible for working on cutting-edge research projects in artificial intelligence and machine learning. The ideal candidate will have a strong background in computer science, mathematics, or a related field, as well as excellent research skills.",
-		"deadline": "April 1, 2023",
+		"deadline": "Open Year-Round",
 		"link": "https://allenai.org/internships",
 		"tags": [
 			"research",
@@ -1924,41 +1310,9 @@
 		"org": "Allen Institute for AI"
 	},
 	{
-		"title": "Summer Training Program,CNIO",
-		"description": "This internship is for a research position at the Spanish National Cancer Research Centre (CNIO). The intern will be responsible for working on cancer research projects. The ideal candidate will have a strong background in biology, chemistry, or a related field, as well as excellent research skills.",
-		"deadline": "May 1, 2023",
-		"link": "https://www.cnio.es/en/education-and-career-development/career-development-programmes/undergraduate-students/",
-		"tags": [
-			"research",
-			"internship",
-			"Spain",
-			"biomedicine",
-			"cancer research"
-		],
-		"type": "internship",
-		"location": "Spain",
-		"org": "Spanish National Cancer Research Centre (CNIO)"
-	},
-	{
-		"title": "ITRI Global Internship program",
-		"description": "This internship is for a research or engineering position at the Industrial Technology Research Institute (ITRI). The intern will be responsible for working on cutting-edge research projects in engineering and technology. The ideal candidate will have a strong background in engineering, computer science, or a related field, as well as excellent research skills.",
-		"deadline": "June 1, 2023",
-		"link": "https://www.itri.org.tw/english/ListStyle.aspx?DisplayStyle=05&SiteID=1&MmmID=617731531432246346",
-		"tags": [
-			"research",
-			"internship",
-			"Taiwan",
-			"engineering",
-			"technology"
-		],
-		"type": "internship",
-		"location": "Taiwan",
-		"org": "Industrial Technology Research Institute (ITRI)"
-	},
-	{
 		"title": "International Student Research Internship Program - [McKelvey School of Engineering]",
 		"description": "This internship is for an international student to conduct research at the McKelvey School of Engineering at Washington University in St. Louis. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in engineering, computer science, or a related field, as well as excellent research skills.",
-		"deadline": "July 1, 2023",
+		"deadline": "15/02/2023",
 		"link": "https://engineering.wustl.edu/academics/undergraduate-research/international-student-research-internship-program.html",
 		"tags": [
 			"research",
@@ -1972,26 +1326,9 @@
 		"org": "McKelvey School of Engineering"
 	},
 	{
-		"title": "BioChemCoRe",
-		"description": "This internship is for a research position at the UC San Diego. The intern will be responsible for conducting computational research in biology and chemistry. The ideal candidate will have a strong background in biology, chemistry, or a related field, as well as excellent research skills.",
-		"deadline": "August 1, 2023",
-		"link": "https://biochemcore.ucsd.edu/",
-		"tags": [
-			"research",
-			"internship",
-			"United States",
-			"biology",
-			"chemistry",
-			"computational research"
-		],
-		"type": "internship",
-		"location": "United States",
-		"org": "UC San Diego"
-	},
-	{
 		"title": "Global Research Experience in Advanced Technologies (GREAT) Program, UC Davis",
 		"description": "This internship is for a research or engineering position at the University of California, Davis. The intern will be responsible for working on cutting-edge research projects in engineering and technology. The ideal candidate will have a strong background in engineering, computer science, or a related field, as well as excellent research skills.",
-		"deadline": "September 1, 2023",
+		"deadline": "N/A",
 		"stipend": "Unpaid",
 		"org": "University of California, Davis",
 		"type": "Internship",
@@ -2006,26 +1343,9 @@
 		"link": "https://great.ucdavis.edu/"
 	},
 	{
-		"title": "E3, EPFL (Switzerland)",
-		"description": "This internship is for a research or engineering position at the École Polytechnique Fédérale de Lausanne (EPFL). The intern will be responsible for working on cutting-edge research projects in engineering and technology. The ideal candidate will have a strong background in engineering, computer science, or a related field, as well as excellent research skills.",
-		"deadline": "October 1, 2023",
-		"stipend": "Unpaid",
-		"org": "École Polytechnique Fédérale de Lausanne (EPFL)",
-		"type": "Internship",
-		"tags": [
-			"research",
-			"internship",
-			"Switzerland",
-			"engineering",
-			"technology"
-		],
-		"location": "Lausanne, Switzerland",
-		"link": "https://eee.epfl.ch/"
-	},
-	{
 		"title": "DAAD WISE Scholarship",
 		"description": "This scholarship is for a research position at a German research institute. The scholar will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in biotechnology or biochemistry, as well as excellent research skills.",
-		"deadline": "March 1, 2023",
+		"deadline": "Open Year-Round",
 		"stipend": "Unpaid",
 		"org": "German Academic Exchange Service (DAAD)",
 		"type": "Fellowship",
@@ -2039,155 +1359,11 @@
 		"location": "Germany",
 		"link": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50015295"
 	},
-	{
-		"title": "TEEP@Asia (Taiwan)",
-		"description": "This internship is for a research or engineering position at a Taiwanese research institute. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in engineering or technology, as well as excellent research skills.",
-		"deadline": "April 1, 2023",
-		"stipend": "Unpaid",
-		"org": "TEEP@Asia",
-		"type": "Internship",
-		"tags": [
-			"research",
-			"internship",
-			"Taiwan",
-			"engineering",
-			"technology"
-		],
-		"location": "Taipei, Taiwan",
-		"link": "https://teep.studyintaiwan.org/programs/Engineering"
-	},
-	{
-		"title": "HZDR Dresden, Summer student program (Germany)",
-		"description": "This internship is for a research or engineering position at the Helmholtz-Zentrum Dresden-Rossendorf (HZDR). The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in physics or chemistry, as well as excellent research skills.",
-		"deadline": "May 1, 2023",
-		"link": "https://www.hzdr.de/db/Cms?pOid=34387&pNid=2519",
-		"stipend": "Unpaid",
-		"org": "Helmholtz-Zentrum Dresden-Rossendorf (HZDR)",
-		"type": "Internship",
-		"tags": ["research", "internship", "Germany", "physics", "chemistry"],
-		"location": "Dresden, Germany"
-	},
-	{
-		"title": "UNSW Research Internship (Australia)",
-		"description": "This internship is for a research position at the University of New South Wales (UNSW). The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
-		"deadline": "June 1, 2023",
-		"link": "https://www.science.unsw.edu.au/student-life/student-opportunities/research-internships",
-		"stipend": "Unpaid",
-		"org": "University of New South Wales (UNSW)",
-		"type": "Internship",
-		"tags": ["research", "internship", "Australia", "all fields"],
-		"location": "Sydney, Australia"
-	},
-	{
-		"title": "SURP (Hongkong)",
-		"description": "This internship is for a research position at the Chinese University of Hong Kong (CUHK). The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
-		"deadline": "July 1, 2023",
-		"link": "http://www.summer.cuhk.edu.hk/surp/?fbclid=IwAR0-H6g4x7UetRxFQkcnK95zvgjkp81TjgCZlBgv-NjrRSxWiOxy84TZuhw",
-		"stipend": "Unpaid",
-		"org": "Chinese University of Hong Kong (CUHK)",
-		"type": "Internship",
-		"tags": ["research", "internship", "Hong Kong", "all fields"],
-		"location": "Hong Kong"
-	},
-	{
-		"title": "MaxSIP (Max Planck Institute Summer Internship)",
-		"description": "This internship is for a research position at one of the Max Planck Institutes in Germany. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
-		"deadline": "August 1, 2023",
-		"link": "https://imprs-ls.opencampus.net/en/maxsip_application_info",
-		"stipend": "Unpaid",
-		"org": "Max Planck Institute",
-		"type": "Internship",
-		"tags": ["research", "internship", "Germany", "all fields"],
-		"location": "Germany"
-	},
-	{
-		"title": "SPIKE@UNIST (South Korea)",
-		"description": "This internship is for a research position at the Ulsan National Institute of Science and Technology (UNIST) in South Korea. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
-		"deadline": "September 1, 2023",
-		"link": "https://spike.unist.ac.kr:10449/02_learn/learn03.php",
-		"stipend": "Unpaid",
-		"org": "Ulsan National Institute of Science and Technology (UNIST)",
-		"type": "Internship",
-		"tags": ["research", "internship", "South Korea", "all fields"],
-		"location": "Ulsan, South Korea"
-	},
-	{
-		"title": "NIMS (Japan)",
-		"description": "This internship is for a research position at the National Institute for Materials Science (NIMS) in Japan. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
-		"deadline": "October 1, 2023",
-		"link": "https://www.nims.go.jp/eng/hr-development/internship.html",
-		"stipend": "Unpaid",
-		"org": "National Institute for Materials Science (NIMS)",
-		"type": "Internship",
-		"tags": ["research", "internship", "Japan", "all fields"],
-		"location": "Tsukuba, Japan"
-	},
-	{
-		"title": "ICT Summer Research Program (USC)",
-		"description": "This internship is for a research position at the Information Sciences Institute (ISI) at the University of Southern California (USC). The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
-		"deadline": "November 1, 2023",
-		"link": "https://ict.usc.edu/academics/internships/application/",
-		"stipend": "Unpaid",
-		"org": "University of Southern California (USC)",
-		"type": "Internship",
-		"tags": ["research", "internship", "United States", "all fields"],
-		"location": "Los Angeles, California, United States"
-	},
-	{
-		"title": "GIST Global Internship Program (South Korea)",
-		"description": "This internship is for a research position at the Gwangju Institute of Science and Technology (GIST) in South Korea. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
-		"deadline": "June 1, 2023",
-		"link": "https://www.gist.ac.kr/en/html/sub07/0702.html",
-		"stipend": "Unpaid",
-		"org": "Gwangju Institute of Science and Technology (GIST)",
-		"type": "Internship",
-		"tags": ["research", "internship", "South Korea", "all fields"],
-		"location": "Gwangju, South Korea"
-	},
-	{
-		"title": "OECD Internship Programme (France)",
-		"description": "This internship is for a research position at the Organisation for Economic Co-operation and Development (OECD) in France. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
-		"deadline": "July 1, 2023",
-		"stipend": "unpaid",
-		"org": "Organisation for Economic Co-operation and Development",
-		"type": "internship",
-		"tags": ["research", "internship", "France", "all fields"],
-		"location": "France",
-		"link": "https://www.oecd.org/careers/internship-programme/"
-	},
-	{
-		"title": "KAUST (Saudi Arabia)",
-		"description": "This internship is for a research position at the King Abdullah University of Science and Technology (KAUST) in Saudi Arabia. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
-		"deadline": "August 1, 2023",
-		"stipend": "unpaid",
-		"org": "King Abdullah University of Science and Technology",
-		"type": "internship",
-		"tags": ["research", "internship", "Saudi Arabia", "all fields"],
-		"location": "Saudi Arabia",
-		"link": "https://vsrp.kaust.edu.sa/"
-	},
-	{
-		"title": "UC Berkeley Amgen Scholars program",
-		"description": "This internship is for a research position at the University of California, Berkeley. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in biology, chemistry, or bioengineering, as well as excellent research skills.",
-		"deadline": "September 1, 2023",
-		"stipend": "unpaid",
-		"org": "University of California, Berkeley",
-		"type": "internship",
-		"tags": [
-			"research",
-			"internship",
-			"United States",
-			"biology",
-			"chemistry",
-			"bioengineering"
-		],
-		"location": "United States",
-		"link": "https://amgenscholars.berkeley.edu/"
-	},
+
 	{
 		"title": "Summer Undergraduate Program in Engineering Research at Berkeley (SUPERB) (for Information Technology students)",
 		"description": "This internship is for a research position at the University of California, Berkeley. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in information technology or computer science, as well as excellent research skills.",
-		"deadline": "October 1, 2023",
+		"deadline": "01/05/2023",
 		"stipend": "unpaid",
 		"org": "University of California, Berkeley",
 		"type": "internship",
@@ -2204,7 +1380,7 @@
 	{
 		"title": "SUMMER RESEARCH OPPORTUNITIES PROGRAM(SROP), Purdue University",
 		"description": "This internship is for a research position at Purdue University. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
-		"deadline": "November 1, 2023",
+		"deadline": "11/02/2023",
 		"stipend": "unpaid",
 		"org": "Purdue University",
 		"type": "internship",
@@ -2213,37 +1389,9 @@
 		"link": "https://www.purdue.edu/gradschool/diversity/programs/summer-research-opportunities-program/"
 	},
 	{
-		"title": "DATA SCIENCE FOR SOCIAL GOOD, Carnegie Mellon University",
-		"description": "This internship is for a data science position at Carnegie Mellon University. The intern will be responsible for working on a data science project that has the potential to make a positive impact on society. The ideal candidate will have a strong background in data science, as well as a passion for social justice.",
-		"deadline": "December 1, 2023",
-		"stipend": "unpaid",
-		"org": "Carnegie Mellon University",
-		"type": "internship",
-		"tags": [
-			"research",
-			"internship",
-			"data science",
-			"social justice",
-			"United States"
-		],
-		"location": "United States",
-		"link": "https://www.datascience.pitt.edu/news-events/data-science-social-good-dssg-2021"
-	},
-	{
-		"title": "SPIKE@UNIST (South Korea)",
-		"description": "This internship is for a research position at the Ulsan National Institute of Science and Technology (UNIST) in South Korea. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
-		"deadline": "September 1, 2023",
-		"link": "https://spike.unist.ac.kr:10449/02_learn/learn03.php",
-		"stipend": "Unpaid",
-		"org": "Ulsan National Institute of Science and Technology (UNIST)",
-		"type": "Internship",
-		"tags": ["research", "internship", "South Korea", "all fields"],
-		"location": "Ulsan, South Korea"
-	},
-	{
 		"title": "NIMS (Japan)",
 		"description": "This internship is for a research position at the National Institute for Materials Science (NIMS) in Japan. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
-		"deadline": "October 1, 2023",
+		"deadline": "TBA",
 		"link": "https://www.nims.go.jp/eng/hr-development/internship.html",
 		"stipend": "Unpaid",
 		"org": "National Institute for Materials Science (NIMS)",
@@ -2254,8 +1402,8 @@
 	{
 		"title": "ICT Summer Research Program (USC)",
 		"description": "This internship is for a research position at the Information Sciences Institute (ISI) at the University of Southern California (USC). The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
-		"deadline": "November 1, 2023",
-		"link": "https://ict.usc.edu/academics/internships/application/",
+		"deadline": "N/A",
+		"link": "https://ict.usc.edu/careers/internships/summer-research-program-application/",
 		"stipend": "Unpaid",
 		"org": "University of Southern California (USC)",
 		"type": "Internship",
@@ -2265,8 +1413,8 @@
 	{
 		"title": "GIST Global Internship Program (South Korea)",
 		"description": "This internship is for a research position at the Gwangju Institute of Science and Technology (GIST) in South Korea. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
-		"deadline": "June 1, 2023",
-		"link": "https://www.gist.ac.kr/en/html/sub07/0702.html",
+		"deadline": "TBA",
+		"link": "https://scholarshiproar.com/global-intern-program-gip-south-korea/",
 		"stipend": "Unpaid",
 		"org": "Gwangju Institute of Science and Technology (GIST)",
 		"type": "Internship",
@@ -2276,29 +1424,29 @@
 	{
 		"title": "IBM Extreme Blue",
 		"description": "This internship is for a research position at IBM's Extreme Blue division. The intern will be responsible for working on a research project related to computer science. The ideal candidate will have a strong background in computer science, as well as excellent research skills.",
-		"deadline": "November 1, 2023",
+		"deadline": "TBA",
 		"stipend": "unpaid",
 		"org": "IBM",
 		"type": "internship",
 		"tags": ["research", "internship", "India", "computer science"],
 		"location": "India",
-		"link": "http://www-07.ibm.com/employment/in/students/extreme-blue/index.html"
+		"link": "https://www.ibm.com/careers/in-en/early-career/internship/"
 	},
 	{
 		"title": "LIGO IndiGo",
 		"description": "This internship is for a research position at the LIGO IndiGo program. The intern will be responsible for working on a research project related to gravitational waves. The ideal candidate will have a strong background in physics, as well as excellent research skills.",
-		"deadline": "December 1, 2023",
+		"deadline": "TBA",
 		"stipend": "unpaid",
 		"org": "LIGO IndiGo",
 		"type": "internship",
 		"tags": ["research", "internship", "United States", "physics"],
 		"location": "United States",
-		"link": "http://jobs.gw-indigo.org/tiki-index.php?page=LIGO-IndIGO+Summer+Students+Program"
+		"link": "https://www.gw.iucaa.in/ligo-surf-program/"
 	},
 	{
 		"title": "IIITD Summer Internship",
 		"description": "This internship is for a research position at the Indraprastha Institute of Information Technology (IIITD) in Delhi. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
-		"deadline": "January 1, 2024",
+		"deadline": "N/A",
 		"stipend": "unpaid",
 		"org": "Indraprastha Institute of Information Technology (IIITD)",
 		"type": "internship",
@@ -2309,31 +1457,20 @@
 	{
 		"title": "Summer Research Fellowship Programme 2021",
 		"description": "This fellowship is for a research position at the Indian Institute of Science (IISc), the Indian Institute of Advanced Study (IAS), and the Indian Naval Service (INS). The fellow will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
-		"deadline": "February 1, 2023",
+		"deadline": "TBA",
 		"stipend": "unpaid",
 		"org": "Indian Institute of Science (IISc), Indian Institute of Advanced Study (IAS), Indian Naval Service (INS)",
 		"type": "fellowship",
 		"tags": ["research", "fellowship", "India", "all fields"],
 		"location": "India",
-		"link": "https://web-japps.ias.ac.in:8443/fellowship2021/application_instructions.jsp"
-	},
-	{
-		"title": "Quantitative Research Summer Internship",
-		"description": "This internship is for a research position at WorldQuant India. The intern will be responsible for working on a research project related to quantitative finance. The ideal candidate will have a strong background in mathematics, statistics, and computer science.",
-		"deadline": "March 1, 2023",
-		"stipend": "paid",
-		"org": "WorldQuant India",
-		"type": "internship",
-		"tags": ["research", "internship", "India", "quant finance"],
-		"location": "India",
-		"link": "https://websim.worldquantchallenge.com/en/cms/wqc/summerprograms/india/"
+		"link": "https://webjapps.ias.ac.in/fellowship2023/#:~:text=Science%20Academies%20Summer%20Research%20Fellowship%20Program%20for%20Students%20and%20Teachers%202023&text=The%20three%20national%20Science%20Academies,the%20three%20Academies%20during%202023"
 	},
 	{
 		"title": "Internship At CMI",
 		"description": "This internship is for a research position at the Chennai Mathematical Institute. The intern will be responsible for working on a research project related to mathematics. The ideal candidate will have a strong background in mathematics and a passion for research.",
-		"deadline": "April 1, 2023",
+		"deadline": "TBA",
 		"stipend": "unpaid",
-		"org": "Chennai Mathematical Institute",
+		"org": "https://www.cmi.ac.in/admissions/internships.php",
 		"type": "internship",
 		"tags": ["research", "internship", "India", "mathematics"],
 		"location": "India",
@@ -2342,7 +1479,7 @@
 	{
 		"title": "Shastri Student Internship Project",
 		"description": "This internship is for a research position at a university that is a member of the Shastri Institute. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
-		"deadline": "May 1, 2023",
+		"deadline": "TBA",
 		"stipend": "unpaid",
 		"org": "Shastri Institute",
 		"type": "internship",
@@ -2353,7 +1490,7 @@
 	{
 		"title": "Cisco Summer internship",
 		"description": "This internship is for a software engineering position at Cisco. The intern will be responsible for working on a software engineering project. The ideal candidate will have a strong background in computer science and a passion for software engineering.",
-		"deadline": "June 1, 2023",
+		"deadline": "TBA",
 		"stipend": "paid",
 		"org": "Cisco",
 		"type": "internship",
@@ -2364,12 +1501,12 @@
 			"software engineering"
 		],
 		"location": "United States",
-		"link": "https://jobs.cisco.com/jobs/ProjectDetail/Software-Engineer-Bachelor-s-Intern-United-States/1295250?source=Pitt+CSC&tags=CDC+SnNG+students-and-new-graduate-programs"
+		"link": "https://jobs.cisco.com/jobs/SearchJobs/internship"
 	},
 	{
 		"title": "SSERD Research Intern",
 		"description": "This internship is for a research position at the Society for Space Education and Research Development (SSERD). The intern will be responsible for working on a research project related to space, such as space settlement, astrophysics, or space mission design. The ideal candidate will have a strong background in any field related to space, as well as excellent research skills.",
-		"deadline": "August 1, 2023",
+		"deadline": "TBA",
 		"stipend": "unpaid",
 		"org": "Society for Space Education and Research Development (SSERD)",
 		"type": "internship",
@@ -2380,7 +1517,7 @@
 	{
 		"title": "IISER Kolkata Summer Student Research Programme",
 		"description": "This internship is for a research position at the Indian Institute of Science Education and Research (IISER) Kolkata. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
-		"deadline": "10 April 2023",
+		"deadline": "TBA",
 		"stipend": "paid",
 		"org": "Indian Institute of Science Education and Research (IISER) Kolkata",
 		"type": "internship",
@@ -2391,7 +1528,7 @@
 	{
 		"title": "IITM Summer Fellowship Programme",
 		"description": "This fellowship is for a research position at the Indian Institute of Technology Madras (IITM). The fellow will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
-		"deadline": "January 2024",
+		"deadline": "TBA",
 		"stipend": "paid",
 		"org": "Indian Institute of Technology Madras (IITM)",
 		"type": "fellowship",
@@ -2402,19 +1539,19 @@
 	{
 		"title": "IITD GIPEDI",
 		"description": "This internship is for a research position at the Indian Institute of Technology Delhi (IITD). The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in engineering and a passion for research.",
-		"deadline": "November 1, 2023",
+		"deadline": "N/A",
 		"stipend": "paid",
 		"org": "Indian Institute of Technology Delhi (IITD)",
 		"type": "internship",
 		"tags": ["research", "internship", "India", "engineering"],
 		"location": "India",
-		"link": "https://web.iitd.ac.in/~subrat/SummerInternshipRules.htm"
+		"link": "https://sites.google.com/site/gipediinterns"
 	},
 	{
 		"title": "Microsoft Research India Summer Internship",
 		"description": "This internship is for a research position at Microsoft Research India. The intern will be responsible for working on a research project related to computer science. The ideal candidate will have a strong background in computer science and a passion for research.",
-		"deadline": "December 1, 2023",
-		"link": "https://careers.microsoft.com/india/en-us/students/programs/microsoft-research-india-summer-internship/",
+		"deadline": "N/A",
+		"link": "https://www.microsoft.com/en-us/research/careers/",
 		"stipend": "Unpaid",
 		"org": "Microsoft Research India",
 		"type": "Internship",
@@ -2424,7 +1561,7 @@
 	{
 		"title": "Google Summer of Code",
 		"description": "Google Summer of Code is a global program that offers students the opportunity to work on real-world software engineering projects with some of the top technology companies and organizations in the world. Students work on projects for a period of 12 weeks during the summer months.",
-		"deadline": "January 1, 2024",
+		"deadline": "TBA",
 		"link": "https://summerofcode.withgoogle.com/",
 		"stipend": "Unpaid",
 		"org": "Google",
@@ -2435,8 +1572,8 @@
 	{
 		"title": "IITB Research Internship Award",
 		"description": "This internship is for a research position at the Indian Institute of Technology Bombay (IITB). The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in engineering and a passion for research.",
-		"deadline": "February 1, 2023",
-		"link": "http://www.iitb.ac.in/en/education/research-internship",
+		"deadline": "30/08/2023",
+		"link": "https://www.iitb.ac.in/en/education/research-internship",
 		"stipend": "Unpaid",
 		"org": "Indian Institute of Technology Bombay",
 		"type": "Internship",
@@ -2446,8 +1583,8 @@
 	{
 		"title": "IITK SURGE Program",
 		"description": "This internship is for a research position at the Indian Institute of Technology Kanpur (IITK). The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in engineering and a passion for research.",
-		"deadline": "March 1, 2023",
-		"link": "http://surge.iitk.ac.in/about.html",
+		"deadline": "15/02/2023",
+		"link": "https://surge.iitk.ac.in/about.html",
 		"stipend": "Unpaid",
 		"org": "Indian Institute of Technology Kanpur",
 		"type": "Internship",
@@ -2457,8 +1594,8 @@
 	{
 		"title": "IIT Ropar Summer Internship",
 		"description": "This internship is for a research position at the Indian Institute of Technology Ropar (IIT Ropar). The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in engineering and a passion for research.",
-		"deadline": "June 1, 2023",
-		"link": "https://onlineportal.iitrpr.ac.in/sia-21",
+		"deadline": "TBA",
+		"link": "https://onlineportal.iitrpr.ac.in/int-cl-2023",
 		"stipend": "Unpaid",
 		"org": "Indian Institute of Technology Ropar",
 		"type": "Internship",
@@ -2468,7 +1605,7 @@
 	{
 		"title": "Bhaba Atomic Research Centre",
 		"description": "This internship is for a research position at the Bhabha Atomic Research Centre (BARC). The intern will be responsible for working on a research project related to nuclear science and technology. The ideal candidate will have a strong background in science and a passion for research.",
-		"deadline": "July 1, 2023",
+		"deadline": "N/A",
 		"link": "http://www.barc.gov.in/student/",
 		"stipend": "Unpaid",
 		"org": "Bhabha Atomic Research Centre",
@@ -2479,8 +1616,8 @@
 	{
 		"title": "ISI Kolkata Summer Internship",
 		"description": "This internship is for a research position at the Indian Statistical Institute (ISI) Kolkata. The intern will be responsible for working on a research project related to mathematics. The ideal candidate will have a strong background in mathematics and a passion for research.",
-		"deadline": "August 1, 2023",
-		"link": "https://www.isical.ac.in/~rcbose/internship/index.html",
+		"deadline": "N/A",
+		"link": "https://web.isical.ac.in/content/internships-0",
 		"stipend": "Unpaid",
 		"org": "Indian Statistical Institute",
 		"type": "Internship",
@@ -2490,8 +1627,8 @@
 	{
 		"title": "Tata Institute of Fundamental Research (TIFR) Summer Internship",
 		"description": "This internship is for a research position at the Tata Institute of Fundamental Research (TIFR). The intern will be responsible for working on a research project related to science. The ideal candidate will have a strong background in science and a passion for research.",
-		"deadline": "September 1, 2023",
-		"link": "https://www.tifr.res.in/about/tifr/careers/internships/",
+		"deadline": "N/A",
+		"link": "http://www.tifr.res.in/~vsrp/",
 		"stipend": "Unpaid",
 		"org": "Tata Institute of Fundamental Research",
 		"type": "Internship",

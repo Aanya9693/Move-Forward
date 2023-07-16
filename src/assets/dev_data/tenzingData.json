@@ -1,6 +1,6 @@
 [
     {
-    "title":"MITACS Globalink",
+    "name":"MITACS Globalink",
     "description":"This internship is for a research position at a leading research institute in Canada. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in computer science or engineering, as well as excellent research skills.",
     "deadline":"31/03/2023",
     "stipened":"Paid",
@@ -18,7 +18,7 @@
 
 
 ,{ 
-    "title":"NASA - CalTech Summer Undergraduate Research Fellowship (SURF)",
+    "name":"NASA - CalTech Summer Undergraduate Research Fellowship (SURF)",
     "description":"This internship is for a research position at the Jet Propulsion Laboratory, California Institute of Technology. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in computer science or engineering, as well as excellent research skills.",
     "deadline":"01/02/2023",
     "stipened":"Paid",
@@ -37,7 +37,7 @@
 
 
 ,{
-    "title":"Research fellowship at ETH Zurich",
+    "name":"Research fellowship at ETH Zurich",
     "description":"This internship is for a research position at the Swiss Federal Institute of Technology in Zurich. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in computer science or engineering, as well as excellent research skills.",
     "deadline":"01/04/2023",
     "stipened":"Paid",
@@ -55,7 +55,7 @@
 
 
 ,{
-    "title":"Max Planck Institute for Software Systems",
+    "name":"Max Planck Institute for Software Systems",
     "description":"This internship is for a research position at the Max Planck Institute for Software Systems. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in computer science or engineering, as well as excellent research skills.",
     "deadline":"01/05/2023",
     "stipened":"Paid",
@@ -73,7 +73,7 @@
 
 
 ,{
-    "title":"Summer Undergraduate Research in Engineering/Sciences (SURE)",
+    "name":"Summer Undergraduate Research in Engineering/Sciences (SURE)",
     "description":"This internship is for a research position at the Georgia Institute of Technology. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in computer science or engineering, as well as excellent research skills.",
     "deadline":"01/06/2023",
     "stipened":"Paid",
@@ -91,7 +91,7 @@
 
 
 ,{
-    "title":"IPAM UCLA, RIPS Program",
+    "name":"IPAM UCLA, RIPS Program",
     "description":"This internship is for a research position at the Institute for Pure and Applied Mathematics at UCLA. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in mathematics or engineering, as well as excellent research skills.",
     "deadline":"01/07/2023",
     "stipened":"Paid",
@@ -109,7 +109,7 @@
 
 
 ,{
-    "title":"Summer at EPFL",
+    "name":"Summer at EPFL",
     "description":"This internship is for a research position at the Swiss Federal Institute of Technology in Lausanne. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in computer science or engineering, as well as excellent research skills.",
     "deadline":"01/08/2023",
     "stipened":"Paid",
@@ -127,7 +127,7 @@
 
 
 ,{
-    "title":"Robotics Institute for Summer Scholars",
+    "name":"Robotics Institute for Summer Scholars",
     "description":"This internship is for a research position at the Robotics Institute at Carnegie Mellon University. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in computer science or engineering, as well as excellent research skills in robotics.",
     "deadline":"01/09/2023",
     "stipened":"Paid",
@@ -146,7 +146,7 @@
 
 
 ,{
-    "title":"SPIKE @ UNIST",
+    "name":"SPIKE @ UNIST",
     "description":"This internship is for a research position at the Ulsan National Institute of Science and Technology. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in computer science or engineering, as well as excellent research skills. The intern will also have the opportunity to experience Korean culture and learn about Korean language.",
     "deadline":"01/10/2023",
     "stipened":"Paid",
@@ -165,7 +165,7 @@
 
 
 ,{
-    "title":"NTHU Summer Internship Program",
+    "name":"NTHU Summer Internship Program",
     "description":"This internship is for a research position at the National Tsing Hua University. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in computer science or engineering, as well as excellent research skills. The intern will also have the opportunity to experience Taiwanese culture and learn about Mandarin Chinese.",
     "deadline":"01/11/2023",
     "stipened":"Paid",
@@ -184,7 +184,7 @@
 
 
 ,{
-    "title":"",
+    "name":"",
     "description":"",
     "deadline":" Summer 2024 Internship",
     "stipened":"Paid",
@@ -198,7 +198,7 @@
 
 
 ,{
-    "title":"Santa Fe Institute Summer Research Experience",
+    "name":"Santa Fe Institute Summer Research Experience",
     "description":"This internship is for a research position at the Santa Fe Institute. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in computer science or engineering, as well as excellent research skills in complexity science.",
     "deadline":"01/03/2023",
     "stipened":"Paid",
@@ -217,7 +217,7 @@
 
 
 ,{
-    "title":"UROP International",
+    "name":"UROP International",
     "description":"This internship is for a research position at the RWTH Aachen University. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in computer science or engineering, as well as excellent research skills.",
     "deadline":"01/04/2023",
     "stipened":"Paid",
@@ -235,7 +235,7 @@
 
 
 ,{
-    "title":"University of Tokyo",
+    "name":"University of Tokyo",
     "description":"This internship is for a research position at the University of Tokyo. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in biotechnology or biochemistry, as well as excellent research skills.",
     "deadline":"01/05/2023",
     "stipened":"Paid",
@@ -253,7 +253,7 @@
 
 
 ,{
-    "title":"MTBI Summer Program",
+    "name":"MTBI Summer Program",
     "description":"This internship is for a research position at the Mind, Brain, and Technology Institute at Arizona State University. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in computational neuroscience or bioengineering, as well as excellent research skills.",
     "deadline":"01/06/2023",
     "stipened":"Paid",
@@ -271,7 +271,7 @@
 
 
 ,{
-    "title":"Summer Undergraduate Research fellowship program",
+    "name":"Summer Undergraduate Research fellowship program",
     "description":"This internship is for a research position at the Rockefeller University. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
     "deadline":"01/07/2023",
     "stipened":"Paid",
@@ -285,7 +285,7 @@
 
 
 ,{
-    "title":"CERN Summer Student Program",
+    "name":"CERN Summer Student Program",
     "description":"This internship is for a research position at CERN, the European Organization for Nuclear Research. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
     "deadline":"01/07/2023",
     "stipened":"Paid",
@@ -299,7 +299,7 @@
 
 
 ,{
-    "title":"CERN OpenLab for Computer Science Undergraduates",
+    "name":"CERN OpenLab for Computer Science Undergraduates",
     "description":"This internship is for a research position at CERN's OpenLab, a program that provides opportunities for undergraduate students to collaborate with CERN scientists on cutting-edge research projects in computer science. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in computer science or engineering, as well as excellent research skills.",
     "deadline":"01/09/2023",
     "stipened":"Paid",
@@ -317,7 +317,7 @@
 
 
 ,{
-    "title":"ISternship Summer Student Program",
+    "name":"ISternship Summer Student Program",
     "description":"This internship is for a research position at IST Austria. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
     "deadline":"01/10/2023",
     "stipened":"Paid",
@@ -331,7 +331,7 @@
 
 
 ,{
-    "title":"CalTech SURF Program",
+    "name":"CalTech SURF Program",
     "description":"This internship is for a research position at the California Institute of Technology. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
     "deadline":"01/11/2023",
     "stipened":"Paid",
@@ -345,7 +345,7 @@
 
 
 ,{
-    "title":"TIGP-IIP",
+    "name":"TIGP-IIP",
     "description":"This internship is for a research position at the Tsing Hua Institute for Mathematical Sciences. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
     "deadline":"01/12/2023",
     "stipened":"Paid",
@@ -359,7 +359,7 @@
 
 
 ,{
-    "title":"Amgen Scholars Program",
+    "name":"Amgen Scholars Program",
     "description":"This internship is for a research position at Amgen. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in biotechnology or biochemistry, as well as excellent research skills.",
     "deadline":"01/03/2023",
     "stipened":"Paid",
@@ -377,7 +377,7 @@
 
 
 ,{
-    "title":"IVISP, HKUST",
+    "name":"IVISP, HKUST",
     "description":"This internship is for a research position at the Institute for Interdisciplinary Visual Science and Technology at Hong Kong University of Science and Technology. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in computational neuroscience or bioengineering, as well as excellent research skills.",
     "deadline":"01/04/2023",
     "stipened":"Paid",
@@ -395,7 +395,7 @@
 
 
 ,{
-    "title":"Space Astronomy Summer Program, Space Telescope Science Institute (STScI)",
+    "name":"Space Astronomy Summer Program, Space Telescope Science Institute (STScI)",
     "description":"This internship is for a research position at the Space Telescope Science Institute. The intern will be responsible for working on a research project under the guidance of a senior astronomer. The ideal candidate will have a strong background in astronomy or astrophysics, as well as excellent research skills.",
     "deadline":"01/05/2023",
     "stipened":"Paid",
@@ -413,7 +413,7 @@
 
 
 ,{
-    "title":"UNSW Civil and Environmental Engineering Research Internship",
+    "name":"UNSW Civil and Environmental Engineering Research Internship",
     "description":"This internship is for a research position at the University of New South Wales. The intern will be responsible for working on a research project under the guidance of a senior engineer. The ideal candidate will have a strong background in civil engineering or environmental engineering, as well as excellent research skills.",
     "deadline":"01/06/2023",
     "stipened":"Paid",
@@ -431,7 +431,7 @@
 
 
 ,{
-    "title":"OIST Research Internship Program",
+    "name":"OIST Research Internship Program",
     "description":"This internship is for a research position at the Okinawa Institute of Science and Technology. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
     "deadline":"01/07/2023",
     "stipened":"Paid",
@@ -445,7 +445,7 @@
 
 
 ,{
-    "title":"SURP, CUHK",
+    "name":"SURP, CUHK",
     "description":"This internship is for a research position at the Chinese University of Hong Kong. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
     "deadline":"01/08/2023",
     "stipened":"Paid",
@@ -459,7 +459,7 @@
 
 
 ,{
-    "title":"Visual Geometry Group",
+    "name":"Visual Geometry Group",
     "description":"This internship is for a research position at the Visual Geometry Group at the University of Oxford. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in computer vision, as well as excellent research skills.",
     "deadline":"01/09/2023",
     "stipened":"Paid",
@@ -473,7 +473,7 @@
 
 
 ,{
-    "title":"The Smithsonian Institution Fellowship Program (SIFP)",
+    "name":"The Smithsonian Institution Fellowship Program (SIFP)",
     "description":"This internship is for a research position at the Smithsonian Institution. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
     "deadline":"01/10/2023",
     "stipened":"Paid",
@@ -487,7 +487,7 @@
 
 
 ,{
-    "title":"Data Visualization Programming Summer Student Internship in New York City",
+    "name":"Data Visualization Programming Summer Student Internship in New York City",
     "description":"This internship is for a research position at the Simons Foundation. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in data visualization, as well as excellent research skills.",
     "deadline":"01/11/2023",
     "stipened":"Paid",
@@ -504,7 +504,7 @@
 
 
 ,{
-    "title":"Summer Intern at the Kupcinet Getz International Summer Science School of the Weizmann Institute of Science",
+    "name":"Summer Intern at the Kupcinet Getz International Summer Science School of the Weizmann Institute of Science",
     "description":"This internship is for a research position at the Kupcinet Getz International Summer Science School of the Weizmann Institute of Science. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
     "deadline":"01/12/2023",
     "stipened":"Paid",
@@ -518,7 +518,7 @@
 
 
 ,{
-    "title":"Aalto Science Institute (AScI) Summer Trainees 2021",
+    "name":"Aalto Science Institute (AScI) Summer Trainees 2021",
     "description":"This internship is for a research position at the Aalto Science Institute. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
     "deadline":"01/01/2023",
     "stipened":"Paid",
@@ -533,7 +533,7 @@
 
 
 ,{
-    "title":"Summer Research Program, Princeton University",
+    "name":"Summer Research Program, Princeton University",
     "description":"This internship is for a research position at Princeton University. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
     "deadline":"01/02/2023",
     "stipened":"Paid",
@@ -547,7 +547,7 @@
 
 
 ,{
-    "title":"Summer Internship at the Jet Propulsion Laboratory (JPL)",
+    "name":"Summer Internship at the Jet Propulsion Laboratory (JPL)",
     "description":"This internship is for a research position at the Jet Propulsion Laboratory (JPL). The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in engineering or astrophysics, as well as excellent research skills.",
     "deadline":"01/04/2023",
     "stipened":"Paid",
@@ -565,7 +565,7 @@
 
 
 ,{
-    "title":"UX Research Internship, Red Hat",
+    "name":"UX Research Internship, Red Hat",
     "description":"This internship is for a research position at Red Hat. The intern will be responsible for conducting user research and usability testing. The ideal candidate will have a strong background in user experience research or usability testing, as well as excellent research skills.",
     "deadline":"01/03/2023",
     "stipened":"Paid",
@@ -583,7 +583,7 @@
 
 
 ,{
-    "title":"Allen Institute for AI, Research and Engineering Internships",
+    "name":"Allen Institute for AI, Research and Engineering Internships",
     "description":"This internship is for a research or engineering position at the Allen Institute for AI. The intern will be responsible for working on cutting-edge research projects in artificial intelligence and machine learning. The ideal candidate will have a strong background in computer science, mathematics, or a related field, as well as excellent research skills.",
     "deadline":"01/04/2023",
     "stipened":"Paid",
@@ -601,7 +601,7 @@
 
 
 ,{
-    "title":"Summer Training Program,CNIO",
+    "name":"Summer Training Program,CNIO",
     "description":"his internship is for a research position at the Spanish National Cancer Research Centre (CNIO). The intern will be responsible for working on cancer research projects. The ideal candidate will have a strong background in biology, chemistry, or a related field, as well as excellent research skills.",
     "deadline":"01/05/2023",
     "stipened":"Paid",
@@ -619,7 +619,7 @@
 
 
 ,{
-    "title":"ITRI Global Internship program",
+    "name":"ITRI Global Internship program",
     "description":"This internship is for a research or engineering position at the Industrial Technology Research Institute (ITRI). The intern will be responsible for working on cutting-edge research projects in engineering and technology. The ideal candidate will have a strong background in engineering, computer science, or a related field, as well as excellent research skills.",
     "deadline":"01/06/2023",
     "stipened":"Paid",
@@ -637,7 +637,7 @@
 
 
 ,{
-    "title":"International Student Research Internship Program - [McKelvey School of Engineering]",
+    "name":"International Student Research Internship Program - [McKelvey School of Engineering]",
     "description":"This internship is for an international student to conduct research at the McKelvey School of Engineering at Washington University in St. Louis. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in engineering, computer science, or a related field, as well as excellent research skills.",
     "deadline":"01/07/2023",
     "stipened":"Paid",
@@ -655,7 +655,7 @@
 
 
 ,{
-    "title":"BioChemCoRe",
+    "name":"BioChemCoRe",
     "description":"This internship is for a research position at the UC San Diego. The intern will be responsible for conducting computational research in biology and chemistry. The ideal candidate will have a strong background in biology, chemistry, or a related field, as well as excellent research skills.",
     "deadline":"01/08/2023",
     "stipened":"Paid",
@@ -674,7 +674,7 @@
 
 
 ,{
-    "title":"Global Research Experience in Advanced Technologies (GREAT) Program, UC Davis",
+    "name":"Global Research Experience in Advanced Technologies (GREAT) Program, UC Davis",
     "description":"This internship is for a research or engineering position at the University of California, Davis. The intern will be responsible for working on cutting-edge research projects in engineering and technology. The ideal candidate will have a strong background in engineering, computer science, or a related field, as well as excellent research skills.",
     "deadline":"01/09/2023",
     "stipened":"Paid",
@@ -692,7 +692,7 @@
 
 
 ,{
-    "title":"E3, EPFL (Switzerland)",
+    "name":"E3, EPFL (Switzerland)",
     "description":"This internship is for a research or engineering position at the École Polytechnique Fédérale de Lausanne (EPFL). The intern will be responsible for working on cutting-edge research projects in engineering and technology. The ideal candidate will have a strong background in engineering, computer science, or a related field, as well as excellent research skills.",
     "deadline":"01/10/2023",
     "stipened":"Paid",
@@ -710,7 +710,7 @@
 
 
 ,{
-    "title":"DAAD WISE Scholarship",
+    "name":"DAAD WISE Scholarship",
     "description":"This scholarship is for a research position at a German research institute. The scholar will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in biotechnology or biochemistry, as well as excellent research skills.",
     "deadline":"01/03/2023",
     "stipened":"Paid",
@@ -728,7 +728,7 @@
 
 
 ,{
-    "title":"TEEP@Asia (Taiwan)",
+    "name":"TEEP@Asia (Taiwan)",
     "description":"This internship is for a research or engineering position at a Taiwanese research institute. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in engineering or technology, as well as excellent research skills.",
     "deadline":"01/04/2023",
     "stipened":"Paid",
@@ -746,7 +746,7 @@
 
 
 ,{
-    "title":"HZDR Dresden, Summer student program (Germany)",
+    "name":"HZDR Dresden, Summer student program (Germany)",
     "description":"This internship is for a research or engineering position at the Helmholtz-Zentrum Dresden-Rossendorf (HZDR). The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in physics or chemistry, as well as excellent research skills.",
     "deadline":"01/05/2023",
     "stipened":"Paid",
@@ -760,7 +760,7 @@
 
 
 ,{
-    "title":"UNSW Research Internship (Australia)",
+    "name":"UNSW Research Internship (Australia)",
     "description":"This internship is for a research position at the University of New South Wales (UNSW). The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
     "deadline":"01/05/2023",
     "stipened":"Paid",
@@ -774,7 +774,7 @@
 
 
 ,{
-    "title":"SURP (Hongkong)",
+    "name":"SURP (Hongkong)",
     "description":"This internship is for a research position at the Chinese University of Hong Kong (CUHK). The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
     "deadline":"01/07/2023",
     "stipened":"Paid",
@@ -788,7 +788,7 @@
 
 
 ,{
-    "title":"MaxSIP (Max Planck Institute Summer Internship)",
+    "name":"MaxSIP (Max Planck Institute Summer Internship)",
     "description":"This internship is for a research position at one of the Max Planck Institutes in Germany. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
     "deadline":"01/08/2023",
     "stipened":"Paid",
@@ -802,7 +802,7 @@
 
 
 ,{
-    "title":"SPIKE@UNIST (South Korea)",
+    "name":"SPIKE@UNIST (South Korea)",
     "description":"This internship is for a research position at the Ulsan National Institute of Science and Technology (UNIST) in South Korea. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
     "deadline":"01/09/2023",
     "stipened":"Paid",
@@ -816,7 +816,7 @@
 
 
 ,{
-    "title":"NIMS (Japan)",
+    "name":"NIMS (Japan)",
     "description":"This internship is for a research position at the National Institute for Materials Science (NIMS) in Japan. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
     "deadline":"01/10/2023",
     "stipened":"Paid",
@@ -830,7 +830,7 @@
 
 
 ,{
-    "title":"ICT Summer Research Program (USC)",
+    "name":"ICT Summer Research Program (USC)",
     "description":"This internship is for a research position at the Information Sciences Institute (ISI) at the University of Southern California (USC). The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
     "deadline":"01/11/2023",
     "stipened":"Paid",
@@ -844,7 +844,7 @@
 
 
 ,{
-    "title":"GIST Global Internship Program (South Korea)",
+    "name":"GIST Global Internship Program (South Korea)",
     "description":"This internship is for a research position at the Gwangju Institute of Science and Technology (GIST) in South Korea. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
     "deadline":"01/06/2023",
     "stipened":"Paid",
@@ -858,7 +858,7 @@
 
 
 ,{
-    "title":"OECD Internship Programme (France)",
+    "name":"OECD Internship Programme (France)",
     "description":"This internship is for a research position at the Organisation for Economic Co-operation and Development (OECD) in France. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
     "deadline":" Summer 2024 Internship",
     "stipened":"Paid",
@@ -872,7 +872,7 @@
 
 
 ,{
-    "title":"KAUST (Saudi Arabia)",
+    "name":"KAUST (Saudi Arabia)",
     "description":"This internship is for a research position at the King Abdullah University of Science and Technology (KAUST) in Saudi Arabia. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
     "deadline":"01/08/2023",
     "stipened":"Paid",
@@ -886,7 +886,7 @@
 
 
 ,{
-    "title":"UC Berkeley Amgen Scholars program",
+    "name":"UC Berkeley Amgen Scholars program",
     "description":"This internship is for a research position at the University of California, Berkeley. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in biology, chemistry, or bioengineering, as well as excellent research skills.",
     "deadline":"01/09/2023",
     "stipened":"Paid",
@@ -905,7 +905,7 @@
 
 
 ,{
-    "title":"Summer Undergraduate Program in Engineering Research at Berkeley (SUPERB) (for Information Technology students)",
+    "name":"Summer Undergraduate Program in Engineering Research at Berkeley (SUPERB) (for Information Technology students)",
     "description":"This internship is for a research position at the University of California, Berkeley. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in information technology or computer science, as well as excellent research skills.",
     "deadline":"01/10/2023",
     "stipened":"Paid",
@@ -923,7 +923,7 @@
 
 
 ,{
-    "title":"SUMMER RESEARCH OPPORTUNITIES PROGRAM(SROP), Purdue University",
+    "name":"SUMMER RESEARCH OPPORTUNITIES PROGRAM(SROP), Purdue University",
     "description":"This internship is for a research position at Purdue University. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
     "deadline":"01/11/2023",
     "stipened":"Paid",
@@ -937,7 +937,7 @@
 
 
 ,{
-    "title":"DATA SCIENCE FOR SOCIAL GOOD, Carnegie Mellon University",
+    "name":"DATA SCIENCE FOR SOCIAL GOOD, Carnegie Mellon University",
     "description":"This internship is for a data science position at Carnegie Mellon University. The intern will be responsible for working on a data science project that has the potential to make a positive impact on society. The ideal candidate will have a strong background in data science, as well as a passion for social justice.",
     "deadline":"01/12/2023",
     "stipened":"Paid",
@@ -955,7 +955,7 @@
 
 
 ,{
-    "title":"URAM SCHOLARSHIP PROGRAM (MICRON INDIA'S UNIVERSITY RESEARCH ALLIANCE)",
+    "name":"URAM SCHOLARSHIP PROGRAM (MICRON INDIA'S UNIVERSITY RESEARCH ALLIANCE)",
     "description":"This scholarship is for a research position at a leading Indian university. The scholar will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
     "deadline":"01/01/2023",
     "stipened":"Paid",
@@ -969,7 +969,7 @@
 
 
 ,{
-    "title":"S.N. Bose Scholarship",
+    "name":"S.N. Bose Scholarship",
     "description":"This scholarship is for a research position at a leading Indian university. The scholar will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
     "deadline":"01/02/2023",
     "stipened":"Paid",
@@ -983,7 +983,7 @@
 
 
 ,{
-    "title":"DAAD Wise Scholarship",
+    "name":"DAAD Wise Scholarship",
     "description":"This scholarship is for a research position at a German research institute. The scholar will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
     "deadline":"01/03/2023",
     "stipened":"Paid",
@@ -997,7 +997,7 @@
 
 
 ,{
-    "title":"Shastri Research Student Fellowship",
+    "name":"Shastri Research Student Fellowship",
     "description":"This scholarship is for a research position at a Canadian university. The scholar will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
     "deadline":"01/04/2023",
     "stipened":"Paid",
@@ -1011,7 +1011,7 @@
 
 
 ,{
-    "title":"Viterbi India Program",
+    "name":"Viterbi India Program",
     "description":"This scholarship is for a research position at the USC Viterbi School of Engineering. The scholar will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
     "deadline":"01/05/2023",
     "stipened":"Paid",
@@ -1025,7 +1025,7 @@
 
 
 ,{
-    "title":"Khorana Program for Scholars",
+    "name":"Khorana Program for Scholars",
     "description":"This scholarship is for a research position at a leading Indian university. The scholar will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
     "deadline":"01/06/2023",
     "stipened":"Paid",
@@ -1039,7 +1039,7 @@
 
 
 ,{
-    "title":"NTU-India Connect",
+    "name":"NTU-India Connect",
     "description":"This internship is for a research position at the Nanyang Technological University (NTU) in Singapore. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
     "deadline":"01/07/2023",
     "stipened":"Paid",
@@ -1053,7 +1053,7 @@
 
 
 ,{
-    "title":"Charpak Global Scholarship",
+    "name":"Charpak Global Scholarship",
     "description":"This scholarship is for a research position at a French research institute. The scholar will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
     "deadline":" Summer 2024 Internship",
     "stipened":"Paid",
@@ -1067,7 +1067,7 @@
 
 
 ,{
-    "title":"Indian Student Internship Program at NTHU",
+    "name":"Indian Student Internship Program at NTHU",
     "description":"This internship is for a research position at the National Tsing Hua University (NTHU) in Taiwan. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
     "deadline":"01/09/2023",
     "stipened":"Paid",
@@ -1081,7 +1081,7 @@
 
 
 ,{
-    "title":"IBM Blue Mix Research Internship",
+    "name":"IBM Blue Mix Research Internship",
     "description":"This internship is for a research position at IBM's Blue Mix division. The intern will be responsible for working on a research project related to data science. The ideal candidate will have a strong background in data science, as well as excellent research skills.",
     "deadline":"01/10/2023",
     "stipened":"Paid",
@@ -1095,7 +1095,7 @@
 
 
 ,{
-    "title":"IBM Extreme Blue",
+    "name":"IBM Extreme Blue",
     "description":"This internship is for a research position at IBM's Extreme Blue division. The intern will be responsible for working on a research project related to computer science. The ideal candidate will have a strong background in computer science, as well as excellent research skills.",
     "deadline":"01/11/2023",
     "stipened":"Paid",
@@ -1109,7 +1109,7 @@
 
 
 ,{
-    "title":"LIGO IndiGo",
+    "name":"LIGO IndiGo",
     "description":"This internship is for a research position at the LIGO IndiGo program. The intern will be responsible for working on a research project related to gravitational waves. The ideal candidate will have a strong background in physics, as well as excellent research skills.",
     "deadline":"01/12/2023",
     "stipened":"Paid",
@@ -1123,7 +1123,7 @@
 
 
 ,{
-    "title":"IIITD Summer Internship",
+    "name":"IIITD Summer Internship",
     "description":"This internship is for a research position at the Indraprastha Institute of Information Technology (IIITD) in Delhi. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
     "deadline":"01/01/2023",
     "stipened":"Paid",
@@ -1137,7 +1137,7 @@
 
 
 ,{
-    "title":"Summer Research Fellowship Programme 2021",
+    "name":"Summer Research Fellowship Programme 2021",
     "description":"This fellowship is for a research position at the Indian Institute of Science (IISc), the Indian Institute of Advanced Study (IAS), and the Indian Naval Service (INS). The fellow will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
     "deadline":"01/02/2023",
     "stipened":"Paid",
@@ -1149,7 +1149,7 @@
 }
 
 ,{
-    "title":"Quantitative Research Summer Internship",
+    "name":"Quantitative Research Summer Internship",
     "description":"This internship is for a research position at WorldQuant India. The intern will be responsible for working on a research project related to quantitative finance. The ideal candidate will have a strong background in mathematics, statistics, and computer science.",
     "deadline":"01/03/2023",
     "stipened":"Paid",
@@ -1161,7 +1161,7 @@
 } 
 
 ,{
-    "title":"Internship At CMI",
+    "name":"Internship At CMI",
     "description":"This internship is for a research position at the Chennai Mathematical Institute. The intern will be responsible for working on a research project related to mathematics. The ideal candidate will have a strong background in mathematics and a passion for research.",
     "deadline":"01/04/2023",
     "stipened":"Paid",
@@ -1173,7 +1173,7 @@
 } 
 
 ,{
-    "title":"Shastri Student Internship Project",
+    "name":"Shastri Student Internship Project",
     "description":"This internship is for a research position at a university that is a member of the Shastri Institute. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
     "deadline":"01/05/2023",
     "stipened":"Paid",
@@ -1185,7 +1185,7 @@
 }
 
 ,{
-    "title":"Cisco Summer internship",
+    "name":"Cisco Summer internship",
     "description":"This internship is for a software engineering position at Cisco. The intern will be responsible for working on a software engineering project. The ideal candidate will have a strong background in computer science and a passion for software engineering.",
     "deadline":" Summer 2024 Internship",
     "stipened":"Paid",
@@ -1197,7 +1197,7 @@
 }
 
 ,{
-    "title":"Hackerrank SDE intern",
+    "name":"Hackerrank SDE intern",
     "description":"This internship is for a software engineering position at Hackerrank. The intern will be responsible for working on a software engineering project. The ideal candidate will have a strong background in computer science and a passion for software engineering.",
     "deadline":"01/07/2023",
     "stipened":"Paid",
@@ -1209,7 +1209,7 @@
 }
 
 ,{
-    "title":"SSERD Research Intern",
+    "name":"SSERD Research Intern",
     "description":"This internship is for a research position at the Society for Space Education and Research Development (SSERD). The intern will be responsible for working on a research project related to space, such as space settlement, astrophysics, or space mission design. The ideal candidate will have a strong background in any field related to space, as well as excellent research skills.",
     "deadline":"01/08/2023",
     "stipened":"Paid",
@@ -1221,7 +1221,7 @@
 }
 
 ,{
-    "title":"IISER Kolkata Summer Student Research Programme",
+    "name":"IISER Kolkata Summer Student Research Programme",
     "description":"This internship is for a research position at the Indian Institute of Science Education and Research (IISER) Kolkata. The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
     "deadline":"01/09/2023",
     "stipened":"Paid",
@@ -1233,7 +1233,7 @@
 }
 
 ,{
-    "title":"IITM Summer Fellowship Programme",
+    "name":"IITM Summer Fellowship Programme",
     "description":"This fellowship is for a research position at the Indian Institute of Technology Madras (IITM). The fellow will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in any field, as well as excellent research skills.",
     "deadline":"01/10/2023",
     "stipened":"Paid",
@@ -1245,7 +1245,7 @@
 }
 
 ,{
-    "title":"IITD GIPEDI",
+    "name":"IITD GIPEDI",
     "description":"This internship is for a research position at the Indian Institute of Technology Delhi (IITD). The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in engineering and a passion for research.",
     "deadline":"01/11/2023",
     "stipened":"Paid",
@@ -1257,7 +1257,7 @@
 }
 
 ,{
-    "title":"Microsoft Research India Summer Internship",
+    "name":"Microsoft Research India Summer Internship",
     "description":"This internship is for a research position at Microsoft Research India. The intern will be responsible for working on a research project related to computer science. The ideal candidate will have a strong background in computer science and a passion for research.",
     "deadline":"01/12/2023",
     "stipened":"Paid",
@@ -1270,7 +1270,7 @@
 
 
 ,{
-    "title":"Google Summer of Code",
+    "name":"Google Summer of Code",
     "description":"Google Summer of Code is a global program that offers students the opportunity to work on real-world software engineering projects with some of the top technology companies and organizations in the world. Students work on projects for a period of 12 weeks during the summer months.",
     "deadline":"01/01/2024",
     "stipened":"Paid",
@@ -1283,7 +1283,7 @@
 
 
 ,{
-    "title":"IITB Research Internship Award",
+    "name":"IITB Research Internship Award",
     "description":"This internship is for a research position at the Indian Institute of Technology Bombay (IITB). The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in engineering and a passion for research.",
     "deadline":"01/02/2023",
     "stipened":"Paid",
@@ -1296,7 +1296,7 @@
 
 
 ,{
-    "title":"IITK SURGE Program",
+    "name":"IITK SURGE Program",
     "description":"This internship is for a research position at the Indian Institute of Technology Kanpur (IITK). The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in engineering and a passion for research.",
     "deadline":"01/03/2023",
     "stipened":"Paid",
@@ -1309,7 +1309,7 @@
 
 
 ,{
-    "title":"SPARK",
+    "name":"SPARK",
     "description":"This internship is for a research position at the Indian Institute of Technology Roorkee (IITR). The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in engineering and a passion for research.",
     "deadline":"01/04/2023",
     "stipened":"Paid",
@@ -1322,7 +1322,7 @@
 
 
 ,{
-    "title":"SRIP",
+    "name":"SRIP",
     "description":"This internship is for a research position at the Indian Institute of Technology Ropar (IIT Ropar). The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in engineering and a passion for research.",
     "deadline":"01/05/2023",
     "stipened":"Paid",
@@ -1335,7 +1335,7 @@
 
 
 ,{
-    "title":"IIT Ropar Summer Internship",
+    "name":"IIT Ropar Summer Internship",
     "description":"This internship is for a research position at the Indian Institute of Technology Ropar (IIT Ropar). The intern will be responsible for working on a research project under the guidance of a senior researcher. The ideal candidate will have a strong background in engineering and a passion for research.",
     "deadline":"01/06/2023",
     "stipened":"Paid",
@@ -1348,7 +1348,7 @@
 
 
 ,{
-    "title":"Bhaba Atomic Research Centre",
+    "name":"Bhaba Atomic Research Centre",
     "description":"This internship is for a research position at the Bhabha Atomic Research Centre (BARC). The intern will be responsible for working on a research project related to nuclear science and technology. The ideal candidate will have a strong background in science and a passion for research.",
     "deadline":"01/07/2023",
     "stipened":"Paid",
@@ -1361,7 +1361,7 @@
 
 
 ,{
-    "title":"ISI Kolkata Summer Internship",
+    "name":"ISI Kolkata Summer Internship",
     "description":"This internship is for a research position at the Indian Statistical Institute (ISI) Kolkata. The intern will be responsible for working on a research project related to mathematics. The ideal candidate will have a strong background in mathematics and a passion for research.",
     "deadline":"01/08/2023",
     "stipened":"Paid",
@@ -1374,7 +1374,7 @@
 
 
 ,{
-    "title":"Tata Institute of Fundamental Research (TIFR) Summer Internship",
+    "name":"Tata Institute of Fundamental Research (TIFR) Summer Internship",
     "description":"This internship is for a research position at the Tata Institute of Fundamental Research (TIFR). The intern will be responsible for working on a research project related to science. The ideal candidate will have a strong background in science and a passion for research.",
     "deadline":"01/09/2023",
     "stipened":"Paid",
@@ -1387,7 +1387,7 @@
 
 
 ,{
-    "title":"Goldman Sachs",
+    "name":"Goldman Sachs",
     "description":"Our programs range from one-week spring internships to full-time positions. We offer tools like our people profiles and divisional descriptions to help you explore what it’s like to work at Goldman Sachs and to choose the divisions and locations that align with your skills and interests.",
     "deadline":" Summer 2024 Internship",
     "stipened":"Paid",
@@ -1400,7 +1400,7 @@
 
 
 ,{
-    "title":"Optiver",
+    "name":"Optiver",
     "description":"Get ready to be immersed in the fast-paced, dynamic world of market making. Owning projects that directly impact our world-class trading systems.",
     "deadline":" Summer 2024 Internship",
     "stipened":"Paid",
@@ -1413,7 +1413,7 @@
 
 
 ,{
-    "title":"BlackRock",
+    "name":"BlackRock",
     "description":"If you are interested in working for continuously growing and passion driven company, then you have a good chance as you can apply for BlackRock Careers.",
     "deadline":" Summer 2024 Internship",
     "stipened":"Paid",
@@ -1426,7 +1426,7 @@
 
 
 ,{
-    "title":"Walmart",
+    "name":"Walmart",
     "description":"A project with real stakes. Access to industry leaders. A chance to change the way the world shops. All in just one 10-week summer internship.",
     "deadline":" Summer 2024 Internship",
     "stipened":"Paid",
@@ -1438,7 +1438,7 @@
 }
 
 ,{
-    "title":"AQR Capital Management, LLC",
+    "name":"AQR Capital Management, LLC",
     "description":"Each summer, we welcome undergraduate, graduate and doctoral students to a 10-week summer internship program designed to provide an exceptional learning experience",
     "deadline":" Summer 2024 Internship",
     "stipened":"Paid",
@@ -1450,7 +1450,7 @@
 }
 
 ,{
-    "title":"Epic",
+    "name":"Epic",
     "description":"We're looking for bright, driven individuals who are interested in having a career that impacts how more than 305 million patients around the world receive healthcare. Do something Epic.",
     "deadline":" Summer 2024 Internship",
     "stipened":"Paid",
@@ -1463,7 +1463,7 @@
 
  
 ,{
-    "title":"Apple",
+    "name":"Apple",
     "description":"Careers at Apple (Apple Internships) Announced for International Students, you may join the world’s biggest multinational technology company and let your dream come true.",
     "deadline":" Summer 2024 Internship",
     "stipened":"Paid",
@@ -1475,7 +1475,7 @@
 }
 
 ,{
-    "title":"Neuralink",
+    "name":"Neuralink",
     "description":"We are looking for talent across all disciplines to solve new challenges to increase our bandwidth for interfacing with the world.",
     "deadline":" Summer 2024 Internship",
     "stipened":"Paid",
@@ -1487,7 +1487,7 @@
 }
 
 ,{
-    "title":"Capstone Investment Advisors",
+    "name":"Capstone Investment Advisors",
     "description":"Capstone’s 2024 Summer Internship is a 10–12-week summer program. You will be given a project that is both educational and a value add to the business, at the end of the summer you will present your project to the senior leadership team.",
     "deadline":" Summer 2024 Internship",
     "stipened":"Paid",
@@ -1499,7 +1499,7 @@
 }
 
 ,{
-    "title":"D.E. Shaw",
+    "name":"D.E. Shaw",
     "description":"The goal of our summer internship program is to expose talented candidates to the projects and environment associated with full-time work in quantitative analysis and software development at the D. E. Shaw group.",
     "deadline":" Summer 2024 Internship",
     "stipened":"Paid",
@@ -1512,7 +1512,7 @@
 
 
 ,{
-    "title":"Bank of America",
+    "name":"Bank of America",
     "description":"Summer internships typically last for 10 weeks and attract students in their penultimate year of university who aim to start work full time the following year. The summer internship class is our primary source of hiring into our full time programs",
     "deadline":" Summer 2024 Internship",
     "stipened":"Paid",
@@ -1524,7 +1524,7 @@
 }  
 
 ,{
-    "title":"Protiviti",
+    "name":"Protiviti",
     "description":"There are only a few weeks left to apply for the 10th annual Discover Protiviti – an in-person, immersive experience for current sophomores / rising junior college students who are interested in understanding more about the possibilities of a career in consulting.",
     "deadline":" Summer 2024 Internship",
     "stipened":"Paid",
@@ -1536,7 +1536,7 @@
 }
 
 ,{
-    "title":"Mercedes-Benz",
+    "name":"Mercedes-Benz",
     "description":"The Mercedes-Benz Group offers many exciting internships and supports you in taking initial steps toward your career: In alternative drives of tomorrow or efficient production, negotiations in purchasing or financing options in fleet management. Before or during your studies - nationally or internationally.",
     "deadline":" Summer 2024 Internship",
     "stipened":"Paid",
@@ -1548,7 +1548,7 @@
 }
 
 ,{
-    "title":"Elbit Systems of America",
+    "name":"Elbit Systems of America",
     "description":"As a Digital Design Intern, you'll obtain hands-on design experience and learn from a high-performance team of accomplished creative and marketing professionals.",
     "deadline":" Summer 2024 Internship",
     "stipened":"Paid",
@@ -1560,7 +1560,7 @@
 }
 
 ,{
-    "title":"JPMorgan Chase",
+    "name":"JPMorgan Chase",
     "description":"Build your knowledge while learning how to run a global business and sharpen your leadership skills, and make connections that will advance your career.",
     "deadline":" Summer 2024 Internship",
     "stipened":"Paid",

@@ -23,7 +23,7 @@ const SearchResults = ({
 			return;
 		}
 		const userCopy = user
-		if (user.selected.includes(id)) {
+		if (user.selected && user.selected.includes(id)) {
 			userCopy.selected = userCopy.selected.filter(item => item !== id)
 		}
 		else userCopy.selected.push(id);
@@ -58,7 +58,7 @@ const SearchResults = ({
 					<div className="col-3">
 						{/* <span className="material-icons">notifications_none</span> */}
 						<span className="material-icons" onClick={() => handleBookmarkClick(item.id)}>
-							{ (user && user.selected.includes(item.id)) ? 'bookmark' : 'bookmark_border'}
+							{ (user && user.selected && user.selected.includes(item.id)) ? 'bookmark' : 'bookmark_border'}
 						</span>
 					</div>
 				</div>
