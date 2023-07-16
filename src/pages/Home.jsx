@@ -95,8 +95,8 @@ const Home = ({user, login, logout}) => {
 						Tip
 					</div>
 					<div className="text">
-						Bookamrk oppurtunities to get Reminder about the
-						deadline on you email
+						Bookmark opportunities to receive reminders about
+						deadlines on your email.
 					</div>
 				</div>
 				<div className="message">
@@ -105,8 +105,7 @@ const Home = ({user, login, logout}) => {
 						Tip
 					</div>
 					<div className="text">
-						We will send you email regdarding new oppurtunities. If
-						you are not getting them, check you spam folder.
+						We'll send you emails about new opportunities. If you can't find them, check your spam folder.
 					</div>
 				</div>
 			</div>
