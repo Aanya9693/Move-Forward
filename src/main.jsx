@@ -1,7 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import './index.css'
+import './index.css';
+import './fonts.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import { AlertContainer } from "./components/CustomAlert/alert";
 import "./components/CustomAlert/CustomAlert.css";
