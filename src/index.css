@@ -31,6 +31,12 @@ a{
   color: inherit;
   font-size: inherit;
 }
+/* .material-icons {
+  font-family: 'Material Icons', sans-serif !important;
+  font-display: swap !important;
+  color: inherit;
+  font-size: inherit;
+} */
 .icon{
   cursor: pointer;
 }
