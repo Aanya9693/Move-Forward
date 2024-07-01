@@ -9,6 +9,7 @@ import {
 	Menu,
 	MenuItem,
 } from "@mui/material";
+import InfoIcon from '@mui/icons-material/Info';
 import { logoutAuth } from "../../services/api";
 import { alert } from "../CustomAlert/alert";
 
@@ -92,6 +93,11 @@ const Navbar = ({user, login, logout}) => {
 			</NavLink>
 			<div className="menu">
 				<ul>
+					<li className="nav-item">
+						<a href="/about" >
+							<InfoIcon fontSize='large'/>
+						</a>
+					</li>
 					<li className="nav-item">
 						<a href="https://github.com/Aanya9693/opportunists">
 							<i className="fa-brands fa-github"></i>

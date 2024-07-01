@@ -6,7 +6,9 @@
     color: #333; /* Replace with your desired text color */
     font-size: 25px;
     font-weight: bold;
-    margin-left: 20px;
+    margin-left: 10%;
+    /* width: 80%; */
+    margin-bottom: 20px;
 }
 
 .about-container {
@@ -21,7 +23,7 @@
     flex-direction: column;
     width: 30%;
     margin: 20px;
-    background-color: white;
+    /* background-color: white; */
 	  box-shadow: 0px 7px 14px -5px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
     padding: 1.5rem;
@@ -32,14 +34,14 @@
     margin: 6px;
   }
   
-  .first:hover {
+  .first {
     background-color: #c9f1f1;
   }
 
- .second:hover {
+ .second {
     background-color: #eec6e2;
   }
-  .third:hover {
+  .third {
     background-color: #f0ecba;
   }
 
